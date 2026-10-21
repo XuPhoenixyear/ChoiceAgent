@@ -1,0 +1,20 @@
+{
+  "timestamp": 1792514397.2859557,
+  "events": [
+    {
+      "pid": 38804,
+      "module": "streamlit",
+      "action": "SIGTERM owned temporary service"
+    },
+    {
+      "pid": 48827,
+      "module": "choiceagent.model_server",
+      "action": "SIGTERM owned temporary service"
+    },
+    {
+      "pid": 153615,
+      "module": "uvicorn",
+      "action": "SIGTERM owned temporary service"
+    }
+  ]
+}

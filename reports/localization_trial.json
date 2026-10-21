@@ -1,0 +1,252 @@
+{
+  "created_at": "2026-10-20T17:10:07.677250+00:00",
+  "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+  "translation_version": "zh-CN-v1",
+  "source_catalog_sha256": "8fc7d0d8a13bcf187c742aed4fe3268a5eeb2404a5581e9924b9f296f522e008",
+  "source_hash_fields": [
+    "title",
+    "category",
+    "category_path",
+    "brand",
+    "features[:3]",
+    "attributes"
+  ],
+  "source_hash_serialization": "json.dumps(ensure_ascii=False,sort_keys=True,separators=(\",\",\":\"))",
+  "trial": true,
+  "item_count": 32,
+  "newly_translated": 32,
+  "batch_size": 32,
+  "max_input_tokens": 1024,
+  "max_output_tokens": 192,
+  "temperature": 0,
+  "enable_thinking": false,
+  "local_files_only": true,
+  "physical_gpu": 5,
+  "elapsed_seconds": 21.644,
+  "padded_generated_tokens": 6252,
+  "kinds": {
+    "model": 32
+  },
+  "chinese_title_count": 32,
+  "feature_count": 65,
+  "items_with_features": 24,
+  "validation_issues": {
+    "feature_added_number": 12,
+    "recovered_truncated_json": 4,
+    "non_chinese_title": 3,
+    "title_retry_success": 3
+  },
+  "batches": [
+    {
+      "offset": 0,
+      "count": 32,
+      "elapsed_seconds": 15.939,
+      "padded_generated_tokens": 6144
+    }
+  ],
+  "translation_prompt_sha256": "87a6c20977b0bacadd7d060ce6e2514e2a72e6d8fd06197a52eee5d18ef50cbb",
+  "samples": [
+    {
+      "item_id": "B001S28Q4Q",
+      "original_title": "Alliance Rubber 07706 Non-Latex Brites File Bands, Colored Elastic Bands, 1.5 oz Pic Pac Dispenser (Assorted Bright Colors and Sizes)",
+      "translation": {
+        "item_id": "B001S28Q4Q",
+        "source_hash": "388095be5a207f1172b293d2bdd05300bb79cd982ea3d07b27da053fd559871b",
+        "title": "Alliance Rubber 07706 非乳胶色带带，彩色弹性带，1.5盎司Pic Pac分装器（ assorted bright colors and sizes）",
+        "category": "办公用品",
+        "features": [
+          "可重复使用：这些彩色橡胶带可拉伸且可重复使用，适用于多种项目和工作。",
+          "易拉伸带：非乳胶橡胶带设计简单易拉伸，便于操作以固定文件和纸张。有助于减轻腕管综合征相关症状。",
+          "三种亮色：Pic Pac分装器内含多种亮色和尺寸的橡胶带，便于识别和归档。"
+        ],
+        "attributes": {
+          "Item Weight": "2 盎司",
+          "Product Dimensions": "4.5 x 3 x 1.31 英寸",
+          "Color": "Blue/Orange/Yellow/Lime/Purple/Pink",
+          "Material Type": "Other",
+          "Number of Items": "1",
+          "Size": "Assorted Sizes",
+          "Material": "Other",
+          "Unit Count": "6.0 Count"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B07BTGFF2V",
+      "original_title": "QIDUN Girl Badge Holder Rhinestone Lanyard Bling Crystal Necklace Badge Card Holder for Business Id/Key/Cell Phone (Light Gold)",
+      "translation": {
+        "item_id": "B07BTGFF2V",
+        "source_hash": "3954b1dfbb17f1d60c847b74ef292e4461a4134d0d2f269bf71f729f9ea3e765",
+        "title": "QIDUN 女款钻石挂坠项链挂绳商务ID/钥匙/手机卡挂饰（浅金色）",
+        "category": "办公用品",
+        "features": [],
+        "attributes": {
+          "Item Weight": "0.81 盎司"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B07YHFPFG6",
+      "original_title": "Christmas Address Label Stamp Custom Merry Christmas Stamp Self Inking Return Address Mail Stamper Professional Business Circle Large Personalized Holiday Address Stamp Merry Christmas (Design 6)",
+      "translation": {
+        "item_id": "B07YHFPFG6",
+        "source_hash": "9988d4243e5198984b7cc0cd548cd757739a3b1521b09baea545f7fafd37dd16",
+        "title": "Pickled Stamps 圣诞地址标签印章 自制圣诞贺卡印章 专业商务圆圈地址标签 个性化节日地址标签 圣诞节(设计6)",
+        "category": "办公用品",
+        "features": [
+          "圣诞圆圈地址标签 带花体书法或树或圣诞老人 选择您的设计！定制圆圈返回地址标签，印制尺寸约1 5/8\" x 1 5/8\"",
+          "点击定制现在！选择您的设计！选择您的颜色！",
+          "颜色选项：黑、蓝、绿、红或紫印。"
+        ],
+        "attributes": {
+          "Product Dimensions": "2 x 1 x 3 英寸",
+          "Color": "Black Red Blue Green Purple",
+          "Shape": "圆形",
+          "Number of Items": "1",
+          "Size": "1-5/8\" x 1 5/8\""
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B09QJRTQ5C",
+      "original_title": "Natwind 3-Tier Metal Rolling File Cart with Wheels for Letter Legal Size Hanging Files Mobile File Folder Rack with Pull-Out Drawer File Organizer Cabinet for Home Office（Black）",
+      "translation": {
+        "item_id": "B09QJRTQ5C",
+        "source_hash": "c1e97469af96f4fdf8e699629aadd59d65d5e0f28ce96fb81ce2cd05fb247d69",
+        "title": "Natwind 3层金属滚轮文件架（黑色）",
+        "category": "家居用品",
+        "features": [
+          "【方便悬挂文件架】适用于信纸和法律文件夹，每层可水平悬挂法律文件夹，或垂直悬挂信纸文件夹",
+          "【优质金属材质】采用优质金属材质，每根钢管厚度0.8mm，可承受20磅压力",
+          "【抽屉设计】滚轮文件架方便取放文件，相比固定悬挂文件架，抽屉设计使查找更方便快捷"
+        ],
+        "attributes": {
+          "Color": "Modern Black",
+          "Material": "金属",
+          "Product Dimensions": "14.4\"D x 18.9\"W x 34.6\"H",
+          "Style": "现代款",
+          "Size": "3 Tiers",
+          "Shape": "长方形",
+          "Item Weight": "12 磅",
+          "Material Type": "金属"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B0BW257NZP",
+      "original_title": "Office Star 8500 Series Multi-Function Ergonomic Executive Office Chair with Seat Slider and Titanium Finish Base, Mid-Back, Diamond Blue Galaxy Fabric",
+      "translation": {
+        "item_id": "B0BW257NZP",
+        "source_hash": "5142ea56430dabb921321a5301d4a051863ad59587a5d2f7b692ccd3aeb49d68",
+        "title": "Office Star 8500 系列多功能人体工学办公椅，带滑动座椅和钛合金底座，中背，钻石蓝银河布",
+        "category": "家居用品",
+        "features": [
+          "厚实 padded 曲面座椅和背部，内置腰椎支撑",
+          "带棘轮的背部高度调节和一键气压座椅高度调节",
+          "多功能控制，前倾调节和可调座椅滑动调节，调整力度"
+        ],
+        "attributes": {
+          "Color": "Diamond Blue Galaxy Fabric",
+          "Product Dimensions": "25\"D x 28\"W x 44.25\"H",
+          "Style": "Mid-Back",
+          "Material": "Foam, Aluminum, Plastic, Fabric",
+          "Pattern": "Solid",
+          "Unit Count": "1.0 Count",
+          "Item Weight": "57 磅",
+          "Shape": "圆形"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B015NO3Z3Q",
+      "original_title": "PS Products Set of Remanufactured Ink Cartridge Replacements for HP 62XL High-Yield C2P05AN (2 Black) and C2P07AN (1 Color) (Show Accurate Ink Levels)",
+      "translation": {
+        "item_id": "B015NO3Z3Q",
+        "source_hash": "e47202426a5734fd5fbd6dabe4b2d5189e100986d50c9df81a70bc680d2c87f1",
+        "title": "PS Products PS产品系列重制墨盒替换件 for HP 62XL高产量C2P05AN (2黑)和C2P07AN (1色) (显示准确墨量)",
+        "category": "办公用品",
+        "features": [
+          "型号: HP 62XL 2-黑 (C2P05AN) 和 HP 62XL 1-色 (C2P07AN). 显示准确墨量.",
+          "PS产品优质重制墨盒由ISO 9002认证工厂生产。"
+        ],
+        "attributes": {
+          "Item Weight": "11.2 盎司",
+          "Color": "2 Black 1 Color"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B01DXVKEJY",
+      "original_title": "Razer Goliathus Overwatch Mouse Pad - Anti-Slip Professional-Grade Gaming Mouse Mat - Razer Speed Surface",
+      "translation": {
+        "item_id": "B01DXVKEJY",
+        "source_hash": "6306d8b78e4fd36debf82057a6472f8d09f51672bcc519862f5ca5e58c34fc08",
+        "title": "Razer Goliathus Overwatch 鼠标垫 - 专业级防滑游戏鼠标垫 - Razer Speed 表面",
+        "category": "电脑及配件",
+        "features": [
+          "高级织物编织提升速度与操控体验（速度）",
+          "像素级游戏精准瞄准与追踪",
+          "宽敞扩展设计提供键盘与自由操作空间"
+        ],
+        "attributes": {
+          "Item Weight": "1.15 磅",
+          "Product Dimensions": "0.16 x 36.22 x 11.57 英寸",
+          "Item Dimensions LxWxH": "0.16 x 36.22 x 11.57 英寸",
+          "Color": "Overwatch",
+          "Material": "塑料"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B0888H7PT8",
+      "original_title": "LCL Compatible Ink Cartridge Replacement for Brother LC3011 LC-3011 LC-3013 LC3013 LC-3013M LC3013M High Yield MFC-J491DW MFC-J497DW MFC-J690DW MFC-J895DW (3-Pack Magenta)",
+      "translation": {
+        "item_id": "B0888H7PT8",
+        "source_hash": "9ac8b25ff4ed7a446ca52e784ae98df4f3b0911f9b17893e6357a6a89b455944",
+        "title": "LCL 适用于Brother LC3011 LC-3011 LC-3013 LC3013 LC-3013M LC3013M 高产量 MFC-J491DW MFC-J497DW MFC-J690DW MFC-J895DW (3-Pack Magenta)",
+        "category": "电子产品",
+        "features": [
+          "方便使用，购买前请参考产品描述如下",
+          "包含3个墨水盒；容量：7ML；页面产量：400页（5%覆盖，信纸/A4）",
+          "安装简便；大容量；长期供应。"
+        ],
+        "attributes": {
+          "Item Weight": "4.5 盎司",
+          "Color": "Magenta"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    }
+  ],
+  "limitations": [
+    "Machine translations are display aids, never source evidence.",
+    "Features are concise translations of at most the first 220 characters of each of the first three source facts.",
+    "Numeric additions are rejected, but factual fidelity still requires human review.",
+    "Rule fallbacks retain only the known brand and the actual source category."
+  ],
+  "peak_allocated_gpu_mib": 5515.1,
+  "peak_reserved_gpu_mib": 6082.0
+}

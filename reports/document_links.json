@@ -1,0 +1,42 @@
+[
+  {
+    "document": "README.md",
+    "target": "docs/DATA.md",
+    "exists": true
+  },
+  {
+    "document": "README.md",
+    "target": "docs/ARCHITECTURE.md",
+    "exists": true
+  },
+  {
+    "document": "README.md",
+    "target": "docs/RUNBOOK.md",
+    "exists": true
+  },
+  {
+    "document": "README.md",
+    "target": "docs/UI_GUIDE.md",
+    "exists": true
+  },
+  {
+    "document": "README.md",
+    "target": "docs/model_service.md",
+    "exists": true
+  },
+  {
+    "document": "README.md",
+    "target": "docs/contracts.md",
+    "exists": true
+  },
+  {
+    "document": "README.md",
+    "target": "reports/demo/final/choiceagent_demo.mp4",
+    "exists": true
+  },
+  {
+    "document": "README.md",
+    "target": "docs/design/知选ChoiceAgent_项目设计书_2026-10-20.pdf",
+    "exists": true
+  }
+]

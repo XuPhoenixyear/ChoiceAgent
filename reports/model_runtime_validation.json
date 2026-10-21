@@ -1,0 +1,181 @@
+{
+  "created_at_utc": "2026-10-20T16:03:19.958831+00:00",
+  "actual_model": true,
+  "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+  "model_server": "127.0.0.1:8001",
+  "physical_gpu": 5,
+  "context_limit": {
+    "http_status": 422,
+    "elapsed_ms": 120.04,
+    "response": {
+      "error": {
+        "code": "MODEL_CONTEXT_LIMIT",
+        "message": "Prompt plus output exceeds the 8192 token context limit."
+      }
+    }
+  },
+  "deadline_50ms": {
+    "http_status": 504,
+    "elapsed_ms": 529.07,
+    "response": {
+      "error": {
+        "code": "MODEL_TIMEOUT",
+        "message": "Model request deadline exceeded."
+      }
+    }
+  },
+  "post_timeout_recovery": {
+    "http_status": 200,
+    "elapsed_ms": 135.03,
+    "response": {
+      "id": "chatcmpl-3862d01dba5d4b94a2229dfbb2976548",
+      "object": "chat.completion",
+      "created": 1792512188,
+      "model": "Qwen3-1.7B-local",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "OK"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 15,
+        "completion_tokens": 2,
+        "total_tokens": 17
+      },
+      "elapsed_ms": 109.75
+    }
+  },
+  "concurrent_six_requests": [
+    {
+      "worker": 0,
+      "http_status": 200,
+      "elapsed_ms": 3995.3,
+      "response": {
+        "id": "chatcmpl-93127702257c43738f46f14ac0a94d53",
+        "object": "chat.completion",
+        "created": 1792512192,
+        "model": "Qwen3-1.7B-local",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46"
+            },
+            "finish_reason": "length"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 31,
+          "completion_tokens": 128,
+          "total_tokens": 159
+        },
+        "elapsed_ms": 3956.7
+      }
+    },
+    {
+      "worker": 1,
+      "http_status": 200,
+      "elapsed_ms": 7844.04,
+      "response": {
+        "id": "chatcmpl-aff8b42c649143bebee51b818dbf8d5f",
+        "object": "chat.completion",
+        "created": 1792512196,
+        "model": "Qwen3-1.7B-local",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46"
+            },
+            "finish_reason": "length"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 31,
+          "completion_tokens": 128,
+          "total_tokens": 159
+        },
+        "elapsed_ms": 7803.98
+      }
+    },
+    {
+      "worker": 2,
+      "http_status": 200,
+      "elapsed_ms": 11574.15,
+      "response": {
+        "id": "chatcmpl-a5426505cba24debb5b97be4a6d5a0b4",
+        "object": "chat.completion",
+        "created": 1792512199,
+        "model": "Qwen3-1.7B-local",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46"
+            },
+            "finish_reason": "length"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 31,
+          "completion_tokens": 128,
+          "total_tokens": 159
+        },
+        "elapsed_ms": 11536.42
+      }
+    },
+    {
+      "worker": 3,
+      "http_status": 429,
+      "elapsed_ms": 45.48,
+      "response": {
+        "error": {
+          "code": "MODEL_BUSY",
+          "message": "Local model queue is full."
+        }
+      }
+    },
+    {
+      "worker": 4,
+      "http_status": 429,
+      "elapsed_ms": 44.21,
+      "response": {
+        "error": {
+          "code": "MODEL_BUSY",
+          "message": "Local model queue is full."
+        }
+      }
+    },
+    {
+      "worker": 5,
+      "http_status": 429,
+      "elapsed_ms": 46.73,
+      "response": {
+        "error": {
+          "code": "MODEL_BUSY",
+          "message": "Local model queue is full."
+        }
+      }
+    }
+  ],
+  "assertions": {
+    "context_rejected_with_correct_code": true,
+    "decode_deadline_enforced": true,
+    "timeout_recovery": true,
+    "queue_is_bounded": true,
+    "at_most_three_admitted": true
+  },
+  "limitations": [
+    "Latency is one warm-run observation, not a production performance guarantee.",
+    "Stopping occurs between decode steps, so deadline enforcement can exceed the exact configured duration by prefill/one GPU kernel and scheduling latency.",
+    "Context check tokenizes locally but does not silently truncate."
+  ]
+}

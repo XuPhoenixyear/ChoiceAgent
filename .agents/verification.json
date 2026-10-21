@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-10-21T03:41:27.420171+00:00",
+  "passed": true,
+  "skills": 20,
+  "skill_files_checked": 157,
+  "support_files_checked": 4,
+  "integrity": "Original bytes matched pinned Git blobs; installed SHA-256 and file modes match skills.lock.json.",
+  "python_files_parsed": 22,
+  "shell_files_syntax_checked": 8,
+  "playwright_available": true,
+  "cli_checks": [
+    {
+      "name": "ui_help",
+      "passed": true
+    },
+    {
+      "name": "ui_product_query",
+      "passed": true,
+      "domain": "product",
+      "query": "ecommerce",
+      "matches": 1
+    },
+    {
+      "name": "ui_accessibility_query",
+      "passed": true,
+      "domain": "ux",
+      "query": "keyboard focus",
+      "matches": 1
+    },
+    {
+      "name": "webapp_helper_help",
+      "passed": true
+    }
+  ],
+  "query_note": "The product query product comparison returned no match; the narrower ecommerce query returns the E-commerce profile. Results require product-context review.",
+  "application_services_started": false,
+  "models_loaded": false,
+  "optional_features_not_exercised": [
+    "Superpowers visual companion",
+    "Graphviz rendering",
+    "Git worktree and task helpers"
+  ],
+  "scope": "Skill metadata/resources and safe local CLI verification; application source behavior unchanged."
+}

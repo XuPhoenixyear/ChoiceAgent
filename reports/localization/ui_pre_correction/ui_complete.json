@@ -1,0 +1,85 @@
+{
+  "created_at_utc": "2026-10-20T17:41:04.963361+00:00",
+  "real_ui": true,
+  "mocked_responses": false,
+  "hardware_gpu_disabled": true,
+  "api_health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "source_fingerprint": "4eb7fb3cae90f9781963874cf84016eb63083ee9c977f76004ef6a1b9dd29295",
+    "catalog_count": 3000,
+    "dense_ready": true
+  },
+  "catalog_sha256": "8fc7d0d8a13bcf187c742aed4fe3268a5eeb2404a5581e9924b9f296f522e008",
+  "sidecar_sha256": "2116b2eb698c24e84e5d0b0ade6a5cc51e2107cb6e7f70fe90d10d3b27c1f95a",
+  "catalog_rows": 3000,
+  "sidecar_rows": 3000,
+  "sidecar_translation_kinds": {
+    "model": 3000
+  },
+  "query": "适合小桌面的收纳盒",
+  "budget_max_usd": 35,
+  "category_raw": "Office Products",
+  "category_display": "办公用品",
+  "page_errors": [],
+  "screenshots": [
+    "reports/localization/ui_pre_correction/01_chinese_search_complete.png",
+    "reports/localization/ui_pre_correction/02_chinese_compare_complete.png"
+  ],
+  "ui_product_titles": [
+    "REPUS Industries 多功能收纳盒与储物箱，遥控器支架，化妆架，现代桌面收纳盒，浴室收纳盒，办公用品盒，钢笔与铅笔支架",
+    "Woodaholic turquoise 2层抽屉单元 - 欧洲国家风格桌面收纳盒 - 9.7x7x5.1\" 青蓝色木制可堆叠抽屉 - 桌面收纳抽屉带标签架 - 双文件抽屉单元",
+    "RHCSZ 皮质遥控器收纳盒 360度旋转，电视遥控器、笔、计算器、媒体播放器存储盒（灰色）",
+    "Cretkhp 皮质办公文件夹带座垫，五隔储物盒，商务用品收纳箱，灰色条纹",
+    "BTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)"
+  ],
+  "visible_products": [
+    {
+      "item_id": "B08DSLTMD4",
+      "ui_title": "REPUS Industries 多功能收纳盒与储物箱，遥控器支架，化妆架，现代桌面收纳盒，浴室收纳盒，办公用品盒，钢笔与铅笔支架",
+      "original_title": "Multi-Purpose Organizer & Storage Box, Remote Control Holder, MakeUp holder, Modern Desk Side Organizer, Bathroom Caddy for Home/ Office - Desk Storage Box, Cell Phone Box, Pen & Pencil Holder",
+      "translation_kind": "model",
+      "sidecar_title": "REPUS Industries 多功能收纳盒与储物箱，遥控器支架，化妆架，现代桌面收纳盒，浴室收纳盒，办公用品盒，钢笔与铅笔支架",
+      "matches_published_translation": true
+    },
+    {
+      "item_id": "B0BPZC84ZT",
+      "ui_title": "Woodaholic turquoise 2层抽屉单元 - 欧洲国家风格桌面收纳盒 - 9.7x7x5.1\" 青蓝色木制可堆叠抽屉 - 桌面收纳抽屉带标签架 - 双文件抽屉单元",
+      "original_title": "Turquoise 2-Tier Drawer Unit - European Country Style Desk Organizer Box - 9.7x7x5.1\" Teal Wooden Stackable Drawers - Countertop Organizer Drawers w/Label Holder - Double File Drawer Unit",
+      "translation_kind": "model",
+      "sidecar_title": "Woodaholic turquoise 2层抽屉单元 - 欧洲国家风格桌面收纳盒 - 9.7x7x5.1\" 青蓝色木制可堆叠抽屉 - 桌面收纳抽屉带标签架 - 双文件抽屉单元",
+      "matches_published_translation": true
+    },
+    {
+      "item_id": "B09QKTZ9ZM",
+      "ui_title": "RHCSZ 皮质遥控器收纳盒 360度旋转，电视遥控器、笔、计算器、媒体播放器存储盒（灰色）",
+      "original_title": "Leather Remote Control Holder 360 Degree Spinning, Desk Organizer for TV Remote Controllers, Caddy,Pen,Calculator,Media Player Storage box (Grey)",
+      "translation_kind": "model",
+      "sidecar_title": "RHCSZ 皮质遥控器收纳盒 360度旋转，电视遥控器、笔、计算器、媒体播放器存储盒（灰色）",
+      "matches_published_translation": true
+    },
+    {
+      "item_id": "B08Z82S1FY",
+      "ui_title": "Cretkhp 皮质办公文件夹带座垫，五隔储物盒，商务用品收纳箱，灰色条纹",
+      "original_title": "Cretkhp Pu Leather Desk Organizer with Coaster, Multifunctional Storage Box with 5 Compartments, Office Accessories Pen Pencil Business Name Cards Remote Control Holder (Grey Stripe)",
+      "translation_kind": "model",
+      "sidecar_title": "Cretkhp 皮质办公文件夹带座垫，五隔储物盒，商务用品收纳箱，灰色条纹",
+      "matches_published_translation": true
+    },
+    {
+      "item_id": "B07DFLG16R",
+      "ui_title": "BTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)",
+      "original_title": "BTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)",
+      "translation_kind": "model",
+      "sidecar_title": "BTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)",
+      "matches_published_translation": true
+    }
+  ],
+  "passed": true,
+  "sidecar_translation_sources": {
+    "/datas/wuxi/Projects/datas/models/Qwen3-1.7B": 2920,
+    "coding-assistant-source-review": 80
+  },
+  "artifact_relocated_from": "reports/localization/ui_complete",
+  "status_note": "Preserved before correction of two known source-to-translation factual errors; UI fidelity checks passed, translation semantic accuracy was not established."
+}

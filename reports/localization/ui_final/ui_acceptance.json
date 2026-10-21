@@ -1,0 +1,207 @@
+{
+  "created_at_utc": "2026-10-20T17:33:37.659291+00:00",
+  "real_ui": true,
+  "mocked_responses": false,
+  "hardware_gpu_disabled": true,
+  "ui_url": "http://127.0.0.1:8501",
+  "api_url": "http://127.0.0.1:8000",
+  "chat_profile": "original",
+  "checks": [
+    {
+      "name": "real_api_and_local_model_ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "initial_page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chinese_search_and_35_usd_budget",
+      "passed": true,
+      "detail": {
+        "query": "适合小桌面的收纳盒",
+        "prices_usd": [
+          13.5,
+          24.99,
+          19.99,
+          21.67,
+          13.99
+        ]
+      }
+    },
+    {
+      "name": "product_titles_chinese",
+      "passed": true,
+      "detail": [
+        "REPUS Industries · 笔筒与文具收纳",
+        "Woodaholic turquoise 2层抽屉单元 - 欧洲国家风格桌面收纳盒 - 9.7x7x5.1\" 青蓝色木制可堆叠抽屉 - 桌面收纳抽屉带标签架 - 双文件抽屉单元",
+        "RHCSZ · 桌面收纳架",
+        "Cretkhp 皮质办公文件夹带座垫，五隔储物盒，商务用品收纳箱，灰色条纹",
+        "BTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)"
+      ]
+    },
+    {
+      "name": "english_original_collapsed_by_default",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "english_original_available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chinese_category_submits_original_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "like_persisted_in_ui",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "save_control_and_product_title_chinese",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "compare_two_visible_products",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_1_answer_chinese",
+      "passed": true,
+      "detail": "你希望查找哪类商品、用于什么场景？"
+    },
+    {
+      "name": "chat_turn_1_response_rendered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_1_budget",
+      "passed": false,
+      "detail": {
+        "prices_usd": [],
+        "budget_usd": 35
+      }
+    },
+    {
+      "name": "chat_turn_1_tab_remains_active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_2_answer_chinese",
+      "passed": true,
+      "detail": "按当前用途、预算和本次偏好筛选后，以下商品可供进一步比较：\n\nEDENMS · 桌面收纳架（历史价格 $11.95）\nBeiz Houseware 贝兹家居办公文件架及配件收纳，4层桌面纸 Tray 用于信件/ A4 文件，办公桌组织，办公室，宿舍收集办公用品（黑色）（历史价格 $19.97）\nBTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)（历史价格 $13.99） 商品属性与价格可展开查看原始字段证据；这些不是实时售价。"
+    },
+    {
+      "name": "chat_turn_2_response_rendered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_2_budget",
+      "passed": true,
+      "detail": {
+        "prices_usd": [
+          11.95,
+          19.97,
+          13.99,
+          15.92,
+          19.99
+        ],
+        "budget_usd": 20
+      }
+    },
+    {
+      "name": "chat_turn_2_tab_remains_active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_browser_page_errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "screenshots": [
+    "reports/localization/ui_final/01_home.png",
+    "reports/localization/ui_final/02_search_budget.png",
+    "reports/localization/ui_final/02b_english_original.png",
+    "reports/localization/ui_final/03_comparison.png",
+    "reports/localization/ui_final/04_chat_first_turn.png",
+    "reports/localization/ui_final/05_chat_budget_update.png"
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "chat_turns": [
+    {
+      "message": "帮我选小桌面用的收纳用品，预算不超过35美元。请按历史美元价格推荐，并说明依据。",
+      "displayed_response": "smart_toy\n\n你希望查找哪类商品、用于什么场景？",
+      "prices_usd": [],
+      "budget_usd": 35
+    },
+    {
+      "message": "把预算改到20美元以内，仍然用于小桌面。请重新筛选，不要推荐超过预算的商品。",
+      "displayed_response": "smart_toy\n\n按当前用途、预算和本次偏好筛选后，以下商品可供进一步比较：\n\nEDENMS · 桌面收纳架（历史价格 $11.95）\nBeiz Houseware 贝兹家居办公文件架及配件收纳，4层桌面纸 Tray 用于信件/ A4 文件，办公桌组织，办公室，宿舍收集办公用品（黑色）（历史价格 $19.97）\nBTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)（历史价格 $13.99） 商品属性与价格可展开查看原始字段证据；这些不是实时售价。\nEDENMS · 桌面收纳架\n\nUS$11.95 · 历史价格\n\nEDENMS · 工具与家装\n\n中文商品说明暂未准备好，可展开查看英文原文。\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看英文原文\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBeiz Houseware 贝兹家居办公文件架及配件收纳，4层桌面纸 Tray 用于信件/ A4 文件，办公桌组织，办公室，宿舍收集办公用品（黑色）\n\nUS$19.97 · 历史价格\n\nBeiz Houseware · 家居用品\n\n• 【独特堆叠式设计】多功能使用，此桌面收纳出色地用于存放信件或整理用品。它美观易用，可放置于工作台任何位置，便于快速使用\n\n• 【适合文档堆叠者】拥有足够空间整理各类工作区域（4个纸 Tray），适用于A4文件、纸张和账单，此桌面收纳不会让您感到缺货\n\n• 【用户友好】采用轻质金属网格制成，此桌面文件架易于组装，一旦搭建便耐用持久，适合任何办公场景\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看英文原文\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)\n\nUS$13.99 · 历史价格\n\nBTSKY · 办公用品\n\n• 完美收纳方案- 3个分隔区，是整理办公桌、家办公室、床头柜收纳的完美解决方案！可容纳笔、铅笔、剪刀、商务卡、便利贴、手机等\n\n• 采用耐用皮革- PU皮革+非织物面料，桌面部分采用高品质PU仿皮皮革，内部为非织物面料，外观优雅且易于清洁。每个收纳盒\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看英文原文\n\nkeyboard_arrow_right\n\n查看资料依据\n\nAmazon Basics 塑料办公桌收纳架 - 白色\n\nUS$15.92 · 历史价格\n\nAmazon Basics · 办公用品\n\n• 塑料收纳架帮助保持桌面配件（如打孔器、胶水架和笔架）整齐收纳\n\n• 采用耐用硬质塑料制作，具有长久耐用的强度；可选黑色或白色（每种单独销售）\n\n• 模块化设计；可叠放与Amazon Basics塑料收纳架字母 Tray、配件 Tray、半配件 Tray和小 Tray（额外物品单独销售）\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看英文原文\n\nkeyboard_arrow_right\n\n查看资料依据\n\nJasenna 圆形皮革艺术用品整理架，遥控器支架，360度旋转，多功能笔架，4个抽屉桌面用品整理架（1-绿色速溶）\n\nUS$19.99 · 历史价格\n\nJasenna · 工具与家装\n\n• 360°旋转设计：可自由旋转笔架平稳左右，独特旋转底座设计便于从任何方向取用物品。底部防滑垫使笔架稳固不移位\n\n• 适合尺寸：14cm x 14cm x 10cm/5.51inch x 5.51inch x 3.94inch。可适用于办公用品、教室、化妆品、客厅和厨房等多场景\n\n• 多功能桌面整理架：4个抽屉可收纳笔、剪刀、遥控器、餐具、画笔等，保持桌面整洁\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看英文原文\n\nkeyboard_arrow_right\n\n查看资料依据",
+      "prices_usd": [
+        11.95,
+        19.97,
+        13.99,
+        15.92,
+        19.99
+      ],
+      "budget_usd": 20
+    }
+  ],
+  "api_health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "source_fingerprint": "4eb7fb3cae90f9781963874cf84016eb63083ee9c977f76004ef6a1b9dd29295",
+    "catalog_count": 3000,
+    "dense_ready": true
+  },
+  "model_health": {
+    "status": "ready",
+    "ready": true,
+    "model": "Qwen3-1.7B-local",
+    "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+    "max_context_tokens": 8192,
+    "max_output_tokens": 768,
+    "max_waiting": 2,
+    "visible_gpu": "1",
+    "model_device": "cuda:0",
+    "thinking": false
+  },
+  "selected_category": {
+    "raw": "Office Products",
+    "display": "办公用品"
+  },
+  "search_prices_usd": [
+    13.5,
+    24.99,
+    19.99,
+    21.67,
+    13.99
+  ],
+  "search_titles": [
+    "REPUS Industries · 笔筒与文具收纳",
+    "Woodaholic turquoise 2层抽屉单元 - 欧洲国家风格桌面收纳盒 - 9.7x7x5.1\" 青蓝色木制可堆叠抽屉 - 桌面收纳抽屉带标签架 - 双文件抽屉单元",
+    "RHCSZ · 桌面收纳架",
+    "Cretkhp 皮质办公文件夹带座垫，五隔储物盒，商务用品收纳箱，灰色条纹",
+    "BTSKY 皮质办公桌笔筒-多功能桌面收纳盒 商务卡笔铅笔移动电话遥控站配件家居办公桌装饰(黑色)"
+  ],
+  "original_title": "原始名称：Multi-Purpose Organizer & Storage Box, Remote Control Holder, MakeUp holder, Modern Desk Side Organizer, Bathroom Caddy for Home/ Office - Desk Storage Box, Cell Phone Box, Pen & Pencil Holder",
+  "recording_elapsed_seconds": 71.94,
+  "original_video": "reports/localization/ui_final/original_video/page@8887065e7f0e89d61fe872a2ff9284b9.webm",
+  "mp4_video": "reports/localization/ui_final/choiceagent_demo.mp4",
+  "original_video_seconds": 72.92,
+  "playback_speed": 1.0,
+  "passed": false
+}

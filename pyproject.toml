@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "choiceagent"
+version = "0.1.0"
+description = "Evidence-grounded personalized product search and local-model agent"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn[standard]>=0.30,<1", "pydantic>=2.10,<3",
+  "pydantic-settings>=2.6,<3", "httpx>=0.28,<1", "streamlit>=1.40,<2",
+  "numpy==2.2.6", "scipy==1.15.3", "faiss-cpu==1.13.2",
+  "torch==2.10.0", "transformers==4.57.6", "sentence-transformers==5.2.0",
+  "accelerate==1.12.0", "requests>=2.32,<3", "PyYAML>=6,<7", "rich>=13,<15", "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<10", "pytest-asyncio>=0.24,<2", "pytest-cov>=6,<8", "ruff>=0.14,<1", "mypy>=1.18,<2", "types-PyYAML", "build>=1.2,<2", "playwright>=1.50,<2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["E501", "RUF001", "RUF002", "RUF003"]
+
+[tool.mypy]
+python_version = "3.11"
+check_untyped_defs = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+ignore_missing_imports = true
+exclude = ["docs/", "artifacts/", "runtime/"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --strict-config"
+markers = ["gpu: opt-in actual GPU model test", "integration: service integration", "live: opt-in running model/catalog evaluation"]
+asyncio_mode = "auto"
+filterwarnings = ["ignore:Using `httpx` with `starlette.testclient` is deprecated:DeprecationWarning"]
+
+[tool.coverage.run]
+source = ["choiceagent"]
+omit = ["*/ui.py", "*/model_server.py"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

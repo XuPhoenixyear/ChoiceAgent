@@ -1,0 +1,1373 @@
+{
+  "timestamp": "2026-10-20T16:49:58.422152+00:00",
+  "passed": true,
+  "python": "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+  "conda_prefix": "/datas/wuxi/anaconda3/envs/my_rec",
+  "package_file": "/datas/wuxi/Projects/WorkSpace-RA/src/choiceagent/__init__.py",
+  "api_health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "source_fingerprint": "d17d84e45ee7bf73e8e15d91bbeddce4875a7067bebdd9e3d878bd28de3949bd",
+    "catalog_count": 3000,
+    "dense_ready": true
+  },
+  "model_health": {
+    "status": "ready",
+    "ready": true,
+    "model": "Qwen3-1.7B-local",
+    "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+    "max_context_tokens": 8192,
+    "max_output_tokens": 768,
+    "max_waiting": 2,
+    "visible_gpu": "5",
+    "model_device": "cuda:0",
+    "thinking": false
+  },
+  "ui_health": "ok",
+  "processes": [
+    {
+      "name": "model",
+      "pid": 221812,
+      "cuda_visible_devices": "5",
+      "cwd": "/datas/wuxi/Projects/WorkSpace-RA"
+    },
+    {
+      "name": "api",
+      "pid": 221813,
+      "cuda_visible_devices": "5",
+      "cwd": "/datas/wuxi/Projects/WorkSpace-RA"
+    },
+    {
+      "name": "ui",
+      "pid": 221815,
+      "cuda_visible_devices": "",
+      "cwd": "/datas/wuxi/Projects/WorkSpace-RA"
+    }
+  ],
+  "own_gpu_allocations": [
+    "GPU-d5babfd1-2c69-6c9c-9e3e-de7b565c4fc3, 221812, 3808 MiB",
+    "GPU-d5babfd1-2c69-6c9c-9e3e-de7b565c4fc3, 221813, 8074 MiB"
+  ],
+  "restart_chat": {
+    "trace_id": "2de94b39-5f35-4cf4-ba6d-88c105802edf",
+    "session_id": "67d22383-1f28-46f6-ac39-0d83c466c47d",
+    "request_id": "f17e1253-f01a-4982-ba22-16e5c3bf5c47",
+    "status": "completed",
+    "answer": "按当前用途、预算和本次偏好筛选后，以下商品可供进一步比较：\n1. Desk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue（历史价格 $11.95）\n2. BeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)（历史价格 $19.97）\n3. BTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)（历史价格 $13.99）\n商品属性与价格可展开查看原始字段证据；这些不是实时售价。",
+    "items": [
+      {
+        "item_id": "B0BC9BW75Y",
+        "title": "Desk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue",
+        "category": "Tools & Home Improvement",
+        "brand": "EDENMS",
+        "price_usd": 11.95,
+        "features": [
+          "[Versatile & Partition Design] Dimensions of the multifunctional desktop organizer: 9.8*4.7*3.6 inch/ 25*12*9cm, with 12 compartments and 2 sliding transparent drawers for sorting and storing. This desk organizer gives you an opportunity to keep your office desk or dresser clean and orderly.",
+          "[High-Quality Desktop Organizer] The desk organizer caddy is made of high-quality ABS material, which ensures its durability and security from injury and breakage. It is strong and solid enough for a long time using,",
+          "[Office Supplies Organizer Space Saving] The desk pen organizers has enough storage space to accommodate your desk supplies, as staples, pens, paper clips, binder clips, notepads, sticky notes, washi tape, glue sticks and more, keep it organized, easily find anything you need.",
+          "[Multipurpose Desktop Organizer] The desk organizer can be used not only for stationery/office supplies, but also for your makeup tools and small household items. You can put it in the study, desk, office, kitchen, living room or bedroom to store and organize items, this great organizer fit for wherever you need.",
+          "[Safe Shopping] The desk caddy organizer is the perfect gift you give to friends and family, suitable for students, teachers, teenagers, and children. Hope you have a good shopping. If you have any questions during the purchase and use process, please feel free to contact us. We will respond to your concerns within 24 hours."
+        ],
+        "attributes": {
+          "Specific Uses For Product": "Stationery and Makeup Storage",
+          "Material": "Plastic",
+          "Special Feature": "Portable",
+          "Color": "Large Blue",
+          "Brand": "EDENMS",
+          "Finish Type": "Polished",
+          "Mounting Type": "Tabletop Mount",
+          "Item Weight": "386 Grams",
+          "Number of Compartments": "12",
+          "Shape": "Rectangular",
+          "Number of Items": "1",
+          "Product Dimensions": "9.53 x 3.54 x 4.72 inches",
+          "Country of Origin": "China",
+          "Finish": "Polished",
+          "Special Features": "Portable",
+          "Batteries Included?": "No",
+          "Batteries Required?": "No",
+          "Date First Available": "June 20, 2022"
+        },
+        "rank": 1,
+        "score": 2.0,
+        "route_ranks": {
+          "lexical": 1,
+          "dense": 1
+        },
+        "reason_codes": [
+          "lexical_match",
+          "dense_match",
+          "historical_usd_price_verified"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "B0BC9BW75Y:title",
+            "item_id": "B0BC9BW75Y",
+            "field": "title",
+            "value": "Desk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:price_usd",
+            "item_id": "B0BC9BW75Y",
+            "field": "price_usd",
+            "value": 11.95,
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:brand",
+            "item_id": "B0BC9BW75Y",
+            "field": "brand",
+            "value": "EDENMS",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:category",
+            "item_id": "B0BC9BW75Y",
+            "field": "category",
+            "value": "Tools & Home Improvement",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:features",
+            "item_id": "B0BC9BW75Y",
+            "field": "features",
+            "value": [
+              "[Versatile & Partition Design] Dimensions of the multifunctional desktop organizer: 9.8*4.7*3.6 inch/ 25*12*9cm, with 12 compartments and 2 sliding transparent drawers for sorting and storing. This desk organizer gives you an opportunity to keep your office desk or dresser clean and orderly.",
+              "[High-Quality Desktop Organizer] The desk organizer caddy is made of high-quality ABS material, which ensures its durability and security from injury and breakage. It is strong and solid enough for a long time using,",
+              "[Office Supplies Organizer Space Saving] The desk pen organizers has enough storage space to accommodate your desk supplies, as staples, pens, paper clips, binder clips, notepads, sticky notes, washi tape, glue sticks and more, keep it organized, easily find anything you need.",
+              "[Multipurpose Desktop Organizer] The desk organizer can be used not only for stationery/office supplies, but also for your makeup tools and small household items. You can put it in the study, desk, office, kitchen, living room or bedroom to store and organize items, this great organizer fit for wherever you need.",
+              "[Safe Shopping] The desk caddy organizer is the perfect gift you give to friends and family, suitable for students, teachers, teenagers, and children. Hope you have a good shopping. If you have any questions during the purchase and use process, please feel free to contact us. We will respond to your concerns within 24 hours."
+            ],
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:features.0",
+            "item_id": "B0BC9BW75Y",
+            "field": "features.0",
+            "value": "[Versatile & Partition Design] Dimensions of the multifunctional desktop organizer: 9.8*4.7*3.6 inch/ 25*12*9cm, with 12 compartments and 2 sliding transparent drawers for sorting and storing. This desk organizer gives you an opportunity to keep your office desk or dresser clean and orderly.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:features.1",
+            "item_id": "B0BC9BW75Y",
+            "field": "features.1",
+            "value": "[High-Quality Desktop Organizer] The desk organizer caddy is made of high-quality ABS material, which ensures its durability and security from injury and breakage. It is strong and solid enough for a long time using,",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:features.2",
+            "item_id": "B0BC9BW75Y",
+            "field": "features.2",
+            "value": "[Office Supplies Organizer Space Saving] The desk pen organizers has enough storage space to accommodate your desk supplies, as staples, pens, paper clips, binder clips, notepads, sticky notes, washi tape, glue sticks and more, keep it organized, easily find anything you need.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:features.3",
+            "item_id": "B0BC9BW75Y",
+            "field": "features.3",
+            "value": "[Multipurpose Desktop Organizer] The desk organizer can be used not only for stationery/office supplies, but also for your makeup tools and small household items. You can put it in the study, desk, office, kitchen, living room or bedroom to store and organize items, this great organizer fit for wherever you need.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:features.4",
+            "item_id": "B0BC9BW75Y",
+            "field": "features.4",
+            "value": "[Safe Shopping] The desk caddy organizer is the perfect gift you give to friends and family, suitable for students, teachers, teenagers, and children. Hope you have a good shopping. If you have any questions during the purchase and use process, please feel free to contact us. We will respond to your concerns within 24 hours.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Specific Uses For Product",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Specific Uses For Product",
+            "value": "Stationery and Makeup Storage",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Material",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Material",
+            "value": "Plastic",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Special Feature",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Special Feature",
+            "value": "Portable",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Color",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Color",
+            "value": "Large Blue",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Brand",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Brand",
+            "value": "EDENMS",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Finish Type",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Finish Type",
+            "value": "Polished",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Mounting Type",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Mounting Type",
+            "value": "Tabletop Mount",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Item Weight",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Item Weight",
+            "value": "386 Grams",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Number of Compartments",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Number of Compartments",
+            "value": "12",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Shape",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Shape",
+            "value": "Rectangular",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Number of Items",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Number of Items",
+            "value": "1",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Product Dimensions",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Product Dimensions",
+            "value": "9.53 x 3.54 x 4.72 inches",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Country of Origin",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Country of Origin",
+            "value": "China",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Finish",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Finish",
+            "value": "Polished",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Special Features",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Special Features",
+            "value": "Portable",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Batteries Included?",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Batteries Included?",
+            "value": "No",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Batteries Required?",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Batteries Required?",
+            "value": "No",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          },
+          {
+            "evidence_id": "B0BC9BW75Y:attributes.Date First Available",
+            "item_id": "B0BC9BW75Y",
+            "field": "attributes.Date First Available",
+            "value": "June 20, 2022",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2925"
+          }
+        ],
+        "missing_attributes": []
+      },
+      {
+        "item_id": "B0BNG1VGCL",
+        "title": "BeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)",
+        "category": "Amazon Home",
+        "brand": "Beiz Houseware",
+        "price_usd": 19.97,
+        "features": [
+          "【Unique stacked shelf design】Multi-purpose in use, this desk organization is superb for holding letters or arranging stationary. It is elegant, easy to use, and can be placed anywhere on your workstation for straightforward access",
+          "【Ideal for those with piles of documents】 With more than enough room to organize just about any workspace (4 paper trays), is perfect for A4 files, papers and bills, this desktop organizer won’t leave you wanting for space, plus the top tray is great for stationary and bits and bobs.",
+          "【User-friendly】Made from lightweight mesh metal, this paper organizer for desk is not only easy to assemble but once constructed is durable for longevity in the home office. This office organization is perfect for anyone who pays attention to the neatness of the desktop",
+          "【Space-saving】The compact design of this product offers a great opportunity for arranging and planning when working from home, making it easy and bringing a professional look to your office space.It is suitable used for office, home, work, school, classroom, workspace",
+          "【Stury and Durable】 Made of sturdy black wire mesh structure with powder coated surface, smooth and corrosion-resistant. Non-slip feet can keep the product stable"
+        ],
+        "attributes": {
+          "Brand": "Beiz Houseware",
+          "Color": "Black",
+          "Material": "Metal",
+          "Product Dimensions": "12.6\"L x 8.85\"W x 10.2\"H",
+          "Shape": "Rectangular",
+          "Special Feature": "4 Tier Paper Tray Organizer, Rust Resistant, Portable",
+          "Finish Type": "Powder Coated",
+          "Number of Items": "1",
+          "Occasion": "Office Classroom Workspace Dorm Room",
+          "Is Dishwasher Safe": "No",
+          "Item Weight": "3.5 pounds",
+          "Manufacturer": "Beiz Houseware",
+          "Country of Origin": "China",
+          "Item model number": "BH4005-B",
+          "Date First Available": "August 31, 2022"
+        },
+        "rank": 2,
+        "score": 1.9213789682539684,
+        "route_ranks": {
+          "lexical": 4,
+          "dense": 3
+        },
+        "reason_codes": [
+          "lexical_match",
+          "dense_match",
+          "historical_usd_price_verified"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "B0BNG1VGCL:title",
+            "item_id": "B0BNG1VGCL",
+            "field": "title",
+            "value": "BeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:price_usd",
+            "item_id": "B0BNG1VGCL",
+            "field": "price_usd",
+            "value": 19.97,
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:brand",
+            "item_id": "B0BNG1VGCL",
+            "field": "brand",
+            "value": "Beiz Houseware",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:category",
+            "item_id": "B0BNG1VGCL",
+            "field": "category",
+            "value": "Amazon Home",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:features",
+            "item_id": "B0BNG1VGCL",
+            "field": "features",
+            "value": [
+              "【Unique stacked shelf design】Multi-purpose in use, this desk organization is superb for holding letters or arranging stationary. It is elegant, easy to use, and can be placed anywhere on your workstation for straightforward access",
+              "【Ideal for those with piles of documents】 With more than enough room to organize just about any workspace (4 paper trays), is perfect for A4 files, papers and bills, this desktop organizer won’t leave you wanting for space, plus the top tray is great for stationary and bits and bobs.",
+              "【User-friendly】Made from lightweight mesh metal, this paper organizer for desk is not only easy to assemble but once constructed is durable for longevity in the home office. This office organization is perfect for anyone who pays attention to the neatness of the desktop",
+              "【Space-saving】The compact design of this product offers a great opportunity for arranging and planning when working from home, making it easy and bringing a professional look to your office space.It is suitable used for office, home, work, school, classroom, workspace",
+              "【Stury and Durable】 Made of sturdy black wire mesh structure with powder coated surface, smooth and corrosion-resistant. Non-slip feet can keep the product stable"
+            ],
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:features.0",
+            "item_id": "B0BNG1VGCL",
+            "field": "features.0",
+            "value": "【Unique stacked shelf design】Multi-purpose in use, this desk organization is superb for holding letters or arranging stationary. It is elegant, easy to use, and can be placed anywhere on your workstation for straightforward access",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:features.1",
+            "item_id": "B0BNG1VGCL",
+            "field": "features.1",
+            "value": "【Ideal for those with piles of documents】 With more than enough room to organize just about any workspace (4 paper trays), is perfect for A4 files, papers and bills, this desktop organizer won’t leave you wanting for space, plus the top tray is great for stationary and bits and bobs.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:features.2",
+            "item_id": "B0BNG1VGCL",
+            "field": "features.2",
+            "value": "【User-friendly】Made from lightweight mesh metal, this paper organizer for desk is not only easy to assemble but once constructed is durable for longevity in the home office. This office organization is perfect for anyone who pays attention to the neatness of the desktop",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:features.3",
+            "item_id": "B0BNG1VGCL",
+            "field": "features.3",
+            "value": "【Space-saving】The compact design of this product offers a great opportunity for arranging and planning when working from home, making it easy and bringing a professional look to your office space.It is suitable used for office, home, work, school, classroom, workspace",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:features.4",
+            "item_id": "B0BNG1VGCL",
+            "field": "features.4",
+            "value": "【Stury and Durable】 Made of sturdy black wire mesh structure with powder coated surface, smooth and corrosion-resistant. Non-slip feet can keep the product stable",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Brand",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Brand",
+            "value": "Beiz Houseware",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Color",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Color",
+            "value": "Black",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Material",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Material",
+            "value": "Metal",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Product Dimensions",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Product Dimensions",
+            "value": "12.6\"L x 8.85\"W x 10.2\"H",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Shape",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Shape",
+            "value": "Rectangular",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Special Feature",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Special Feature",
+            "value": "4 Tier Paper Tray Organizer, Rust Resistant, Portable",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Finish Type",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Finish Type",
+            "value": "Powder Coated",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Number of Items",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Number of Items",
+            "value": "1",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Occasion",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Occasion",
+            "value": "Office Classroom Workspace Dorm Room",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Is Dishwasher Safe",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Is Dishwasher Safe",
+            "value": "No",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Item Weight",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Item Weight",
+            "value": "3.5 pounds",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Manufacturer",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Manufacturer",
+            "value": "Beiz Houseware",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Country of Origin",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Country of Origin",
+            "value": "China",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Item model number",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Item model number",
+            "value": "BH4005-B",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          },
+          {
+            "evidence_id": "B0BNG1VGCL:attributes.Date First Available",
+            "item_id": "B0BNG1VGCL",
+            "field": "attributes.Date First Available",
+            "value": "August 31, 2022",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=74"
+          }
+        ],
+        "missing_attributes": []
+      },
+      {
+        "item_id": "B07DFLG16R",
+        "title": "BTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)",
+        "category": "Office Products",
+        "brand": "BTSKY",
+        "price_usd": 13.99,
+        "features": [
+          "A Perfect Organizing Solution- With 3 divided compartments, it is a perfect solution to organizing your desk, home office, nightstand organizer, and more! Holds pens, pencils, scissors, business cards, sticky notes, cell phone, TV remotes. Easiest way to add some office decor / desk decor / cool decor to your space.",
+          "Made of Durable Leather- PU leather + Non-woven Fabrics, the desktop organizer outside part is covered by high quality PU faux leather while interior is non-woven fabrics, elegant looking and also easy to clean. Each organizer has a soft felt wrapped bottom so it doesn' t scratch your desk.",
+          "Perfect Size- Each organizer measures 20.5 x 9.3 x 11 cm/ 8.07 X 3.66 X 4.33 inches (LxWxH). Big enough to hold all of your writing accessories but compact enough not to take up much room on your desk. Cute desk accessories holder to keep your desk clutter away.",
+          "Different Color Choices- Mutiple color choice make these organizers the perfect statement piece for our workspace. Perfect desk organizer to organize makeups and small household items while matching your home deco.",
+          "Perfect gift ideal: Practical and ideal gift for friends, colleagues or family, suitable for school and office supplies, You will love it!"
+        ],
+        "attributes": {
+          "Specific Uses For Product": "Stationery",
+          "Material": "Faux Leather",
+          "Special Feature": "Durable,Multi-functional",
+          "Color": "black",
+          "Brand": "BTSKY",
+          "Mounting Type": "Tabletop Mount",
+          "Package Type": "Standard Packaging",
+          "Number of Items": "1",
+          "Manufacturer": "BTSKY",
+          "Item Weight": "9.6 ounces",
+          "Package Dimensions": "8.2 x 4.5 x 3.7 inches",
+          "Is Discontinued By Manufacturer": "No",
+          "Material Type": "Faux Leather",
+          "Manufacturer Part Number": "BTSKYTHN00059",
+          "Date First Available": "May 31, 2018"
+        },
+        "rank": 3,
+        "score": 1.8943187289359653,
+        "route_ranks": {
+          "lexical": 7,
+          "dense": 2
+        },
+        "reason_codes": [
+          "lexical_match",
+          "dense_match",
+          "historical_usd_price_verified"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "B07DFLG16R:title",
+            "item_id": "B07DFLG16R",
+            "field": "title",
+            "value": "BTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:price_usd",
+            "item_id": "B07DFLG16R",
+            "field": "price_usd",
+            "value": 13.99,
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:brand",
+            "item_id": "B07DFLG16R",
+            "field": "brand",
+            "value": "BTSKY",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:category",
+            "item_id": "B07DFLG16R",
+            "field": "category",
+            "value": "Office Products",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:features",
+            "item_id": "B07DFLG16R",
+            "field": "features",
+            "value": [
+              "A Perfect Organizing Solution- With 3 divided compartments, it is a perfect solution to organizing your desk, home office, nightstand organizer, and more! Holds pens, pencils, scissors, business cards, sticky notes, cell phone, TV remotes. Easiest way to add some office decor / desk decor / cool decor to your space.",
+              "Made of Durable Leather- PU leather + Non-woven Fabrics, the desktop organizer outside part is covered by high quality PU faux leather while interior is non-woven fabrics, elegant looking and also easy to clean. Each organizer has a soft felt wrapped bottom so it doesn' t scratch your desk.",
+              "Perfect Size- Each organizer measures 20.5 x 9.3 x 11 cm/ 8.07 X 3.66 X 4.33 inches (LxWxH). Big enough to hold all of your writing accessories but compact enough not to take up much room on your desk. Cute desk accessories holder to keep your desk clutter away.",
+              "Different Color Choices- Mutiple color choice make these organizers the perfect statement piece for our workspace. Perfect desk organizer to organize makeups and small household items while matching your home deco.",
+              "Perfect gift ideal: Practical and ideal gift for friends, colleagues or family, suitable for school and office supplies, You will love it!"
+            ],
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:features.0",
+            "item_id": "B07DFLG16R",
+            "field": "features.0",
+            "value": "A Perfect Organizing Solution- With 3 divided compartments, it is a perfect solution to organizing your desk, home office, nightstand organizer, and more! Holds pens, pencils, scissors, business cards, sticky notes, cell phone, TV remotes. Easiest way to add some office decor / desk decor / cool decor to your space.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:features.1",
+            "item_id": "B07DFLG16R",
+            "field": "features.1",
+            "value": "Made of Durable Leather- PU leather + Non-woven Fabrics, the desktop organizer outside part is covered by high quality PU faux leather while interior is non-woven fabrics, elegant looking and also easy to clean. Each organizer has a soft felt wrapped bottom so it doesn' t scratch your desk.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:features.2",
+            "item_id": "B07DFLG16R",
+            "field": "features.2",
+            "value": "Perfect Size- Each organizer measures 20.5 x 9.3 x 11 cm/ 8.07 X 3.66 X 4.33 inches (LxWxH). Big enough to hold all of your writing accessories but compact enough not to take up much room on your desk. Cute desk accessories holder to keep your desk clutter away.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:features.3",
+            "item_id": "B07DFLG16R",
+            "field": "features.3",
+            "value": "Different Color Choices- Mutiple color choice make these organizers the perfect statement piece for our workspace. Perfect desk organizer to organize makeups and small household items while matching your home deco.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:features.4",
+            "item_id": "B07DFLG16R",
+            "field": "features.4",
+            "value": "Perfect gift ideal: Practical and ideal gift for friends, colleagues or family, suitable for school and office supplies, You will love it!",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Specific Uses For Product",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Specific Uses For Product",
+            "value": "Stationery",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Material",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Material",
+            "value": "Faux Leather",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Special Feature",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Special Feature",
+            "value": "Durable,Multi-functional",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Color",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Color",
+            "value": "black",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Brand",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Brand",
+            "value": "BTSKY",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Mounting Type",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Mounting Type",
+            "value": "Tabletop Mount",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Package Type",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Package Type",
+            "value": "Standard Packaging",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Number of Items",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Number of Items",
+            "value": "1",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Manufacturer",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Manufacturer",
+            "value": "BTSKY",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Item Weight",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Item Weight",
+            "value": "9.6 ounces",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Package Dimensions",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Package Dimensions",
+            "value": "8.2 x 4.5 x 3.7 inches",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Is Discontinued By Manufacturer",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Is Discontinued By Manufacturer",
+            "value": "No",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Material Type",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Material Type",
+            "value": "Faux Leather",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Manufacturer Part Number",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Manufacturer Part Number",
+            "value": "BTSKYTHN00059",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          },
+          {
+            "evidence_id": "B07DFLG16R:attributes.Date First Available",
+            "item_id": "B07DFLG16R",
+            "field": "attributes.Date First Available",
+            "value": "May 31, 2018",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2267"
+          }
+        ],
+        "missing_attributes": []
+      },
+      {
+        "item_id": "B07RY32Y2C",
+        "title": "Amazon Basics Plastic Desk Organizer - Accessory Tray, White",
+        "category": "Office Products",
+        "brand": "Amazon Basics",
+        "price_usd": 15.92,
+        "features": [
+          "Accessory tray helps keep desktop accessories (like a stapler, tape dispenser, and pen holder) neatly contained",
+          "Made of durable hard plastic for long-lasting reliable strength; available in black or white (each sold separately)",
+          "Modular design; stackable with the Amazon Basics Plastic Organizer letter tray, accessory tray, half accessory tray, and small tray (additional items sold separately)",
+          "For use inside a drawer or cabinet or on a desk or shelf",
+          "Measures 9.4 by 6.7 by 2 inches; backed by an Amazon Basics 1-year limited warranty"
+        ],
+        "attributes": {
+          "Brand": "Amazon Basics",
+          "Color": "White",
+          "Material": "Plastic",
+          "Product Dimensions": "9.4\"L x 6.7\"W x 2\"H",
+          "Shape": "Rectangular",
+          "Tray Type": "Letter Tray",
+          "Special Feature": "Durable",
+          "Style": "Accessory Tray",
+          "Finish Type": "white",
+          "Recommended Uses For Product": "Letter",
+          "Number of Items": "1",
+          "Item Weight": "7.2 ounces",
+          "Is Dishwasher Safe": "No",
+          "Manufacturer": "Amazon Basics",
+          "Part Number": "DH04261916W",
+          "Country of Origin": "China",
+          "Item model number": "DH04261916W",
+          "Finish": "white",
+          "Item Package Quantity": "1",
+          "Mounting Type": "Tabletop",
+          "Certification": "certified frustration-free",
+          "Special Features": "Durable",
+          "Batteries Required?": "No",
+          "Date First Available": "September 25, 2019"
+        },
+        "rank": 4,
+        "score": 1.8355203619909504,
+        "route_ranks": {
+          "lexical": 8,
+          "dense": 5
+        },
+        "reason_codes": [
+          "lexical_match",
+          "dense_match",
+          "historical_usd_price_verified"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "B07RY32Y2C:title",
+            "item_id": "B07RY32Y2C",
+            "field": "title",
+            "value": "Amazon Basics Plastic Desk Organizer - Accessory Tray, White",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:price_usd",
+            "item_id": "B07RY32Y2C",
+            "field": "price_usd",
+            "value": 15.92,
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:brand",
+            "item_id": "B07RY32Y2C",
+            "field": "brand",
+            "value": "Amazon Basics",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:category",
+            "item_id": "B07RY32Y2C",
+            "field": "category",
+            "value": "Office Products",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:features",
+            "item_id": "B07RY32Y2C",
+            "field": "features",
+            "value": [
+              "Accessory tray helps keep desktop accessories (like a stapler, tape dispenser, and pen holder) neatly contained",
+              "Made of durable hard plastic for long-lasting reliable strength; available in black or white (each sold separately)",
+              "Modular design; stackable with the Amazon Basics Plastic Organizer letter tray, accessory tray, half accessory tray, and small tray (additional items sold separately)",
+              "For use inside a drawer or cabinet or on a desk or shelf",
+              "Measures 9.4 by 6.7 by 2 inches; backed by an Amazon Basics 1-year limited warranty"
+            ],
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:features.0",
+            "item_id": "B07RY32Y2C",
+            "field": "features.0",
+            "value": "Accessory tray helps keep desktop accessories (like a stapler, tape dispenser, and pen holder) neatly contained",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:features.1",
+            "item_id": "B07RY32Y2C",
+            "field": "features.1",
+            "value": "Made of durable hard plastic for long-lasting reliable strength; available in black or white (each sold separately)",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:features.2",
+            "item_id": "B07RY32Y2C",
+            "field": "features.2",
+            "value": "Modular design; stackable with the Amazon Basics Plastic Organizer letter tray, accessory tray, half accessory tray, and small tray (additional items sold separately)",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:features.3",
+            "item_id": "B07RY32Y2C",
+            "field": "features.3",
+            "value": "For use inside a drawer or cabinet or on a desk or shelf",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:features.4",
+            "item_id": "B07RY32Y2C",
+            "field": "features.4",
+            "value": "Measures 9.4 by 6.7 by 2 inches; backed by an Amazon Basics 1-year limited warranty",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Brand",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Brand",
+            "value": "Amazon Basics",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Color",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Color",
+            "value": "White",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Material",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Material",
+            "value": "Plastic",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Product Dimensions",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Product Dimensions",
+            "value": "9.4\"L x 6.7\"W x 2\"H",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Shape",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Shape",
+            "value": "Rectangular",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Tray Type",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Tray Type",
+            "value": "Letter Tray",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Special Feature",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Special Feature",
+            "value": "Durable",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Style",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Style",
+            "value": "Accessory Tray",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Finish Type",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Finish Type",
+            "value": "white",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Recommended Uses For Product",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Recommended Uses For Product",
+            "value": "Letter",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Number of Items",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Number of Items",
+            "value": "1",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Item Weight",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Item Weight",
+            "value": "7.2 ounces",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Is Dishwasher Safe",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Is Dishwasher Safe",
+            "value": "No",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Manufacturer",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Manufacturer",
+            "value": "Amazon Basics",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Part Number",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Part Number",
+            "value": "DH04261916W",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Country of Origin",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Country of Origin",
+            "value": "China",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Item model number",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Item model number",
+            "value": "DH04261916W",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Finish",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Finish",
+            "value": "white",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Item Package Quantity",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Item Package Quantity",
+            "value": "1",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Mounting Type",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Mounting Type",
+            "value": "Tabletop",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Certification",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Certification",
+            "value": "certified frustration-free",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Special Features",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Special Features",
+            "value": "Durable",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Batteries Required?",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Batteries Required?",
+            "value": "No",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          },
+          {
+            "evidence_id": "B07RY32Y2C:attributes.Date First Available",
+            "item_id": "B07RY32Y2C",
+            "field": "attributes.Date First Available",
+            "value": "September 25, 2019",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=2545"
+          }
+        ],
+        "missing_attributes": []
+      },
+      {
+        "item_id": "B0BN7LT6LY",
+        "title": "Jasenna Round Leather Art Supply Organizer,Remote Control Holder,360 Degree Spinning,Multi-Functional Pencil Holder,4 Compartments Desktop Stationary Organizer(1-Green Quicksand)",
+        "category": "Tools & Home Improvement",
+        "brand": "Jasenna",
+        "price_usd": 19.99,
+        "features": [
+          "360° Revolving Design: You can freely rotate the pen holder steadily left and right,unique spinning base design allows easy access to items from any directions.The non-slip pads on the bottom keep it stay in place when rotating.",
+          "Suitable Size:14cm x 14cm x 10cm/5.51inch x 5.51inch x 3.94inch.It can be used in multiple scenes, such as office supplies, classroom,cosmetics ,living room and kitchen,etc.",
+          "Multi-function Desk Organizer: There are 4 compartment organizer, so that you can organize your pens, scissors, TV remote, utensils, paintbrushes, etc. Keep your desk clear.",
+          "Elegant and Durable:It is no need to assemble and easy to clean, just wipe quickly with warm water and a damp cloth.",
+          "Gifts:A great choice for gifts.Suitable for office and school classrooms,etc.Whether giving it to your family member or friend, our desktop organizer makes a great gift"
+        ],
+        "attributes": {
+          "Usage": "Cloth,Kitchen,Pen Holder,Pencil",
+          "Material": "Leather",
+          "Special Feature": "Durable,Multi-function,Non-slip",
+          "Color": "1-Green Quicksand",
+          "Brand": "Jasenna",
+          "Finish Type": "Polished",
+          "Mounting Type": "Tabletop Mount",
+          "Product Dimensions": "5\"D x 5\"W x 4\"H",
+          "Number of Compartments": "4",
+          "Shape": "Round",
+          "Unit Count": "12.3459 Ounce",
+          "Number of Items": "1",
+          "Manufacturer": "Jasenna",
+          "Part Number": "US4-Organizer-1-Green Quicksand",
+          "Item Weight": "14.9 ounces",
+          "Size": "360° Rotation",
+          "Finish": "Polished",
+          "Special Features": "Durable,Multi-function,Non-slip",
+          "Batteries Required?": "No",
+          "Date First Available": "November 24, 2022"
+        },
+        "rank": 5,
+        "score": 1.8003472222222223,
+        "route_ranks": {
+          "lexical": 12,
+          "dense": 4
+        },
+        "reason_codes": [
+          "lexical_match",
+          "dense_match",
+          "historical_usd_price_verified"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "B0BN7LT6LY:title",
+            "item_id": "B0BN7LT6LY",
+            "field": "title",
+            "value": "Jasenna Round Leather Art Supply Organizer,Remote Control Holder,360 Degree Spinning,Multi-Functional Pencil Holder,4 Compartments Desktop Stationary Organizer(1-Green Quicksand)",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:price_usd",
+            "item_id": "B0BN7LT6LY",
+            "field": "price_usd",
+            "value": 19.99,
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:brand",
+            "item_id": "B0BN7LT6LY",
+            "field": "brand",
+            "value": "Jasenna",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:category",
+            "item_id": "B0BN7LT6LY",
+            "field": "category",
+            "value": "Tools & Home Improvement",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:features",
+            "item_id": "B0BN7LT6LY",
+            "field": "features",
+            "value": [
+              "360° Revolving Design: You can freely rotate the pen holder steadily left and right,unique spinning base design allows easy access to items from any directions.The non-slip pads on the bottom keep it stay in place when rotating.",
+              "Suitable Size:14cm x 14cm x 10cm/5.51inch x 5.51inch x 3.94inch.It can be used in multiple scenes, such as office supplies, classroom,cosmetics ,living room and kitchen,etc.",
+              "Multi-function Desk Organizer: There are 4 compartment organizer, so that you can organize your pens, scissors, TV remote, utensils, paintbrushes, etc. Keep your desk clear.",
+              "Elegant and Durable:It is no need to assemble and easy to clean, just wipe quickly with warm water and a damp cloth.",
+              "Gifts:A great choice for gifts.Suitable for office and school classrooms,etc.Whether giving it to your family member or friend, our desktop organizer makes a great gift"
+            ],
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:features.0",
+            "item_id": "B0BN7LT6LY",
+            "field": "features.0",
+            "value": "360° Revolving Design: You can freely rotate the pen holder steadily left and right,unique spinning base design allows easy access to items from any directions.The non-slip pads on the bottom keep it stay in place when rotating.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:features.1",
+            "item_id": "B0BN7LT6LY",
+            "field": "features.1",
+            "value": "Suitable Size:14cm x 14cm x 10cm/5.51inch x 5.51inch x 3.94inch.It can be used in multiple scenes, such as office supplies, classroom,cosmetics ,living room and kitchen,etc.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:features.2",
+            "item_id": "B0BN7LT6LY",
+            "field": "features.2",
+            "value": "Multi-function Desk Organizer: There are 4 compartment organizer, so that you can organize your pens, scissors, TV remote, utensils, paintbrushes, etc. Keep your desk clear.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:features.3",
+            "item_id": "B0BN7LT6LY",
+            "field": "features.3",
+            "value": "Elegant and Durable:It is no need to assemble and easy to clean, just wipe quickly with warm water and a damp cloth.",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:features.4",
+            "item_id": "B0BN7LT6LY",
+            "field": "features.4",
+            "value": "Gifts:A great choice for gifts.Suitable for office and school classrooms,etc.Whether giving it to your family member or friend, our desktop organizer makes a great gift",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Usage",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Usage",
+            "value": "Cloth,Kitchen,Pen Holder,Pencil",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Material",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Material",
+            "value": "Leather",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Special Feature",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Special Feature",
+            "value": "Durable,Multi-function,Non-slip",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Color",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Color",
+            "value": "1-Green Quicksand",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Brand",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Brand",
+            "value": "Jasenna",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Finish Type",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Finish Type",
+            "value": "Polished",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Mounting Type",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Mounting Type",
+            "value": "Tabletop Mount",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Product Dimensions",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Product Dimensions",
+            "value": "5\"D x 5\"W x 4\"H",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Number of Compartments",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Number of Compartments",
+            "value": "4",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Shape",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Shape",
+            "value": "Round",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Unit Count",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Unit Count",
+            "value": "12.3459 Ounce",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Number of Items",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Number of Items",
+            "value": "1",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Manufacturer",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Manufacturer",
+            "value": "Jasenna",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Part Number",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Part Number",
+            "value": "US4-Organizer-1-Green Quicksand",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Item Weight",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Item Weight",
+            "value": "14.9 ounces",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Size",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Size",
+            "value": "360° Rotation",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Finish",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Finish",
+            "value": "Polished",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Special Features",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Special Features",
+            "value": "Durable,Multi-function,Non-slip",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Batteries Required?",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Batteries Required?",
+            "value": "No",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          },
+          {
+            "evidence_id": "B0BN7LT6LY:attributes.Date First Available",
+            "item_id": "B0BN7LT6LY",
+            "field": "attributes.Date First Available",
+            "value": "November 24, 2022",
+            "source_locator": "meta_Office_Products.jsonl.gz#line=719"
+          }
+        ],
+        "missing_attributes": []
+      }
+    ],
+    "comparison": null,
+    "tool_calls": [
+      {
+        "name": "search_catalog",
+        "arguments": {
+          "query": "desk organizer",
+          "limit": 5
+        },
+        "elapsed_ms": 7237.91,
+        "ok": true,
+        "observation": {
+          "status": "ok",
+          "item_ids": [
+            "B0BC9BW75Y",
+            "B0BNG1VGCL",
+            "B07DFLG16R",
+            "B07RY32Y2C",
+            "B0BN7LT6LY"
+          ],
+          "titles": [
+            "Desk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Stora",
+            "BeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace,",
+            "BTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationer",
+            "Amazon Basics Plastic Desk Organizer - Accessory Tray, White",
+            "Jasenna Round Leather Art Supply Organizer,Remote Control Holder,360 Degree Spinning,Multi-Functional Pencil Holder,4 Compartments Desktop Stationary "
+          ],
+          "applied_constraints": {
+            "max_price_usd": 20.0,
+            "min_price_usd": null,
+            "excluded_brands": [],
+            "category": null,
+            "required_terms": [],
+            "excluded_terms": []
+          }
+        }
+      }
+    ],
+    "warnings": [],
+    "usage": {
+      "prompt_tokens": 1176,
+      "completion_tokens": 197,
+      "total_tokens": 1373
+    },
+    "timing_ms": {
+      "total": 13409.489
+    }
+  },
+  "chat_observed_seconds": 13.94
+}

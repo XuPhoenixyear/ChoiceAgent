@@ -1,0 +1,151 @@
+{
+  "page_count": 29,
+  "bounds": [
+    {
+      "page": 1,
+      "bottom_content": 74.99,
+      "title": "知选 ChoiceAgent"
+    },
+    {
+      "page": 2,
+      "bottom_content": 308.75,
+      "title": "01 / 项目决策与阅读导航"
+    },
+    {
+      "page": 3,
+      "bottom_content": 322.92,
+      "title": "02 / 用户场景与产品边界"
+    },
+    {
+      "page": 4,
+      "bottom_content": 319.62,
+      "title": "03 / 论文优势如何转成工程能力"
+    },
+    {
+      "page": 5,
+      "bottom_content": 322.15,
+      "title": "04 / 范围分层与完成标准"
+    },
+    {
+      "page": 6,
+      "bottom_content": 285.89,
+      "title": "05 / 总体架构"
+    },
+    {
+      "page": 7,
+      "bottom_content": 296.36,
+      "title": "06 / 数据来源与抽样方案"
+    },
+    {
+      "page": 8,
+      "bottom_content": 268.07,
+      "title": "07 / 数据表、证据与版本"
+    },
+    {
+      "page": 9,
+      "bottom_content": 277.92,
+      "title": "08 / 时间切分与推荐任务定义"
+    },
+    {
+      "page": 10,
+      "bottom_content": 305.31,
+      "title": "09 / 召回：词面、语义与行为三路"
+    },
+    {
+      "page": 11,
+      "bottom_content": 273.37,
+      "title": "10 / 排序：相关性先于个性化"
+    },
+    {
+      "page": 12,
+      "bottom_content": 246.62,
+      "title": "11 / 协同建模与可选研究亮点"
+    },
+    {
+      "page": 13,
+      "bottom_content": 230.22,
+      "title": "12 / Agent 的决策流程"
+    },
+    {
+      "page": 14,
+      "bottom_content": 224.6,
+      "title": "13 / 工具与接口契约"
+    },
+    {
+      "page": 15,
+      "bottom_content": 255.88,
+      "title": "14 / 结构化结果与证据检查"
+    },
+    {
+      "page": 16,
+      "bottom_content": 289.88,
+      "title": "15 / 会话、记忆与反馈"
+    },
+    {
+      "page": 17,
+      "bottom_content": 282.37,
+      "title": "16 / A6000 与 Windows 的部署方案"
+    },
+    {
+      "page": 18,
+      "bottom_content": 209.18,
+      "title": "17 / DeepSeek 可选模式与费用控制"
+    },
+    {
+      "page": 19,
+      "bottom_content": 258.27,
+      "title": "18 / 工程可观测性与失败恢复"
+    },
+    {
+      "page": 20,
+      "bottom_content": 268.0,
+      "title": "19 / 推荐评测：能证明什么"
+    },
+    {
+      "page": 21,
+      "bottom_content": 277.0,
+      "title": "20 / 搜索评测：独立查询与相关性"
+    },
+    {
+      "page": 22,
+      "bottom_content": 247.25,
+      "title": "21 / Agent 评测：终态、事实和稳定性"
+    },
+    {
+      "page": 23,
+      "bottom_content": 263.49,
+      "title": "22 / 实验矩阵与验收门槛"
+    },
+    {
+      "page": 24,
+      "bottom_content": 371.38,
+      "title": "23 / 六周执行路线"
+    },
+    {
+      "page": 25,
+      "bottom_content": 163.22,
+      "title": "24 / 前两周任务拆解与学习顺序"
+    },
+    {
+      "page": 26,
+      "bottom_content": 266.07,
+      "title": "25 / 仓库、演示与求职成果"
+    },
+    {
+      "page": 27,
+      "bottom_content": 241.91,
+      "title": "26 / 风险、止损与广告扩展"
+    },
+    {
+      "page": 28,
+      "bottom_content": 442.11,
+      "title": "27 / 参考资料与适用范围"
+    },
+    {
+      "page": 29,
+      "bottom_content": 186.95,
+      "title": "28 / 参考资料续与配置约定"
+    }
+  ],
+  "missing_glyphs": []
+}

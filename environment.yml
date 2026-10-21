@@ -1,0 +1,9 @@
+name: my_rec
+channels:
+  - defaults
+dependencies:
+  - python=3.11.17
+  - pip
+variables:
+  PYTHONNOUSERSITE: '1'
+# The exact pip snapshot is requirements.lock.txt; see docs/RUNBOOK.md.

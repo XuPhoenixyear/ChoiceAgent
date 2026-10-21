@@ -1,0 +1,23 @@
+project: choiceagent
+version: 0.1.0
+scope: two_week_mvp
+# Runtime settings use CHOICEAGENT_* environment variables; see .env.example.
+models:
+  generator: /datas/wuxi/Projects/datas/models/Qwen3-1.7B
+  embedding: /datas/wuxi/Projects/datas/models/Qwen3-Embedding-4B
+  local_files_only: true
+resources:
+  default_physical_gpu_ids: [5]
+  maximum_visible_gpus: 2
+  worker_processes: 1
+agent:
+  max_llm_calls: 4
+  max_tool_calls: 6
+  repair_attempts: 1
+  deadline_seconds: 60
+  max_output_tokens: 384
+  temperature: 0.0
+catalog:
+  category: Office_Products
+  target_items: 3000
+  price_unit: historical_usd

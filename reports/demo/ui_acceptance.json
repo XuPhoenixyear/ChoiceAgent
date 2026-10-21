@@ -1,0 +1,126 @@
+{
+  "created_at_utc": "2026-10-20T16:10:48.332403+00:00",
+  "real_ui": true,
+  "mocked_responses": false,
+  "hardware_gpu_disabled": true,
+  "ui_url": "http://127.0.0.1:8501",
+  "api_url": "http://127.0.0.1:8000",
+  "checks": [
+    {
+      "name": "real_api_and_local_model_ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "initial_page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "search_feedback_comparison",
+      "passed": false,
+      "detail": "Locator.check: Timeout 15000ms exceeded.\nCall log:\n  - waiting for get_by_label(\"设置历史价格预算\", exact=True)\n    - locator resolved to <input title=\"\" tabindex=\"0\" role=\"switch\" type=\"checkbox\" aria-label=\"设置历史价格预算\" data-react-aria-pressable=\"true\"/>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <label data-rac=\"\" data-react-aria-pressable=\"true\" class=\"st-emotion-cache-7tv5ne e1ap2qgk6\">…</label> intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div data-testid=\"stSidebarContent\" class=\"st-emotion-cache-1csi29a e15rayve2\">…</div> intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <label data-rac=\"\" data-react-aria-pressable=\"true\" class=\"st-emotion-cache-7tv5ne e1ap2qgk6\">…</label> intercepts pointer events\n  2 × retrying click action\n      - waiting 100ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"st-emotion-cache-1u2yxsq e1ap2qgk8\"></div> from <div class=\"st-emotion-cache-1rm2k41 e1ap2qgk7\">…</div> subtree intercepts pointer events\n"
+    },
+    {
+      "name": "chat_turn_1_response_rendered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_1_budget",
+      "passed": true,
+      "detail": {
+        "prices_usd": [
+          11.95,
+          21.67,
+          19.97,
+          13.99,
+          24.99
+        ],
+        "budget_usd": 35
+      }
+    },
+    {
+      "name": "chat_turn_2_response_rendered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_2_budget",
+      "passed": true,
+      "detail": {
+        "prices_usd": [
+          11.95,
+          19.97,
+          13.99,
+          15.92,
+          19.99
+        ],
+        "budget_usd": 20
+      }
+    },
+    {
+      "name": "no_browser_page_errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "screenshots": [
+    "reports/demo/01_home.png",
+    "reports/demo/search_feedback_comparison_error.png",
+    "reports/demo/04_chat_first_turn.png",
+    "reports/demo/05_chat_budget_update.png"
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "chat_turns": [
+    {
+      "message": "帮我选小桌面用的收纳用品，预算不超过35美元。请按历史美元价格推荐，并说明依据。",
+      "displayed_response": "smart_toy\n\n按当前用途、预算和本次偏好筛选后，以下商品可供进一步比较：\n\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue（历史价格 $11.95）\nCretkhp Pu Leather Desk Organizer with Coaster, Multifunctional Storage Box with 5 Compartments, Office Accessories Pen Pencil Business Name Cards Remote Control Holder (Grey Stripe)（历史价格 $21.67）\nBeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)（历史价格 $19.97） 商品属性与价格可展开查看原始字段证据；这些不是实时售价。\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue\n\nUS$11.95 · 历史价格\n\nEDENMS · Tools & Home Improvement\n\n• [Versatile & Partition Design] Dimensions of the multifunctional desktop organizer: 9.84.73.6 inch/ 25129cm, with 12 compartments and 2 sliding transparent drawers for sorting and storing. This desk organizer gives you an opportunity to keep your office desk or dresser clean and orderly.\n\n• [High-Quality Desktop Organizer] The desk organizer caddy is made of high-quality ABS material, which ensures its durability and security from injury and breakage. It is strong and solid enough for a long time using,\n\n• [Office Supplies Organizer Space Saving] The desk pen organizers has enough storage space to accommodate your desk supplies, as staples, pens, paper clips, binder clips, notepads, sticky notes, washi tape, glue sticks and more, keep it organized, easily find anything you need.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nCretkhp Pu Leather Desk Organizer with Coaster, Multifunctional Storage Box with 5 Compartments, Office Accessories Pen Pencil Business Name Cards Remote Control Holder (Grey Stripe)\n\nUS$21.67 · 历史价格\n\nCretkhp · Amazon Home\n\n• PU Leather & Flannel\n\n• [ Desk Organizer with a Coaster ] - It can hold remotes, tablets, notebooks and other items of different sizes, and is also great for organizing makeup and small household items\n\n• [ High Quality ] - Cretkhp desk organizer is made of high-quality PU leather and thickened MDF, and the interior is flannel, which is very textured. Durable and not easily broken or deformed when dropped from a height\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)\n\nUS$19.97 · 历史价格\n\nBeiz Houseware · Amazon Home\n\n• 【Unique stacked shelf design】Multi-purpose in use, this desk organization is superb for holding letters or arranging stationary. It is elegant, easy to use, and can be placed anywhere on your workstation for straightforward access\n\n• 【Ideal for those with piles of documents】 With more than enough room to organize just about any workspace (4 paper trays), is perfect for A4 files, papers and bills, this desktop organizer won’t leave you wanting for space, plus the top tray is great for stationary and bits and bobs.\n\n• 【User-friendly】Made from lightweight mesh metal, this paper organizer for desk is not only easy to assemble but once constructed is durable for longevity in the home office. This office organization is perfect for anyone who pays attention to the neatness of the desktop\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)\n\nUS$13.99 · 历史价格\n\nBTSKY · Office Products\n\n• A Perfect Organizing Solution- With 3 divided compartments, it is a perfect solution to organizing your desk, home office, nightstand organizer, and more! Holds pens, pencils, scissors, business cards, sticky notes, cell phone, TV remotes. Easiest way to add some office decor / desk decor / cool decor to your space.\n\n• Made of Durable Leather- PU leather + Non-woven Fabrics, the desktop organizer outside part is covered by high quality PU faux leather while interior is non-woven fabrics, elegant looking and also easy to clean. Each organizer has a soft felt wrapped bottom so it doesn' t scratch your desk.\n\n• Perfect Size- Each organizer measures 20.5 x 9.3 x 11 cm/ 8.07 X 3.66 X 4.33 inches (LxWxH). Big enough to hold all of your writing accessories but compact enough not to take up much room on your desk. Cute desk accessories holder to keep your desk clutter away.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nTurquoise 2-Tier Drawer Unit - European Country Style Desk Organizer Box - 9.7x7x5.1\" Teal Wooden Stackable Drawers - Countertop Organizer Drawers w/Label Holder - Double File Drawer Unit\n\nUS$24.99 · 历史价格\n\nWoodaholic · Tools & Home Improvement\n\n• Versatile 2-Tier Desktop Shelf Drawer - The Primo Supply Double Drawer Desktop Organizer isn't limited to just home or office organization. With its country or farmhouse design that never goes out of style, use it to utilize more space as your new bedside storage drawer, office monitor desk stand, or additional drawer storage in your closet\n\n• Spacious Desk Organizers with 2 Smooth-Sliding Drawers - No need to worry if your home office desk or cubicle has limited storage containers or organizer drawers because, with just our dual drawer box, you get extra room to store your stuff without having to compromise desk space. With a minimal footprint, our wooden storage box with 2 drawers can hold your notes, office supplies and more\n\n• Sleek & Stackable Storage Drawers - Sometimes, it's hard to estimate how much storage you really need...and more often than not, we still end up not having enough storage solutions. That isn’t a problem with the Primo Supply desktop drawers. As you realize you need more storage, get another one (or more) of these cute teal-colored floating drawers then stack them up as much as you like\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据",
+      "prices_usd": [
+        11.95,
+        21.67,
+        19.97,
+        13.99,
+        24.99
+      ],
+      "budget_usd": 35
+    },
+    {
+      "message": "把预算改到20美元以内，仍然用于小桌面。请重新筛选，不要推荐超过预算的商品。",
+      "displayed_response": "smart_toy\n\n按当前用途、预算和本次偏好筛选后，以下商品可供进一步比较：\n\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue（历史价格 $11.95）\nBeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)（历史价格 $19.97）\nBTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)（历史价格 $13.99） 商品属性与价格可展开查看原始字段证据；这些不是实时售价。\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue\n\nUS$11.95 · 历史价格\n\nEDENMS · Tools & Home Improvement\n\n• [Versatile & Partition Design] Dimensions of the multifunctional desktop organizer: 9.84.73.6 inch/ 25129cm, with 12 compartments and 2 sliding transparent drawers for sorting and storing. This desk organizer gives you an opportunity to keep your office desk or dresser clean and orderly.\n\n• [High-Quality Desktop Organizer] The desk organizer caddy is made of high-quality ABS material, which ensures its durability and security from injury and breakage. It is strong and solid enough for a long time using,\n\n• [Office Supplies Organizer Space Saving] The desk pen organizers has enough storage space to accommodate your desk supplies, as staples, pens, paper clips, binder clips, notepads, sticky notes, washi tape, glue sticks and more, keep it organized, easily find anything you need.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)\n\nUS$19.97 · 历史价格\n\nBeiz Houseware · Amazon Home\n\n• 【Unique stacked shelf design】Multi-purpose in use, this desk organization is superb for holding letters or arranging stationary. It is elegant, easy to use, and can be placed anywhere on your workstation for straightforward access\n\n• 【Ideal for those with piles of documents】 With more than enough room to organize just about any workspace (4 paper trays), is perfect for A4 files, papers and bills, this desktop organizer won’t leave you wanting for space, plus the top tray is great for stationary and bits and bobs.\n\n• 【User-friendly】Made from lightweight mesh metal, this paper organizer for desk is not only easy to assemble but once constructed is durable for longevity in the home office. This office organization is perfect for anyone who pays attention to the neatness of the desktop\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)\n\nUS$13.99 · 历史价格\n\nBTSKY · Office Products\n\n• A Perfect Organizing Solution- With 3 divided compartments, it is a perfect solution to organizing your desk, home office, nightstand organizer, and more! Holds pens, pencils, scissors, business cards, sticky notes, cell phone, TV remotes. Easiest way to add some office decor / desk decor / cool decor to your space.\n\n• Made of Durable Leather- PU leather + Non-woven Fabrics, the desktop organizer outside part is covered by high quality PU faux leather while interior is non-woven fabrics, elegant looking and also easy to clean. Each organizer has a soft felt wrapped bottom so it doesn' t scratch your desk.\n\n• Perfect Size- Each organizer measures 20.5 x 9.3 x 11 cm/ 8.07 X 3.66 X 4.33 inches (LxWxH). Big enough to hold all of your writing accessories but compact enough not to take up much room on your desk. Cute desk accessories holder to keep your desk clutter away.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nAmazon Basics Plastic Desk Organizer - Accessory Tray, White\n\nUS$15.92 · 历史价格\n\nAmazon Basics · Office Products\n\n• Accessory tray helps keep desktop accessories (like a stapler, tape dispenser, and pen holder) neatly contained\n\n• Made of durable hard plastic for long-lasting reliable strength; available in black or white (each sold separately)\n\n• Modular design; stackable with the Amazon Basics Plastic Organizer letter tray, accessory tray, half accessory tray, and small tray (additional items sold separately)\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nJasenna Round Leather Art Supply Organizer,Remote Control Holder,360 Degree Spinning,Multi-Functional Pencil Holder,4 Compartments Desktop Stationary Organizer(1-Green Quicksand)\n\nUS$19.99 · 历史价格\n\nJasenna · Tools & Home Improvement\n\n• 360° Revolving Design: You can freely rotate the pen holder steadily left and right,unique spinning base design allows easy access to items from any directions.The non-slip pads on the bottom keep it stay in place when rotating.\n\n• Suitable Size:14cm x 14cm x 10cm/5.51inch x 5.51inch x 3.94inch.It can be used in multiple scenes, such as office supplies, classroom,cosmetics ,living room and kitchen,etc.\n\n• Multi-function Desk Organizer: There are 4 compartment organizer, so that you can organize your pens, scissors, TV remote, utensils, paintbrushes, etc. Keep your desk clear.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据",
+      "prices_usd": [
+        11.95,
+        19.97,
+        13.99,
+        15.92,
+        19.99
+      ],
+      "budget_usd": 20
+    }
+  ],
+  "api_health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "catalog_count": 3000,
+    "dense_ready": true
+  },
+  "model_health": {
+    "status": "ready",
+    "ready": true,
+    "model": "Qwen3-1.7B-local",
+    "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+    "max_context_tokens": 8192,
+    "max_output_tokens": 768,
+    "max_waiting": 2,
+    "visible_gpu": "5",
+    "model_device": "cuda:0",
+    "thinking": false
+  },
+  "recording_elapsed_seconds": 70.01,
+  "original_video": "reports/demo/original_video/page@17dbab3b689d0bee303734a513385d4c.webm",
+  "mp4_video": "reports/demo/choiceagent_demo.mp4",
+  "original_video_seconds": 69.88,
+  "playback_speed": 1.0,
+  "passed": false
+}

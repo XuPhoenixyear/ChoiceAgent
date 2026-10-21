@@ -1,0 +1,265 @@
+{
+  "recorded_at_utc": "2026-10-20T16:48:06.527880+00:00",
+  "real_services": true,
+  "gpu_ids": [
+    "5"
+  ],
+  "passed": true,
+  "steps": [
+    {
+      "action": "start",
+      "exit_code": 0,
+      "elapsed_seconds": 6.566,
+      "pids": {
+        "model": 209333,
+        "api": 209334,
+        "ui": 209335
+      },
+      "record": {
+        "launch_id": "e129fd79-f4e4-4334-85f7-af6fff3d698e",
+        "python": "/datas/wuxi/anaconda3/envs/my_rec/bin/python3.11",
+        "root": "/datas/wuxi/Projects/WorkSpace-RA",
+        "gpu_ids": [
+          "5"
+        ],
+        "started_at": 1792514759.3385127,
+        "status": "ready",
+        "services": [
+          {
+            "name": "model",
+            "module": "choiceagent.model_server",
+            "pid": 209333,
+            "argv": [
+              "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+              "-m",
+              "choiceagent.model_server"
+            ],
+            "start_ticks": 110982046
+          },
+          {
+            "name": "api",
+            "module": "uvicorn",
+            "pid": 209334,
+            "argv": [
+              "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+              "-m",
+              "uvicorn",
+              "choiceagent.api:create_app",
+              "--factory",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "8000",
+              "--workers",
+              "1"
+            ],
+            "start_ticks": 110982049
+          },
+          {
+            "name": "ui",
+            "module": "streamlit",
+            "pid": 209335,
+            "argv": [
+              "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+              "-m",
+              "streamlit",
+              "run",
+              "src/choiceagent/ui.py",
+              "--server.address",
+              "127.0.0.1",
+              "--server.port",
+              "8501",
+              "--server.headless",
+              "true",
+              "--theme.base",
+              "light",
+              "--browser.gatherUsageStats",
+              "false"
+            ],
+            "start_ticks": 110982049
+          }
+        ],
+        "ready_at": 1792514765.904568
+      },
+      "health": {
+        "model": {
+          "status_code": 200,
+          "ready": true,
+          "body": {
+            "status": "ready",
+            "ready": true,
+            "model": "Qwen3-1.7B-local",
+            "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+            "max_context_tokens": 8192,
+            "max_output_tokens": 768,
+            "max_waiting": 2,
+            "visible_gpu": "5",
+            "model_device": "cuda:0",
+            "thinking": false
+          }
+        },
+        "api": {
+          "status_code": 200,
+          "ready": true,
+          "body": {
+            "status": "ok",
+            "version": "0.1.0",
+            "source_fingerprint": "d17d84e45ee7bf73e8e15d91bbeddce4875a7067bebdd9e3d878bd28de3949bd",
+            "catalog_count": 3000,
+            "dense_ready": true
+          }
+        },
+        "ui": {
+          "status_code": 200,
+          "ready": true,
+          "body": "ok"
+        }
+      }
+    },
+    {
+      "action": "stop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.48,
+      "stdout": "No verified recorded services remain; removed the record. Skipped 0 exited or unverified PID(s).\n",
+      "stderr": "",
+      "pids": {
+        "model": 209333,
+        "api": 209334,
+        "ui": 209335
+      },
+      "previous_pids_exited": {
+        "model": true,
+        "api": true,
+        "ui": true
+      },
+      "record_removed": true,
+      "health_after_stop": {
+        "model": {
+          "ready": false,
+          "error": "ConnectError"
+        },
+        "api": {
+          "ready": false,
+          "error": "ConnectError"
+        },
+        "ui": {
+          "ready": false,
+          "error": "ConnectError"
+        }
+      }
+    },
+    {
+      "action": "restart",
+      "exit_code": 0,
+      "elapsed_seconds": 6.706,
+      "stdout": "model identity verified after 0.021s (initially argv).\napi identity verified after 0.021s (initially argv).\n{\n  \"launch_id\": \"8cd92fdc-ec35-4006-879e-015e1262439f\",\n  \"python\": \"/datas/wuxi/anaconda3/envs/my_rec/bin/python3.11\",\n  \"root\": \"/datas/wuxi/Projects/WorkSpace-RA\",\n  \"gpu_ids\": [\n    \"5\"\n  ],\n  \"started_at\": 1792514887.3109481,\n  \"status\": \"ready\",\n  \"services\": [\n    {\n      \"name\": \"model\",\n      \"module\": \"choiceagent.model_server\",\n      \"pid\": 221812,\n      \"argv\": [\n        \"/datas/wuxi/anaconda3/envs/my_rec/bin/python\",\n        \"-m\",\n        \"choiceagent.model_server\"\n      ],\n      \"start_ticks\": 110994844\n    },\n    {\n      \"name\": \"api\",\n      \"module\": \"uvicorn\",\n      \"pid\": 221813,\n      \"argv\": [\n        \"/datas/wuxi/anaconda3/envs/my_rec/bin/python\",\n        \"-m\",\n        \"uvicorn\",\n        \"choiceagent.api:create_app\",\n        \"--factory\",\n        \"--host\",\n        \"127.0.0.1\",\n        \"--port\",\n        \"8000\",\n        \"--workers\",\n        \"1\"\n      ],\n      \"start_ticks\": 110994846\n    },\n    {\n      \"name\": \"ui\",\n      \"module\": \"streamlit\",\n      \"pid\": 221815,\n      \"argv\": [\n        \"/datas/wuxi/anaconda3/envs/my_rec/bin/python\",\n        \"-m\",\n        \"streamlit\",\n        \"run\",\n        \"src/choiceagent/ui.py\",\n        \"--server.address\",\n        \"127.0.0.1\",\n        \"--server.port\",\n        \"8501\",\n        \"--server.headless\",\n        \"true\",\n        \"--theme.base\",\n        \"light\",\n        \"--browser.gatherUsageStats\",\n        \"false\"\n      ],\n      \"start_ticks\": 110994848\n    }\n  ],\n  \"ready_at\": 1792514893.8405333\n}\nReady: UI http://127.0.0.1:8501 | API docs http://127.0.0.1:8000/docs\n",
+      "stderr": "",
+      "record": {
+        "launch_id": "8cd92fdc-ec35-4006-879e-015e1262439f",
+        "python": "/datas/wuxi/anaconda3/envs/my_rec/bin/python3.11",
+        "root": "/datas/wuxi/Projects/WorkSpace-RA",
+        "gpu_ids": [
+          "5"
+        ],
+        "started_at": 1792514887.3109481,
+        "status": "ready",
+        "services": [
+          {
+            "name": "model",
+            "module": "choiceagent.model_server",
+            "pid": 221812,
+            "argv": [
+              "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+              "-m",
+              "choiceagent.model_server"
+            ],
+            "start_ticks": 110994844
+          },
+          {
+            "name": "api",
+            "module": "uvicorn",
+            "pid": 221813,
+            "argv": [
+              "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+              "-m",
+              "uvicorn",
+              "choiceagent.api:create_app",
+              "--factory",
+              "--host",
+              "127.0.0.1",
+              "--port",
+              "8000",
+              "--workers",
+              "1"
+            ],
+            "start_ticks": 110994846
+          },
+          {
+            "name": "ui",
+            "module": "streamlit",
+            "pid": 221815,
+            "argv": [
+              "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+              "-m",
+              "streamlit",
+              "run",
+              "src/choiceagent/ui.py",
+              "--server.address",
+              "127.0.0.1",
+              "--server.port",
+              "8501",
+              "--server.headless",
+              "true",
+              "--theme.base",
+              "light",
+              "--browser.gatherUsageStats",
+              "false"
+            ],
+            "start_ticks": 110994848
+          }
+        ],
+        "ready_at": 1792514893.8405333
+      },
+      "pids": {
+        "model": 221812,
+        "api": 221813,
+        "ui": 221815
+      },
+      "health": {
+        "model": {
+          "status_code": 200,
+          "ready": true,
+          "body": {
+            "status": "ready",
+            "ready": true,
+            "model": "Qwen3-1.7B-local",
+            "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+            "max_context_tokens": 8192,
+            "max_output_tokens": 768,
+            "max_waiting": 2,
+            "visible_gpu": "5",
+            "model_device": "cuda:0",
+            "thinking": false
+          }
+        },
+        "api": {
+          "status_code": 200,
+          "ready": true,
+          "body": {
+            "status": "ok",
+            "version": "0.1.0",
+            "source_fingerprint": "d17d84e45ee7bf73e8e15d91bbeddce4875a7067bebdd9e3d878bd28de3949bd",
+            "catalog_count": 3000,
+            "dense_ready": true
+          }
+        },
+        "ui": {
+          "status_code": 200,
+          "ready": true,
+          "body": "ok"
+        }
+      }
+    }
+  ],
+  "final_state": "ready"
+}

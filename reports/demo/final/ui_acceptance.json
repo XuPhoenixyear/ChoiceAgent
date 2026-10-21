@@ -1,0 +1,163 @@
+{
+  "created_at_utc": "2026-10-20T16:15:56.863428+00:00",
+  "real_ui": true,
+  "mocked_responses": false,
+  "hardware_gpu_disabled": true,
+  "ui_url": "http://127.0.0.1:8501",
+  "api_url": "http://127.0.0.1:8000",
+  "checks": [
+    {
+      "name": "real_api_and_local_model_ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "initial_page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chinese_search_and_35_usd_budget",
+      "passed": true,
+      "detail": {
+        "query": "适合小桌面的收纳盒",
+        "prices_usd": [
+          13.5,
+          24.99,
+          19.99,
+          21.67,
+          13.99
+        ]
+      }
+    },
+    {
+      "name": "like_persisted_in_ui",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "compare_two_visible_products",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_1_response_rendered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_1_budget",
+      "passed": true,
+      "detail": {
+        "prices_usd": [
+          11.95,
+          21.67,
+          13.99,
+          15.92,
+          18.45
+        ],
+        "budget_usd": 35
+      }
+    },
+    {
+      "name": "chat_turn_1_tab_remains_active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_2_response_rendered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chat_turn_2_budget",
+      "passed": true,
+      "detail": {
+        "prices_usd": [
+          11.95,
+          13.99,
+          15.92,
+          18.45,
+          19.99
+        ],
+        "budget_usd": 20
+      }
+    },
+    {
+      "name": "chat_turn_2_tab_remains_active",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_browser_page_errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "screenshots": [
+    "reports/demo/final/01_home.png",
+    "reports/demo/final/02_search_budget.png",
+    "reports/demo/final/03_comparison.png",
+    "reports/demo/final/04_chat_first_turn.png",
+    "reports/demo/final/05_chat_budget_update.png"
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "chat_turns": [
+    {
+      "message": "帮我选小桌面用的收纳用品，预算不超过35美元。请按历史美元价格推荐，并说明依据。",
+      "displayed_response": "smart_toy\n\n按当前用途、预算和本次偏好筛选后，以下商品可供进一步比较：\n\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue（历史价格 $11.95）\nCretkhp Pu Leather Desk Organizer with Coaster, Multifunctional Storage Box with 5 Compartments, Office Accessories Pen Pencil Business Name Cards Remote Control Holder (Grey Stripe)（历史价格 $21.67）\nBTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)（历史价格 $13.99） 商品属性与价格可展开查看原始字段证据；这些不是实时售价。\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue\n\nUS$11.95 · 历史价格\n\nEDENMS · Tools & Home Improvement\n\n• [Versatile & Partition Design] Dimensions of the multifunctional desktop organizer: 9.84.73.6 inch/ 25129cm, with 12 compartments and 2 sliding transparent drawers for sorting and storing. This desk organizer gives you an opportunity to keep your office desk or dresser clean and orderly.\n\n• [High-Quality Desktop Organizer] The desk organizer caddy is made of high-quality ABS material, which ensures its durability and security from injury and breakage. It is strong and solid enough for a long time using,\n\n• [Office Supplies Organizer Space Saving] The desk pen organizers has enough storage space to accommodate your desk supplies, as staples, pens, paper clips, binder clips, notepads, sticky notes, washi tape, glue sticks and more, keep it organized, easily find anything you need.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nCretkhp Pu Leather Desk Organizer with Coaster, Multifunctional Storage Box with 5 Compartments, Office Accessories Pen Pencil Business Name Cards Remote Control Holder (Grey Stripe)\n\nUS$21.67 · 历史价格\n\nCretkhp · Amazon Home\n\n• PU Leather & Flannel\n\n• [ Desk Organizer with a Coaster ] - It can hold remotes, tablets, notebooks and other items of different sizes, and is also great for organizing makeup and small household items\n\n• [ High Quality ] - Cretkhp desk organizer is made of high-quality PU leather and thickened MDF, and the interior is flannel, which is very textured. Durable and not easily broken or deformed when dropped from a height\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)\n\nUS$13.99 · 历史价格\n\nBTSKY · Office Products\n\n• A Perfect Organizing Solution- With 3 divided compartments, it is a perfect solution to organizing your desk, home office, nightstand organizer, and more! Holds pens, pencils, scissors, business cards, sticky notes, cell phone, TV remotes. Easiest way to add some office decor / desk decor / cool decor to your space.\n\n• Made of Durable Leather- PU leather + Non-woven Fabrics, the desktop organizer outside part is covered by high quality PU faux leather while interior is non-woven fabrics, elegant looking and also easy to clean. Each organizer has a soft felt wrapped bottom so it doesn' t scratch your desk.\n\n• Perfect Size- Each organizer measures 20.5 x 9.3 x 11 cm/ 8.07 X 3.66 X 4.33 inches (LxWxH). Big enough to hold all of your writing accessories but compact enough not to take up much room on your desk. Cute desk accessories holder to keep your desk clutter away.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nAmazon Basics Plastic Desk Organizer - Accessory Tray, White\n\nUS$15.92 · 历史价格\n\nAmazon Basics · Office Products\n\n• Accessory tray helps keep desktop accessories (like a stapler, tape dispenser, and pen holder) neatly contained\n\n• Made of durable hard plastic for long-lasting reliable strength; available in black or white (each sold separately)\n\n• Modular design; stackable with the Amazon Basics Plastic Organizer letter tray, accessory tray, half accessory tray, and small tray (additional items sold separately)\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nHeavy-Duty Oxford Large 14 Pockets Desk Mount Hanging Caddy Organizer Students Classroom Book File Pens Holder Water Bottle Cellphone Pouch Stationery Storage Bag Office Furniture Bookcase Shelf Rack\n\nUS$18.45 · 历史价格\n\nFakeFace · Tools & Home Improvement\n\n• Equipped with 14 storages pockets: 6 deep pockets for large books , 4 exclusive slots for pens storage, 1 bottle/cellphone pouch, 3 notebook/small books. Organize stationery stuffs perfectly. 100% brand new and high quality. Functional Pocket Organizer.\n\n• Dimension: approx 24.8''H x 17.7'' L. Fits hanging on desk side, suitable for desk with width below 20.4 inch. Adjustable buckle strap for flexfit use, providing more secure guarantee in case of books falling down. You cannot miss it!\n\n• Large Capacity with multi-pocket for functional use: 4 small slots ideal for pens storage; 1professional pouch for water bottle or cellphone organization; 6 deep pockets for keeping large size books, files&magazine; 3 general pockets for holding notebook, books and small stationery, etc. Tiered design offers plenty of room for storage and organizational needs. Keep all your study supplies display in tidy and organized condition, easy access to reach, anti-lost and more safety guarantee.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据",
+      "prices_usd": [
+        11.95,
+        21.67,
+        13.99,
+        15.92,
+        18.45
+      ],
+      "budget_usd": 35
+    },
+    {
+      "message": "把预算改到20美元以内，仍然用于小桌面。请重新筛选，不要推荐超过预算的商品。",
+      "displayed_response": "smart_toy\n\n按当前用途、预算和本次偏好筛选后，以下商品可供进一步比较：\n\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue（历史价格 $11.95）\nBTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)（历史价格 $13.99）\nAmazon Basics Plastic Desk Organizer - Accessory Tray, White（历史价格 $15.92） 商品属性与价格可展开查看原始字段证据；这些不是实时售价。\nDesk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue\n\nUS$11.95 · 历史价格\n\nEDENMS · Tools & Home Improvement\n\n• [Versatile & Partition Design] Dimensions of the multifunctional desktop organizer: 9.84.73.6 inch/ 25129cm, with 12 compartments and 2 sliding transparent drawers for sorting and storing. This desk organizer gives you an opportunity to keep your office desk or dresser clean and orderly.\n\n• [High-Quality Desktop Organizer] The desk organizer caddy is made of high-quality ABS material, which ensures its durability and security from injury and breakage. It is strong and solid enough for a long time using,\n\n• [Office Supplies Organizer Space Saving] The desk pen organizers has enough storage space to accommodate your desk supplies, as staples, pens, paper clips, binder clips, notepads, sticky notes, washi tape, glue sticks and more, keep it organized, easily find anything you need.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nBTSKY PU Leather Desk Pen Pencil Holder- Multi-functional Desktop Organizer Storage Box Business Card Pen/Pencil Mobile Phone Remote Control Stationery Holder Home Office Table Top Organization Decor(black)\n\nUS$13.99 · 历史价格\n\nBTSKY · Office Products\n\n• A Perfect Organizing Solution- With 3 divided compartments, it is a perfect solution to organizing your desk, home office, nightstand organizer, and more! Holds pens, pencils, scissors, business cards, sticky notes, cell phone, TV remotes. Easiest way to add some office decor / desk decor / cool decor to your space.\n\n• Made of Durable Leather- PU leather + Non-woven Fabrics, the desktop organizer outside part is covered by high quality PU faux leather while interior is non-woven fabrics, elegant looking and also easy to clean. Each organizer has a soft felt wrapped bottom so it doesn' t scratch your desk.\n\n• Perfect Size- Each organizer measures 20.5 x 9.3 x 11 cm/ 8.07 X 3.66 X 4.33 inches (LxWxH). Big enough to hold all of your writing accessories but compact enough not to take up much room on your desk. Cute desk accessories holder to keep your desk clutter away.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nAmazon Basics Plastic Desk Organizer - Accessory Tray, White\n\nUS$15.92 · 历史价格\n\nAmazon Basics · Office Products\n\n• Accessory tray helps keep desktop accessories (like a stapler, tape dispenser, and pen holder) neatly contained\n\n• Made of durable hard plastic for long-lasting reliable strength; available in black or white (each sold separately)\n\n• Modular design; stackable with the Amazon Basics Plastic Organizer letter tray, accessory tray, half accessory tray, and small tray (additional items sold separately)\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nHeavy-Duty Oxford Large 14 Pockets Desk Mount Hanging Caddy Organizer Students Classroom Book File Pens Holder Water Bottle Cellphone Pouch Stationery Storage Bag Office Furniture Bookcase Shelf Rack\n\nUS$18.45 · 历史价格\n\nFakeFace · Tools & Home Improvement\n\n• Equipped with 14 storages pockets: 6 deep pockets for large books , 4 exclusive slots for pens storage, 1 bottle/cellphone pouch, 3 notebook/small books. Organize stationery stuffs perfectly. 100% brand new and high quality. Functional Pocket Organizer.\n\n• Dimension: approx 24.8''H x 17.7'' L. Fits hanging on desk side, suitable for desk with width below 20.4 inch. Adjustable buckle strap for flexfit use, providing more secure guarantee in case of books falling down. You cannot miss it!\n\n• Large Capacity with multi-pocket for functional use: 4 small slots ideal for pens storage; 1professional pouch for water bottle or cellphone organization; 6 deep pockets for keeping large size books, files&magazine; 3 general pockets for holding notebook, books and small stationery, etc. Tiered design offers plenty of room for storage and organizational needs. Keep all your study supplies display in tidy and organized condition, easy access to reach, anti-lost and more safety guarantee.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据\n\nLeather Remote Control Holder 360 Degree Spinning, Desk Organizer for TV Remote Controllers, Caddy,Pen,Calculator,Media Player Storage box (Grey)\n\nUS$19.99 · 历史价格\n\nRHCSZ · Tools & Home Improvement\n\n• Leather\n\n• SUITABLE DESIGN: our remote control storage comes with an easy-to-spin 360° rotating base, providing you easy access to put or take items, whether you place it on the couch, armchair,table, or anywhere around your house , The 5 compartment desk organizer can be used to store remote controls, office supplies, media accessories, small electronic devices and more\n\n• STRONG & STURDY HOLDER: made with high quality PU leather. sturdy MDF construct, excellent Hand made craftsmanship. Non-slip and waterproof,Easy to clean.\n\n喜欢\n\n不感兴趣\n\n收藏\n\n加入对比\n\nkeyboard_arrow_right\n\n查看资料依据",
+      "prices_usd": [
+        11.95,
+        13.99,
+        15.92,
+        18.45,
+        19.99
+      ],
+      "budget_usd": 20
+    }
+  ],
+  "api_health": {
+    "status": "ok",
+    "version": "0.1.0",
+    "catalog_count": 3000,
+    "dense_ready": true
+  },
+  "model_health": {
+    "status": "ready",
+    "ready": true,
+    "model": "Qwen3-1.7B-local",
+    "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+    "max_context_tokens": 8192,
+    "max_output_tokens": 768,
+    "max_waiting": 2,
+    "visible_gpu": "5",
+    "model_device": "cuda:0",
+    "thinking": false
+  },
+  "search_prices_usd": [
+    13.5,
+    24.99,
+    19.99,
+    21.67,
+    13.99
+  ],
+  "recording_elapsed_seconds": 70.0,
+  "original_video": "reports/demo/final/original_video/page@8247f7ee183c5f540de8feeeb8b7688a.webm",
+  "mp4_video": "reports/demo/final/choiceagent_demo.mp4",
+  "original_video_seconds": 69.92,
+  "playback_speed": 1.0,
+  "passed": true
+}

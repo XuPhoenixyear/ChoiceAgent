@@ -1,0 +1,7 @@
+# Preserve verified Skill bytes across checkouts; upstream formatting is retained.
+.agents/** -text
+.agents/skills/** -whitespace
+
+*.pdf binary
+*.png binary
+*.mp4 binary

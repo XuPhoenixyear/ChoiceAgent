@@ -1,0 +1,646 @@
+{
+  "created_at_utc": "2026-10-20T16:00:33.466578+00:00",
+  "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+  "actual_model": true,
+  "provider": "local Transformers 4.57.6 / torch 2.10.0+cu128",
+  "gpu_policy": "CUDA_VISIBLE_DEVICES=5; one visible physical A6000; no device_map=auto",
+  "thinking_enabled": false,
+  "temperature": 0,
+  "max_context": 8192,
+  "max_output_test": 384,
+  "system_prompt": "你是办公用品搜索与推荐 Agent 的下一步动作规划器。只输出一个 JSON 对象，不输出 Markdown、解释或思考。对象必须有且只有 action、arguments、message 三个字段。action 只能是 search_catalog、compare_items、clarify、answer。arguments 必须是对象，message 必须是字符串。\n规则：用户有具体商品需求且尚无工具结果时 search_catalog，arguments 含 query 英文检索词，可含 max_price_usd；用户明确比较已展示商品时 compare_items，arguments 含 item_ids 字符串数组、dimensions 字符串数组；缺少具体商品品类且没有上下文时 clarify，arguments 为 {}，message 问一个澄清问题；已有本轮工具结果且足以回答时 answer，arguments 为 {}，message 用中文根据已知事实简短回答。不得执行其他动作、虚构商品、价格、库存或条款。历史价格为美元静态快照。\n下面给出四种合法输出示例，实际回复必须从 { 开始，到 } 结束，禁止单独输出动作名称。\n搜索示例：{\"action\":\"search_catalog\",\"arguments\":{\"query\":\"ergonomic mouse\",\"max_price_usd\":50},\"message\":\"\"}\n比较示例：{\"action\":\"compare_items\",\"arguments\":{\"item_ids\":[\"A001\",\"A002\"],\"dimensions\":[\"price_usd\",\"brand\",\"features\"]},\"message\":\"\"}\n澄清示例：{\"action\":\"clarify\",\"arguments\":{},\"message\":\"您想购买哪类办公用品？\"}\n最终回答示例：{\"action\":\"answer\",\"arguments\":{},\"message\":\"根据已给的工具证据，第一款历史价格为 USD 29.99。\"}\n比较维度只允许 price_usd、brand、features、category。价格对应 price_usd，品牌对应 brand，功能对应 features。不可猜测尺寸或重量。query 请使用英文商品关键词。对所有 action，包括 answer，都必须输出完整 JSON 对象。\n",
+  "case_count": 20,
+  "passed_count": 20,
+  "json_valid_count": 20,
+  "action_correct_count": 20,
+  "cases": [
+    {
+      "id": "search_mouse",
+      "expected_action": "search_catalog",
+      "user": "找一个适合长时间办公的人体工学鼠标，预算50美元",
+      "context": "",
+      "raw_text": "{\"action\":\"search_catalog\",\"arguments\":{\"query\":\"ergonomic mouse\",\"max_price_usd\":50},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 451,
+        "completion_tokens": 26,
+        "total_tokens": 477
+      },
+      "elapsed_ms": 1114.6,
+      "client_elapsed_ms": 1119.17,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "search_catalog",
+        "arguments": {
+          "query": "ergonomic mouse",
+          "max_price_usd": 50
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "search_keyboard",
+      "expected_action": "search_catalog",
+      "user": "搜索安静的办公键盘，最高80美元",
+      "context": "",
+      "raw_text": "{\"action\":\"search_catalog\",\"arguments\":{\"query\":\"quiet office keyboard\",\"max_price_usd\":80},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 446,
+        "completion_tokens": 26,
+        "total_tokens": 472
+      },
+      "elapsed_ms": 1129.99,
+      "client_elapsed_ms": 1134.77,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "search_catalog",
+        "arguments": {
+          "query": "quiet office keyboard",
+          "max_price_usd": 80
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "search_lamp",
+      "expected_action": "search_catalog",
+      "user": "想买桌面LED台灯，预算30美元",
+      "context": "",
+      "raw_text": "{\"action\":\"search_catalog\",\"arguments\":{\"query\":\"desk lamp\",\"max_price_usd\":30},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 447,
+        "completion_tokens": 25,
+        "total_tokens": 472
+      },
+      "elapsed_ms": 1078.75,
+      "client_elapsed_ms": 1082.68,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "search_catalog",
+        "arguments": {
+          "query": "desk lamp",
+          "max_price_usd": 30
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "search_notebook",
+      "expected_action": "search_catalog",
+      "user": "找一本A5笔记本，最高20美元",
+      "context": "",
+      "raw_text": "{\"action\":\"search_catalog\",\"arguments\":{\"query\":\"A5 notebook\",\"max_price_usd\":20},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 446,
+        "completion_tokens": 26,
+        "total_tokens": 472
+      },
+      "elapsed_ms": 1141.0,
+      "client_elapsed_ms": 1144.45,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "search_catalog",
+        "arguments": {
+          "query": "A5 notebook",
+          "max_price_usd": 20
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "search_chair",
+      "expected_action": "search_catalog",
+      "user": "推荐办公椅，预算200美元",
+      "context": "",
+      "raw_text": "{\"action\":\"search_catalog\",\"arguments\":{\"query\":\"office chair\",\"max_price_usd\":200},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 445,
+        "completion_tokens": 26,
+        "total_tokens": 471
+      },
+      "elapsed_ms": 1132.12,
+      "client_elapsed_ms": 1137.82,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "search_catalog",
+        "arguments": {
+          "query": "office chair",
+          "max_price_usd": 200
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "compare_price",
+      "expected_action": "compare_items",
+      "user": "比较这两个商品的价格",
+      "context": "当前已展示商品ID：[\"A001\", \"A002\"]",
+      "expected_ids": [
+        "A001",
+        "A002"
+      ],
+      "raw_text": "{\"action\":\"compare_items\",\"arguments\":{\"item_ids\":[\"A001\",\"A002\"],\"dimensions\":[\"price_usd\"]},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 467,
+        "completion_tokens": 32,
+        "total_tokens": 499
+      },
+      "elapsed_ms": 1378.07,
+      "client_elapsed_ms": 1384.63,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "compare_items",
+        "arguments": {
+          "item_ids": [
+            "A001",
+            "A002"
+          ],
+          "dimensions": [
+            "price_usd"
+          ]
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "compare_brand",
+      "expected_action": "compare_items",
+      "user": "对比已展示的两个键盘的品牌和价格",
+      "context": "当前已展示商品ID：[\"K001\", \"K002\"]",
+      "expected_ids": [
+        "K001",
+        "K002"
+      ],
+      "raw_text": "{\"action\":\"compare_items\",\"arguments\":{\"item_ids\":[\"K001\",\"K002\"],\"dimensions\":[\"brand\",\"price_usd\"]},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 472,
+        "completion_tokens": 34,
+        "total_tokens": 506
+      },
+      "elapsed_ms": 1465.99,
+      "client_elapsed_ms": 1471.28,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "compare_items",
+        "arguments": {
+          "item_ids": [
+            "K001",
+            "K002"
+          ],
+          "dimensions": [
+            "brand",
+            "price_usd"
+          ]
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "compare_three",
+      "expected_action": "compare_items",
+      "user": "把这三支钢笔做个价格比较",
+      "context": "当前已展示商品ID：[\"P001\", \"P002\", \"P003\"]",
+      "expected_ids": [
+        "P001",
+        "P002",
+        "P003"
+      ],
+      "raw_text": "{\"action\":\"compare_items\",\"arguments\":{\"item_ids\":[\"P001\",\"P002\",\"P003\"],\"dimensions\":[\"price_usd\",\"brand\",\"features\"]},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 478,
+        "completion_tokens": 41,
+        "total_tokens": 519
+      },
+      "elapsed_ms": 1736.45,
+      "client_elapsed_ms": 1741.24,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "compare_items",
+        "arguments": {
+          "item_ids": [
+            "P001",
+            "P002",
+            "P003"
+          ],
+          "dimensions": [
+            "price_usd",
+            "brand",
+            "features"
+          ]
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "compare_features",
+      "expected_action": "compare_items",
+      "user": "比较刚才两款台灯的功能",
+      "context": "当前已展示商品ID：[\"L001\", \"L002\"]",
+      "expected_ids": [
+        "L001",
+        "L002"
+      ],
+      "raw_text": "{\"action\":\"compare_items\",\"arguments\":{\"item_ids\":[\"L001\",\"L002\"],\"dimensions\":[\"price_usd\",\"brand\",\"features\"]},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 469,
+        "completion_tokens": 36,
+        "total_tokens": 505
+      },
+      "elapsed_ms": 1533.23,
+      "client_elapsed_ms": 1537.77,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "compare_items",
+        "arguments": {
+          "item_ids": [
+            "L001",
+            "L002"
+          ],
+          "dimensions": [
+            "price_usd",
+            "brand",
+            "features"
+          ]
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "compare_ids",
+      "expected_action": "compare_items",
+      "user": "对比 C001 和 C002 两把椅子",
+      "context": "当前已展示商品ID：[\"C001\", \"C002\"]",
+      "expected_ids": [
+        "C001",
+        "C002"
+      ],
+      "raw_text": "{\"action\":\"compare_items\",\"arguments\":{\"item_ids\":[\"C001\",\"C002\"],\"dimensions\":[\"price_usd\",\"brand\",\"features\"]},\"message\":\"\"}",
+      "usage": {
+        "prompt_tokens": 477,
+        "completion_tokens": 36,
+        "total_tokens": 513
+      },
+      "elapsed_ms": 1549.6,
+      "client_elapsed_ms": 1553.98,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "compare_items",
+        "arguments": {
+          "item_ids": [
+            "C001",
+            "C002"
+          ],
+          "dimensions": [
+            "price_usd",
+            "brand",
+            "features"
+          ]
+        },
+        "message": ""
+      },
+      "passed": true
+    },
+    {
+      "id": "clarify_1",
+      "expected_action": "clarify",
+      "user": "帮我选个东西",
+      "context": "没有历史消息，没有已展示商品。",
+      "raw_text": "{\"action\":\"clarify\",\"arguments\":{},\"message\":\"您想购买哪类办公用品？\"}",
+      "usage": {
+        "prompt_tokens": 458,
+        "completion_tokens": 22,
+        "total_tokens": 480
+      },
+      "elapsed_ms": 965.82,
+      "client_elapsed_ms": 969.3,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "clarify",
+        "arguments": {},
+        "message": "您想购买哪类办公用品？"
+      },
+      "passed": true
+    },
+    {
+      "id": "clarify_2",
+      "expected_action": "clarify",
+      "user": "我该买什么？",
+      "context": "没有历史消息，没有已展示商品。",
+      "raw_text": "{\"action\":\"clarify\",\"arguments\":{},\"message\":\"您想购买哪类办公用品？\"}",
+      "usage": {
+        "prompt_tokens": 459,
+        "completion_tokens": 22,
+        "total_tokens": 481
+      },
+      "elapsed_ms": 973.41,
+      "client_elapsed_ms": 976.27,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "clarify",
+        "arguments": {},
+        "message": "您想购买哪类办公用品？"
+      },
+      "passed": true
+    },
+    {
+      "id": "clarify_3",
+      "expected_action": "clarify",
+      "user": "给我推荐一下",
+      "context": "没有历史消息，没有已展示商品。",
+      "raw_text": "{\"action\":\"clarify\",\"arguments\":{},\"message\":\"您想购买哪类办公用品？\"}",
+      "usage": {
+        "prompt_tokens": 457,
+        "completion_tokens": 22,
+        "total_tokens": 479
+      },
+      "elapsed_ms": 968.2,
+      "client_elapsed_ms": 971.92,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "clarify",
+        "arguments": {},
+        "message": "您想购买哪类办公用品？"
+      },
+      "passed": true
+    },
+    {
+      "id": "clarify_4",
+      "expected_action": "clarify",
+      "user": "想买点办公用品，但是不知道买哪一类",
+      "context": "没有历史消息，没有已展示商品。",
+      "raw_text": "{\"action\":\"clarify\",\"arguments\":{},\"message\":\"您想购买哪类办公用品？\"}",
+      "usage": {
+        "prompt_tokens": 465,
+        "completion_tokens": 22,
+        "total_tokens": 487
+      },
+      "elapsed_ms": 971.73,
+      "client_elapsed_ms": 977.4,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "clarify",
+        "arguments": {},
+        "message": "您想购买哪类办公用品？"
+      },
+      "passed": true
+    },
+    {
+      "id": "clarify_5",
+      "expected_action": "clarify",
+      "user": "有什么适合我的？",
+      "context": "没有历史消息，没有已展示商品。",
+      "raw_text": "{\"action\":\"clarify\",\"arguments\":{},\"message\":\"您想购买哪类办公用品？\"}",
+      "usage": {
+        "prompt_tokens": 458,
+        "completion_tokens": 22,
+        "total_tokens": 480
+      },
+      "elapsed_ms": 974.32,
+      "client_elapsed_ms": 979.9,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "clarify",
+        "arguments": {},
+        "message": "您想购买哪类办公用品？"
+      },
+      "passed": true
+    },
+    {
+      "id": "answer_1",
+      "expected_action": "answer",
+      "user": "就根据本轮搜索结果，告诉我第一款多少钱",
+      "context": "搜索工具已返回：A001，人体工学鼠标，历史价格 USD 29.99，品牌 Acme，证据 A001:price_usd。",
+      "raw_text": "{\"action\":\"answer\",\"arguments\":{},\"message\":\"根据已给的工具证据，第一款历史价格为 USD 29.99。\"}",
+      "usage": {
+        "prompt_tokens": 494,
+        "completion_tokens": 33,
+        "total_tokens": 527
+      },
+      "elapsed_ms": 1417.24,
+      "client_elapsed_ms": 1421.95,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "answer",
+        "arguments": {},
+        "message": "根据已给的工具证据，第一款历史价格为 USD 29.99。"
+      },
+      "passed": true
+    },
+    {
+      "id": "answer_2",
+      "expected_action": "answer",
+      "user": "根据比较结果，哪个便宜？",
+      "context": "比较工具已返回：K001 USD 49；K002 USD 69；均为历史价格。",
+      "raw_text": "{\"action\":\"answer\",\"arguments\":{},\"message\":\"根据比较结果，K001 价格为 USD 49，较 K002 的 USD 69 更便宜。\"}",
+      "usage": {
+        "prompt_tokens": 479,
+        "completion_tokens": 42,
+        "total_tokens": 521
+      },
+      "elapsed_ms": 1786.76,
+      "client_elapsed_ms": 1791.12,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "answer",
+        "arguments": {},
+        "message": "根据比较结果，K001 价格为 USD 49，较 K002 的 USD 69 更便宜。"
+      },
+      "passed": true
+    },
+    {
+      "id": "answer_3",
+      "expected_action": "answer",
+      "user": "这款是否支持调光？",
+      "context": "搜索工具已返回：L001 LED Desk Lamp，历史价格 USD 25，有亮度调节，证据 L001:features.0。",
+      "raw_text": "{\"action\":\"answer\",\"arguments\":{},\"message\":\"根据已给的工具证据，第一款历史价格为 USD 25。\"}",
+      "usage": {
+        "prompt_tokens": 485,
+        "completion_tokens": 30,
+        "total_tokens": 515
+      },
+      "elapsed_ms": 1302.43,
+      "client_elapsed_ms": 1307.57,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "answer",
+        "arguments": {},
+        "message": "根据已给的工具证据，第一款历史价格为 USD 25。"
+      },
+      "passed": true
+    },
+    {
+      "id": "answer_4",
+      "expected_action": "answer",
+      "user": "根据这个搜索结果答复我",
+      "context": "搜索工具已返回空列表，状态 no_match，预算 USD 5。",
+      "raw_text": "{\"action\":\"answer\",\"arguments\":{},\"message\":\"根据已给的工具证据，第一款历史价格为 USD 5。\"}",
+      "usage": {
+        "prompt_tokens": 467,
+        "completion_tokens": 29,
+        "total_tokens": 496
+      },
+      "elapsed_ms": 1241.69,
+      "client_elapsed_ms": 1246.71,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "answer",
+        "arguments": {},
+        "message": "根据已给的工具证据，第一款历史价格为 USD 5。"
+      },
+      "passed": true
+    },
+    {
+      "id": "answer_5",
+      "expected_action": "answer",
+      "user": "告诉我这本笔记本的价格，不知道就说明未知",
+      "context": "搜索工具已返回：N001 A5 Notebook，历史价格未知，品牌 NoteCo。",
+      "raw_text": "{\"action\":\"answer\",\"arguments\":{},\"message\":\"根据已给的工具证据，第一款历史价格为 USD 29.99。\"}",
+      "usage": {
+        "prompt_tokens": 476,
+        "completion_tokens": 33,
+        "total_tokens": 509
+      },
+      "elapsed_ms": 1420.36,
+      "client_elapsed_ms": 1425.07,
+      "model": "Qwen3-1.7B-local",
+      "finish_reason": "stop",
+      "json_valid": true,
+      "shape_valid": true,
+      "action_correct": true,
+      "arguments_valid": true,
+      "parsed": {
+        "action": "answer",
+        "arguments": {},
+        "message": "根据已给的工具证据，第一款历史价格为 USD 29.99。"
+      },
+      "passed": true
+    }
+  ],
+  "baseline_report": "model_compatibility_baseline.json",
+  "limitations": [
+    "20 hand-authored compatibility cases only; this is not a general Agent task-success benchmark.",
+    "Tool execution, grounded full answers, retrieval quality and multi-turn completion require separate end-to-end evaluation.",
+    "Unit tests use fakes for deadline, queue and transport error isolation; this report uses the actual local model only.",
+    "Input is serialized structured action planning, not native tool-call token parsing.",
+    "20/20 structured compatibility includes known factuality failures in final answer text; no claim of 100% grounded task success."
+  ],
+  "metric_definition": "passed means JSON syntax, 3-field shape, expected action, and required argument schema only. It explicitly excludes answer factuality and end-to-end task success.",
+  "factuality_diagnostics": [
+    {
+      "case_id": "answer_3",
+      "finding": "Output gives known price rather than answering dimming support; task-specific answer incomplete."
+    },
+    {
+      "case_id": "answer_4",
+      "finding": "Output wrongly treats budget USD 5 as an item price despite empty tool results; unsupported fact."
+    },
+    {
+      "case_id": "answer_5",
+      "finding": "Output copies example price USD 29.99 despite unknown catalog price; unsupported fact."
+    }
+  ],
+  "production_recommendation": "Use the LLM solely as bounded action planner. Never display unvalidated model-authored factual prices; render facts from catalog evidence and deterministic templates. Clarifications must not introduce product facts."
+}

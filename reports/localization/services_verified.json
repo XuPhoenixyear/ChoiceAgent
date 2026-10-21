@@ -1,0 +1,33 @@
+{
+  "api": {
+    "status_code": 200,
+    "response": {
+      "status": "ok",
+      "version": "0.1.0",
+      "source_fingerprint": "4eb7fb3cae90f9781963874cf84016eb63083ee9c977f76004ef6a1b9dd29295",
+      "catalog_count": 3000,
+      "dense_ready": true
+    }
+  },
+  "model": {
+    "status_code": 200,
+    "response": {
+      "status": "ready",
+      "ready": true,
+      "model": "Qwen3-1.7B-local",
+      "model_path": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+      "max_context_tokens": 8192,
+      "max_output_tokens": 768,
+      "max_waiting": 2,
+      "visible_gpu": "1",
+      "model_device": "cuda:0",
+      "thinking": false
+    }
+  },
+  "ui": {
+    "status_code": 200,
+    "response": "ok"
+  },
+  "verified_at": "2026-10-20T17:59:12.386594+00:00",
+  "launch_id": "40d21267-2d98-4fe5-b391-ae4b2c555bc1"
+}

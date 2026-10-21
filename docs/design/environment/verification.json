@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "python": "3.11.17",
+  "executable": "/datas/wuxi/anaconda3/envs/my_rec/bin/python",
+  "prefix": "/datas/wuxi/anaconda3/envs/my_rec",
+  "sqlite": "3.53.4",
+  "cuda": {
+    "runtime": "12.8",
+    "device": "NVIDIA RTX A6000",
+    "physical_gpu_selected_for_this_check": "5",
+    "peak_allocated_bytes": 8520704,
+    "visible_devices_during_check": "5"
+  },
+  "checks": [
+    "dependency imports",
+    "CUDA matrix multiplication",
+    "tiny random Qwen3 CPU forward",
+    "FAISS exact search",
+    "SQLite FTS5 BM25",
+    "FastAPI/Pydantic request validation"
+  ],
+  "versions": {
+    "torch": "2.10.0+cu128",
+    "transformers": "4.57.6",
+    "sentence-transformers": "5.2.0",
+    "accelerate": "1.12.0",
+    "sentencepiece": "0.2.2",
+    "faiss-cpu": "1.13.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "pyarrow": "23.0.1",
+    "fastapi": "0.153.0",
+    "uvicorn": "0.54.0",
+    "pydantic": "2.14.1",
+    "pydantic-settings": "2.16.1",
+    "streamlit": "1.66.0",
+    "httpx": "0.28.1",
+    "openai": "2.24.0",
+    "PyYAML": "6.0.3",
+    "python-dotenv": "1.2.4",
+    "rich": "14.3.4",
+    "tqdm": "4.70.1",
+    "matplotlib": "3.11.2",
+    "ipykernel": "7.4.0",
+    "pytest": "9.1.1",
+    "pytest-asyncio": "1.4.0"
+  },
+  "scope": "Environment validation only; no pretrained model or network API tested.",
+  "pip_check": "No broken requirements found.",
+  "verified_date": "2026-10-20"
+}

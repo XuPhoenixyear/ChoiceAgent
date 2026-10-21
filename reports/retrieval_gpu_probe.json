@@ -1,0 +1,410 @@
+{
+  "scenario_kind": "Development smoke checks, not a labeled retrieval quality benchmark",
+  "dense_ready": true,
+  "cases": [
+    {
+      "query": "桌面收纳架",
+      "budget": 40,
+      "status": "ok",
+      "total_eligible": 1272,
+      "timing_ms": {
+        "lexical": 6.171,
+        "dense": 6507.009,
+        "total": 6585.007
+      },
+      "items": [
+        {
+          "item_id": "B0BNG1VGCL",
+          "title": "BeizHouseware Desk File Organizer and Accessories Storage, 4 Tier Desk Paper Tray Organizer for Letter/A4, Desktop Organization for Office, Workspace, Dorm to Collect Office Supplies (Black)",
+          "price_usd": 19.97,
+          "route_ranks": {
+            "lexical": 4,
+            "dense": 2
+          }
+        },
+        {
+          "item_id": "B0BC9BW75Y",
+          "title": "Desk Organizers and Accessories, Office Supplies Desk Organizer Caddy with 12 Compartments, Desktop Stationary Organizer, Makeup Organizer, Desk Storage for Office, Bathroom Counter or Dresser, Blue",
+          "price_usd": 11.95,
+          "route_ranks": {
+            "lexical": 1,
+            "dense": 8
+          }
+        },
+        {
+          "item_id": "B0BPZC84ZT",
+          "title": "Turquoise 2-Tier Drawer Unit - European Country Style Desk Organizer Box - 9.7x7x5.1\" Teal Wooden Stackable Drawers - Countertop Organizer Drawers w/Label Holder - Double File Drawer Unit",
+          "price_usd": 24.99,
+          "route_ranks": {
+            "lexical": 10,
+            "dense": 3
+          }
+        },
+        {
+          "item_id": "B07BS9H579",
+          "title": "Flexzion Natural Wooden Desktop Shelf Wood Caddy Desk Organizer Set Office Storage Adjustable Expandable Tabletop Accessory Sorter Bookcase Display Stand Rack (Beige)",
+          "price_usd": 27.99,
+          "route_ranks": {
+            "lexical": 15,
+            "dense": 1
+          }
+        },
+        {
+          "item_id": "B08Z82S1FY",
+          "title": "Cretkhp Pu Leather Desk Organizer with Coaster, Multifunctional Storage Box with 5 Compartments, Office Accessories Pen Pencil Business Name Cards Remote Control Holder (Grey Stripe)",
+          "price_usd": 21.67,
+          "route_ranks": {
+            "lexical": 5,
+            "dense": 10
+          }
+        }
+      ]
+    },
+    {
+      "query": "打印纸",
+      "budget": 30,
+      "status": "ok",
+      "total_eligible": 1167,
+      "timing_ms": {
+        "lexical": 9.248,
+        "dense": 35.846,
+        "total": 123.528
+      },
+      "items": [
+        {
+          "item_id": "B09DFSP7T6",
+          "title": "Koala Photo Paper 8.5 x 11 In Glossy Photo Printer Paper for Inkjet Printer Water-Resistant 100 Sheets 200gsm for Everyday Use",
+          "price_usd": 21.99,
+          "route_ranks": {
+            "lexical": 1,
+            "dense": 2
+          }
+        },
+        {
+          "item_id": "B0C36Q7PM4",
+          "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inch 20Lb Paper - 1 Ream (500 Sheets), 92 GE Bright White",
+          "price_usd": 8.49,
+          "route_ranks": {
+            "lexical": 4,
+            "dense": 3
+          }
+        },
+        {
+          "item_id": "B0C21D7GM2",
+          "title": "Blue Marble Letterhead Laser & Inkjet Printer Paper, 100 pack",
+          "price_usd": 19.99,
+          "route_ranks": {
+            "lexical": 2,
+            "dense": 8
+          }
+        },
+        {
+          "item_id": "B08JTV32JG",
+          "title": "Uinkit 100 Sheets Thick Glossy Photo Paper Picture 8.5x11 60lb 230g 11.1mil Cardstock Postcard Brochure Inkjet For Dye Ink Printer",
+          "price_usd": 17.99,
+          "route_ranks": {
+            "lexical": 3,
+            "dense": 7
+          }
+        },
+        {
+          "item_id": "B07BNKWM58",
+          "title": "Epson Ultra Premium Presentation Paper MATTE (8.5x11 Inches, 50 Sheets) (S041341),White",
+          "price_usd": 17.99,
+          "route_ranks": {
+            "lexical": 10,
+            "dense": 1
+          }
+        }
+      ]
+    },
+    {
+      "query": "办公椅",
+      "budget": 200,
+      "status": "ok",
+      "total_eligible": 1486,
+      "timing_ms": {
+        "lexical": 13.738,
+        "dense": 35.276,
+        "total": 128.083
+      },
+      "items": [
+        {
+          "item_id": "B0C49JJSGX",
+          "title": "Sweetcrispy Waiting Room Chair Reception Chair Office Guest Chair, Executive Office Chair PU Leather Desk Chair No Wheels, Lobby Chair Conference Room Chair with Padded Arms",
+          "price_usd": 69.99,
+          "route_ranks": {
+            "lexical": 1,
+            "dense": 4
+          }
+        },
+        {
+          "item_id": "B08423X2L5",
+          "title": "LUXMOD White and Gold Office Chair in White Leather, Mid Back Office Chair with Armrest, White and Gold Ergonomic Desk Chair for Back Support, Modern Executive Chair, Swivel Chair (Gold and White)",
+          "price_usd": 149.0,
+          "route_ranks": {
+            "lexical": 2,
+            "dense": 3
+          }
+        },
+        {
+          "item_id": "B0BGPSQRFC",
+          "title": "Office Desk Chair, Mesh Office Chair with Mid Back, Lumbar Support & Armrest, Executive Rolling Swivel Adjustable Computer Ergonomic Chair for Gaming, Home or Office",
+          "price_usd": 89.99,
+          "route_ranks": {
+            "lexical": 5,
+            "dense": 1
+          }
+        },
+        {
+          "item_id": "B08P6FV447",
+          "title": "Vinsetto High Back 6-Point Massage Home Office Chair, Swivel Faux Leather Task Chair with Headrest, and Padded Armrests, Black",
+          "price_usd": 145.99,
+          "route_ranks": {
+            "lexical": 8,
+            "dense": 2
+          }
+        },
+        {
+          "item_id": "B098FDJNLW",
+          "title": "Seteol Home Office Chair Mat for Hardwood Floor, 30'' x 48'' Clear Floor Mat for Rolling Chairs, Floor Protector Thick Durable Chair Mat Chairmats (30\" X 48\" Rectangle)",
+          "price_usd": 33.28,
+          "route_ranks": {
+            "lexical": 3,
+            "dense": 12
+          }
+        }
+      ]
+    },
+    {
+      "query": "订书机",
+      "budget": 20,
+      "status": "ok",
+      "total_eligible": 977,
+      "timing_ms": {
+        "lexical": 0.925,
+        "dense": 36.488,
+        "total": 106.23
+      },
+      "items": [
+        {
+          "item_id": "B00IWYFZ24",
+          "title": "Quirky Align Stapler (PALGN-BL01)",
+          "price_usd": 12.99,
+          "route_ranks": {
+            "lexical": 2,
+            "dense": 2
+          }
+        },
+        {
+          "item_id": "B07RPQVH21",
+          "title": "10 Set Mini Office Stapler with 10# Staples, Small Hand Stapler Portable Desktop Stapler Student Stapler",
+          "price_usd": 13.99,
+          "route_ranks": {
+            "lexical": 1
+          }
+        },
+        {
+          "item_id": "B0BK2RLVNL",
+          "title": "Clarinet Woodwind Musical Instrument Engraved Wooden Bookmark - Also Available with Personalization - Made in USA",
+          "price_usd": 11.45,
+          "route_ranks": {
+            "dense": 1
+          }
+        },
+        {
+          "item_id": "B00K5IR3KC",
+          "title": "Alligator Stapler Remover Detailed Glossy",
+          "price_usd": 8.95,
+          "route_ranks": {
+            "lexical": 3
+          }
+        },
+        {
+          "item_id": "B07YCKZ6C8",
+          "title": "2 Inch（25 Pack）Book Binder Rings, Office Loose Leaf Ring, Nickel Plated Steel Binder Rings, Keychain Key Rings, Metal Book Rings, Silver",
+          "price_usd": 6.99,
+          "route_ranks": {
+            "dense": 3
+          }
+        }
+      ]
+    },
+    {
+      "query": "笔记本",
+      "budget": 25,
+      "status": "ok",
+      "total_eligible": 1089,
+      "timing_ms": {
+        "lexical": 2.533,
+        "dense": 37.499,
+        "total": 113.282
+      },
+      "items": [
+        {
+          "item_id": "B0BWFV1ZNM",
+          "title": "ANECDOTE. Lined Journal Notebook. Hard Cover, Ruled, Thick 100 gsm Paper, A5 size: 8.3 inches x 5.4 inches. Use for School, Office, Home or Business. (Ink Blue)",
+          "price_usd": 15.99,
+          "route_ranks": {
+            "lexical": 15,
+            "dense": 2
+          }
+        },
+        {
+          "item_id": "B0B3WTNDQ4",
+          "title": "ZEEYUAN A5 Binder Leather Journal with 12 Colored Pens, A5 Planner Lined Notebook 220 Pages, Binder Refillable Notebook Ruled Notepad Travel Writing Journals for Womens Mens",
+          "price_usd": 11.95,
+          "route_ranks": {
+            "lexical": 6,
+            "dense": 10
+          }
+        },
+        {
+          "item_id": "B097PF781C",
+          "title": "Robrasim Top Bound 3\"x5\" Memo Notebook Covers, Genuine Leather Cover for 3x5 Top-Spiral Notebook, Memo Book Cover Note Pad Holder Cover Only, Coffee",
+          "price_usd": 19.99,
+          "route_ranks": {
+            "lexical": 8,
+            "dense": 8
+          }
+        },
+        {
+          "item_id": "B00X60N9FY",
+          "title": "Scientific Notebook Company Flush Trimmed, Model #2001 Research Laboratory Notebook, 192 Pages, Smyth Sewn, 9.25 X 11.25, 4x4 Grid (Burgundy Cover)",
+          "price_usd": 19.99,
+          "route_ranks": {
+            "lexical": 1,
+            "dense": 18
+          }
+        },
+        {
+          "item_id": "B07GFQ1WD7",
+          "title": "Greeting Pen 1202M2 Alabama Crimson Tide 5\" x 8.25\" Notebook/2 Pen Set",
+          "price_usd": 15.48,
+          "route_ranks": {
+            "lexical": 5,
+            "dense": 16
+          }
+        }
+      ]
+    },
+    {
+      "query": "鼠标垫",
+      "budget": 20,
+      "status": "ok",
+      "total_eligible": 977,
+      "timing_ms": {
+        "lexical": 3.32,
+        "dense": 35.565,
+        "total": 251.266
+      },
+      "items": [
+        {
+          "item_id": "B0BP6GW3HM",
+          "title": "Besezx Mouse Pad，Round Mouse Pad，PU Mouse Pad，Leather Mouse Pad with Stitched Edge Micro-Fiber Base with Non-Slip Waterproof，Mouse Pad for Computers，Laptop，Office & Home，9 x 9 Inch (White)",
+          "price_usd": 10.98,
+          "route_ranks": {
+            "lexical": 1,
+            "dense": 2
+          }
+        },
+        {
+          "item_id": "B08HK8J7PG",
+          "title": "Mouse Pad, Paris Mouse Pad, Oil Painting Mouse Pad, Gaming Mouse Mat, Square Waterproof Mouse Pad Non-Slip Rubber Base MousePads for Office Home Laptop Travel, 9.5\"x7.9\"x0.12\" Inch",
+          "price_usd": 8.89,
+          "route_ranks": {
+            "lexical": 5,
+            "dense": 1
+          }
+        },
+        {
+          "item_id": "B092R7WCMM",
+          "title": "Hokafenle Mouse Pad, Fun Mouse Pads with Design, Computer Mouse Pad, Square Mouse Mat Personalized Mousepad Non-Slip Rubber Base MousePads for Office Laptop, Funny Cat",
+          "price_usd": 9.89,
+          "route_ranks": {
+            "lexical": 10,
+            "dense": 5
+          }
+        },
+        {
+          "item_id": "B08GJ8PQHJ",
+          "title": "ChaTham Round Mouse Pad with Coasters Set, Circular Earth Mouse Pad, Non-Slip Rubber Base Round Mouse Pads for Laptop Compute Working Home Office Accessories",
+          "price_usd": 9.99,
+          "route_ranks": {
+            "lexical": 12,
+            "dense": 6
+          }
+        },
+        {
+          "item_id": "B09FDLYHLB",
+          "title": "ToLuLu Mouse Pad with Wrist Rest Support, Gel Cute Mouse Pads Non Slip Rubber Base Mousepad, Ergonomic Mouse Wrist Rest Pad for Laptop Computer Home Office Working Gaming Pain Relief, Nebula Galaxy",
+          "price_usd": 10.99,
+          "route_ranks": {
+            "lexical": 11,
+            "dense": 7
+          }
+        }
+      ]
+    },
+    {
+      "query": "桌面收纳架",
+      "budget": 0,
+      "status": "no_match",
+      "total_eligible": 0,
+      "timing_ms": {
+        "total": 49.378
+      },
+      "items": []
+    },
+    {
+      "query": "galacticflorble",
+      "budget": null,
+      "status": "retrieval_incomplete",
+      "total_eligible": 3000,
+      "timing_ms": {
+        "lexical": 0.612,
+        "dense": 37.238,
+        "total": 138.144
+      },
+      "items": []
+    },
+    {
+      "query": "intergalactic nuclear spaceship fuel",
+      "budget": null,
+      "status": "retrieval_incomplete",
+      "total_eligible": 3000,
+      "timing_ms": {
+        "lexical": 0.888,
+        "dense": 38.188,
+        "total": 142.552
+      },
+      "items": []
+    },
+    {
+      "query": "无线鼠标",
+      "budget": null,
+      "status": "retrieval_incomplete",
+      "total_eligible": 3000,
+      "timing_ms": {
+        "lexical": 2.005,
+        "dense": 6757.427,
+        "total": 6863.196
+      },
+      "items": [],
+      "rerun_after_accessory_gate": true
+    },
+    {
+      "query": "量子核聚变反应堆",
+      "budget": null,
+      "status": "retrieval_incomplete",
+      "total_eligible": 3000,
+      "timing_ms": {
+        "lexical": 0.022,
+        "dense": 35.808,
+        "total": 139.249
+      },
+      "items": []
+    }
+  ],
+  "all_schema_budget_and_out_of_domain_checks_passed": true
+}

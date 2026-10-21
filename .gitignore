@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+.venv/
+data/raw/*
+data/processed/*
+!data/processed/catalog.zh-CN.review.jsonl
+artifacts/indexes/*
+artifacts/models/*
+runtime/*
+logs/*
+!**/.gitkeep
+
+# Local state and optional Skill outputs
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+.superpowers/
+
+# Keep final demos and acceptance evidence, omit intermediate recordings
+**/original_video/
+reports/archive/
+reports/quality/
+reports/coverage.json
+reports/**/*.log
+reports/demo/verified/
+reports/localization/ui_initial/
+
+# Generated previews/install logs and local research attachments
+docs/design/previews/
+docs/**/install-*.log
+docs/**/install-report.json
+docs/research/*.pdf

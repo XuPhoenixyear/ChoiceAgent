@@ -1,0 +1,1170 @@
+{
+  "schema_version": 1,
+  "installed_at": "2026-10-21T03:35:52.000062+00:00",
+  "scope": "project",
+  "discovery_directory": ".agents/skills",
+  "skill_count": 20,
+  "installation": "Official skill-installer helper with pinned GitHub commits; original bytes checked against Git tree blobs; executable modes restored.",
+  "skills": [
+    {
+      "name": "brainstorming",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/brainstorming",
+      "installed_path": ".agents/skills/brainstorming",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "6ee10d1481b8a2580d5336ff66c5c08acc9d4b251b13bbc3bfd31be99c261d43",
+          "mode": "644",
+          "upstream_git_blob": "22b98fc5bac68d46bc8f066df90155aa3815262d"
+        },
+        {
+          "path": "builder-check-prompt.md",
+          "sha256": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+          "mode": "644",
+          "upstream_git_blob": "136e9c1d516ee1852abc5e556e76ce1b085d3827"
+        },
+        {
+          "path": "scripts/frame-template.html",
+          "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+          "mode": "644",
+          "upstream_git_blob": "f540bb8a4f88107e2b37b2871a4c1a55a3b6f720"
+        },
+        {
+          "path": "scripts/helper.js",
+          "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+          "mode": "644",
+          "upstream_git_blob": "e11d26489ce248f37af3e4dd01ddec6a4e88287f"
+        },
+        {
+          "path": "scripts/server.cjs",
+          "sha256": "763abf96510e0b892a1141397b31aa82ef900cf87ed34dde94bc8782baf4a7ca",
+          "mode": "644",
+          "upstream_git_blob": "fdc796122583f5d6687d9582eb265c2fa0cb7781"
+        },
+        {
+          "path": "scripts/start-server.sh",
+          "sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+          "mode": "755",
+          "upstream_git_blob": "016a8e4870142ce2adbe81a021d8b6b9073e7618"
+        },
+        {
+          "path": "scripts/stop-server.sh",
+          "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+          "mode": "755",
+          "upstream_git_blob": "7cacfe9440043f7a46eac555cd835fad0769c425"
+        },
+        {
+          "path": "visual-companion.md",
+          "sha256": "6ffcb038b53254bd31debaa15e12dcd4ff24bd63d690e0b644ac6396701cf2e2",
+          "mode": "644",
+          "upstream_git_blob": "8dca065bd9adb9d4fa82a66acbb4176ea23259c6"
+        }
+      ]
+    },
+    {
+      "name": "diagnosing-superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/diagnosing-superpowers",
+      "installed_path": ".agents/skills/diagnosing-superpowers",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "3143de8695c5a2d63e8b1675f33837578076f464deb127c2ebdd0b46fceef886",
+          "mode": "644",
+          "upstream_git_blob": "dda2692d528574c410b118a6de545d6afc7eb047"
+        },
+        {
+          "path": "prompts/analyst-common.md",
+          "sha256": "88801c36070be2a54a8a9a29632b01ab21db053e2e76ee49b5252a9b74ca4090",
+          "mode": "644",
+          "upstream_git_blob": "d7c4033065f1390b4bb681a5d81968cd2190867d"
+        },
+        {
+          "path": "prompts/cost-and-time.md",
+          "sha256": "fe97a66d4db3b436816ef82694bda413b522b3a862dd41978da01e358fffecc4",
+          "mode": "644",
+          "upstream_git_blob": "fb9cc0a196e504d7dac46f4a6b5bfe059d34f7db"
+        },
+        {
+          "path": "prompts/plan-adherence.md",
+          "sha256": "1dcbab82033598a2e9c9ee42e950d4b1822d2c871c02cef9e102cdd5cbbda113",
+          "mode": "644",
+          "upstream_git_blob": "aaaeac740e9fd65f587025d5e29df1f9a7681e34"
+        },
+        {
+          "path": "prompts/quality-evidence.md",
+          "sha256": "749d11cf678f379ed77a29274cad456634e0284aa523639a1a214a9f2b986eb1",
+          "mode": "644",
+          "upstream_git_blob": "26ca5643dc940d67caaa6dcb1791b0473d3c999e"
+        },
+        {
+          "path": "prompts/repeated-work.md",
+          "sha256": "895027f2dfa4b1b8bcdb7ac9aec8d45a80bff212fad6ec6cad5ab38fa68322f5",
+          "mode": "644",
+          "upstream_git_blob": "da2645a4164c8ac4e6ff894de37a3da3e7da061a"
+        },
+        {
+          "path": "prompts/request-conflicts.md",
+          "sha256": "e800e38d8b7752c212c76c5c3ed75cd78b749684263ea0c313586f26af6f4b5c",
+          "mode": "644",
+          "upstream_git_blob": "4532236e754ae22e1f9f41a1ed6e6c462f04ac38"
+        },
+        {
+          "path": "prompts/scrub-audit.md",
+          "sha256": "5cc48f05a7f81f5f7e05e0c7ceafc0fb8774bcaf75fe88dcb5c7e408026c70ad",
+          "mode": "644",
+          "upstream_git_blob": "12e8e6d39a5a62a3b6f8f0cfbc970ed8a0054a38"
+        },
+        {
+          "path": "prompts/scrub.md",
+          "sha256": "854cb3320cc5377b493cea2f72519d67983464882db68a0f408a7d0a0f040b8c",
+          "mode": "644",
+          "upstream_git_blob": "d4f8dd6429678ea960d9b10f9647d77644dbc121"
+        },
+        {
+          "path": "prompts/similar-session.md",
+          "sha256": "b190f713b463df2bb5ec3914647e204074d1bd50643a53159db6d13cace916c1",
+          "mode": "644",
+          "upstream_git_blob": "d012001d25ead6f885b229edf3cbd2f0f8ca8de9"
+        },
+        {
+          "path": "prompts/skill-timeline.md",
+          "sha256": "45d604d583b57a77b9033eced8eb875ef342af70fcd66cf7d15c6dc89964890f",
+          "mode": "644",
+          "upstream_git_blob": "ecbe21d113d7d34bf3c9d18720f19d88d31cd070"
+        },
+        {
+          "path": "prompts/stumbles.md",
+          "sha256": "1f2d1f048aff7b8b400006301f1ce8c232ecc7e9d5f705af27a849b2c03ea2e7",
+          "mode": "644",
+          "upstream_git_blob": "22b3705fc29dbe88c6a9a9639ce348b83b14712e"
+        },
+        {
+          "path": "references/context-safety.md",
+          "sha256": "e6be2bd3495f454d4bedee9484d728d245d1fa656e11fc4ceec5693c16e4730a",
+          "mode": "644",
+          "upstream_git_blob": "be09ed84fb5c30b770f3700b723c64adbe4f09ae"
+        },
+        {
+          "path": "references/github-issues.md",
+          "sha256": "d26ef9197b4a6ae5159ae6d11abd162bcc624d95fc7ccf508e07b68f916a1b19",
+          "mode": "644",
+          "upstream_git_blob": "de787f7b7c10566e0cbb0dc9fb060a0f4714b32a"
+        },
+        {
+          "path": "references/redaction-policy.md",
+          "sha256": "96b16f47074838fe2d7e609577d6f8b0ad460f8378b281a3f96ee23cb5a08bde",
+          "mode": "644",
+          "upstream_git_blob": "c80b6232abef32fa1868b70585203b6e623380d6"
+        },
+        {
+          "path": "references/session-discovery.md",
+          "sha256": "6d1dced083e5d978448a78df298cf515531b0eb39b2854a4a2afbffeb69a7435",
+          "mode": "644",
+          "upstream_git_blob": "d069ff8b975e31997dd3196b53d95d261c6b24af"
+        },
+        {
+          "path": "templates/bundle-README.md",
+          "sha256": "2e6ddc6b106028d5ebd00a50ad93a77111d675c219ee1273cd0857869e8d51ec",
+          "mode": "644",
+          "upstream_git_blob": "c469b157b511c073abc787b102e5383637cb0cf2"
+        },
+        {
+          "path": "templates/case.md",
+          "sha256": "597892462be83bc478536ec91f7c285f6dd25d119c560734a3a180fe8471301d",
+          "mode": "644",
+          "upstream_git_blob": "c1a182beefa64a5f92ff33074aa8b7246d33c205"
+        },
+        {
+          "path": "templates/issue.md",
+          "sha256": "afd21779e5de5bc5adfe2f5a50a04e44ab8d50d9ad0f829243de248d6f023eed",
+          "mode": "644",
+          "upstream_git_blob": "dec8cfc25bcdf9d78c012f1459c3d332f79ba4f1"
+        },
+        {
+          "path": "templates/report.md",
+          "sha256": "38295d0fd785e8608f330815c59ebd7047942002ec7085aecbed54681f56b0c1",
+          "mode": "644",
+          "upstream_git_blob": "1ab721204f1d92b27385828b06713dc0605ace7a"
+        }
+      ]
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/dispatching-parallel-agents",
+      "installed_path": ".agents/skills/dispatching-parallel-agents",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c",
+          "mode": "644",
+          "upstream_git_blob": "3fa091b348bbe0a18eaa0e17e9092c97f7005cbe"
+        }
+      ]
+    },
+    {
+      "name": "executing-plans",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/executing-plans",
+      "installed_path": ".agents/skills/executing-plans",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71",
+          "mode": "644",
+          "upstream_git_blob": "49077ad961268a840d7dcb5d8c5d06c46fc276ae"
+        },
+        {
+          "path": "scripts/task-done",
+          "sha256": "d0d4f2397c85a4426443ea955e699ef12568b41b408ec6122d4ec2433ee3a5f6",
+          "mode": "755",
+          "upstream_git_blob": "e5fc6a992fb41745a4113a55a5da5cbb11ddde55"
+        },
+        {
+          "path": "scripts/task-start",
+          "sha256": "f833693c8fce3700fc9f841562d80f8015cd40f652c168a3405ac3e46947a1fe",
+          "mode": "755",
+          "upstream_git_blob": "fab75b55b2e51c0de1a1331d19c3124924380eac"
+        }
+      ]
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/finishing-a-development-branch",
+      "installed_path": ".agents/skills/finishing-a-development-branch",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65",
+          "mode": "644",
+          "upstream_git_blob": "fa8aecaf8813f1b19d19996f7957d1b0121f2d9c"
+        }
+      ]
+    },
+    {
+      "name": "receiving-code-review",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/receiving-code-review",
+      "installed_path": ".agents/skills/receiving-code-review",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "091df1629510af1b92fc4abd6f96732ebedb4cb2c0f3457e8f2740b0504a2438",
+          "mode": "644",
+          "upstream_git_blob": "950da7b74bf6dbed6b8726d12ddadd65a9f5fda7"
+        }
+      ]
+    },
+    {
+      "name": "requesting-code-review",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/requesting-code-review",
+      "installed_path": ".agents/skills/requesting-code-review",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2180e14a448e9410bec88e6646a2d1f0ce7fdd58de27388c1e052e929679d2bc",
+          "mode": "644",
+          "upstream_git_blob": "68d338a58ecdd8b77bfbb519b781ef223dbbb842"
+        },
+        {
+          "path": "code-reviewer.md",
+          "sha256": "82e370be6b3447523816286195571e4216ba56ba1ad6ad0e87862294c4c78dcb",
+          "mode": "644",
+          "upstream_git_blob": "6d358b5d7d450c83cacbe450b7dbd4e673b694ad"
+        }
+      ]
+    },
+    {
+      "name": "subagent-driven-development",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/subagent-driven-development",
+      "installed_path": ".agents/skills/subagent-driven-development",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046",
+          "mode": "644",
+          "upstream_git_blob": "f7bbf6a01b519807ec00baf5e98522bed33f8834"
+        },
+        {
+          "path": "implementer-prompt.md",
+          "sha256": "81dd9d5a3fb0b09b96b5829f03b9796842f3199ef7591d1ba1c2db2a515f64d0",
+          "mode": "644",
+          "upstream_git_blob": "5c8ecd61fba036263bf88d0af24d47125780efa0"
+        },
+        {
+          "path": "re-review-prompt.md",
+          "sha256": "0828a5e9cbb12ba49f14621dd8c3953c48c0fc383e75bb5494f055ed0d6d824f",
+          "mode": "644",
+          "upstream_git_blob": "d49c1825f01e79641ba37e5e942d1d2bbaad1a3c"
+        },
+        {
+          "path": "scripts/review-package",
+          "sha256": "f9275175b2276b1d5fdb1bae0bedaadd2a950659b7c6f311ea37ff85e1861b1f",
+          "mode": "755",
+          "upstream_git_blob": "fa7625f053dc852200ddd497662508ff1ae40bb1"
+        },
+        {
+          "path": "scripts/sdd-workspace",
+          "sha256": "4fd9770e7a49b6bde488c0e92bac1b3bd01fcbdaf8f06b6c4efbe3a1abd99f86",
+          "mode": "755",
+          "upstream_git_blob": "b4661eb6ef646dae804c6b7932ccdbe942520a55"
+        },
+        {
+          "path": "scripts/task-brief",
+          "sha256": "cc563538e09abf719b34ddf4b2fa7a65cf3b301729039dbfa923cb060f729146",
+          "mode": "755",
+          "upstream_git_blob": "b49fc546c85e1d6f6c8b523d6c887c55d98ed989"
+        },
+        {
+          "path": "task-reviewer-prompt.md",
+          "sha256": "bfed55c8f19d0ff6ed57b0fe09127c92890e9311c6c73917129598826bf9ebe8",
+          "mode": "644",
+          "upstream_git_blob": "5c619bc510440b7bf156e78c4dfc60f198963cf0"
+        }
+      ]
+    },
+    {
+      "name": "systematic-debugging",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/systematic-debugging",
+      "installed_path": ".agents/skills/systematic-debugging",
+      "files": [
+        {
+          "path": "CREATION-LOG.md",
+          "sha256": "c24733a5b1821bd6bed1fc950261f0b9f4e90097e0bbb96459d8179713730789",
+          "mode": "644",
+          "upstream_git_blob": "9aa03092809feaf93c9bfa985252f6f1c9624692"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "51c6435d98c83c42c96ba7c35725a0b2c376cd487fb1a4e6bd0ddbe7e33ef202",
+          "mode": "644",
+          "upstream_git_blob": "62fc752aaef59a8bbed5d305f4cadc60f8ae07ed"
+        },
+        {
+          "path": "condition-based-waiting-example.ts",
+          "sha256": "40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+          "mode": "644",
+          "upstream_git_blob": "703a06b653160d060bbf46ab5c6e0cd7446bd592"
+        },
+        {
+          "path": "condition-based-waiting.md",
+          "sha256": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+          "mode": "644",
+          "upstream_git_blob": "70994f777c586f7d4c43033aac34c7cf0da6688b"
+        },
+        {
+          "path": "defense-in-depth.md",
+          "sha256": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+          "mode": "644",
+          "upstream_git_blob": "e2483354dc2b62478a2624e34ca18bc0efe887b2"
+        },
+        {
+          "path": "find-polluter.sh",
+          "sha256": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c",
+          "mode": "755",
+          "upstream_git_blob": "985f5d08ccf8a3f2d40739cfcaf4413bb24bf1cb"
+        },
+        {
+          "path": "root-cause-tracing.md",
+          "sha256": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8",
+          "mode": "644",
+          "upstream_git_blob": "0e72e8f9566b7ef85e814633d1feacad9d0c5868"
+        },
+        {
+          "path": "test-academic.md",
+          "sha256": "fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+          "mode": "644",
+          "upstream_git_blob": "23a6ed7a2044e0c44d74c3101406140f4851aa41"
+        },
+        {
+          "path": "test-pressure-1.md",
+          "sha256": "0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+          "mode": "644",
+          "upstream_git_blob": "8d13b467e4a98abfffd12161cbc3c418021d6023"
+        },
+        {
+          "path": "test-pressure-2.md",
+          "sha256": "b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+          "mode": "644",
+          "upstream_git_blob": "2d2315ec8a24ca872bc80d2f4056468ba051462a"
+        },
+        {
+          "path": "test-pressure-3.md",
+          "sha256": "96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708",
+          "mode": "644",
+          "upstream_git_blob": "89734b86fdc756488df315d53e5c3ac2d3752cd8"
+        }
+      ]
+    },
+    {
+      "name": "test-driven-development",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/test-driven-development",
+      "installed_path": ".agents/skills/test-driven-development",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d",
+          "mode": "644",
+          "upstream_git_blob": "46838cc9e893c06259e3bdad0fc2425b36242f15"
+        },
+        {
+          "path": "writing-good-tests.md",
+          "sha256": "51471c853306ff92ca8bb41dcaea05f31c0e46b03651f8f3c99754b7172f4ae1",
+          "mode": "644",
+          "upstream_git_blob": "d3c4482fd30b4f9084bb61545fe73939a7502c28"
+        }
+      ]
+    },
+    {
+      "name": "using-git-worktrees",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/using-git-worktrees",
+      "installed_path": ".agents/skills/using-git-worktrees",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "8cfb86f121269e8f7f12361e6795c4f6738828340e28964c9229d365666c9edd",
+          "mode": "644",
+          "upstream_git_blob": "1381dacb3516b94382dd6ec736ede21ee8ede2b3"
+        }
+      ]
+    },
+    {
+      "name": "using-superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/using-superpowers",
+      "installed_path": ".agents/skills/using-superpowers",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "82c5c8866ad7f5dd4440ce66bd7806ba48a2f13771beae5cf112e53f08fe36ba",
+          "mode": "644",
+          "upstream_git_blob": "069d578445805a28b8dacbf70cdf045e1673def0"
+        },
+        {
+          "path": "references/antigravity-tools.md",
+          "sha256": "4880f6de3da4e32f9659ebe7a72b9e0ebfff04e028c2ed96173f86d0387a04c0",
+          "mode": "644",
+          "upstream_git_blob": "2e1eac90534af6e1f27df4e18410be8a7b442448"
+        },
+        {
+          "path": "references/claude-code-tools.md",
+          "sha256": "21479a3fee27448cab8748a3b5687e53bb257883bda9c070426f9a1ab5cebf1b",
+          "mode": "644",
+          "upstream_git_blob": "550b8e456db58b549bfc2bfc6388dcf01b020a14"
+        },
+        {
+          "path": "references/codex-tools.md",
+          "sha256": "1a38ad9b188c393052f58d95657a1c35ea6aafc8b5a27f198f3922912f70bbe7",
+          "mode": "644",
+          "upstream_git_blob": "e4488fb224bb0fa0a33e9ac7dc961174e9f0c150"
+        },
+        {
+          "path": "references/gemini-tools.md",
+          "sha256": "62b9157bcb0ee3c6784e3d0da0798ddfa5872f9e0c34bea48f3079dabea71965",
+          "mode": "644",
+          "upstream_git_blob": "b01b65238a50981aeed22ae52ee20f8b55d16b42"
+        },
+        {
+          "path": "references/hermes-tools.md",
+          "sha256": "e2185c976a3c87503910e05e2aea58cc89bc8e569bb624b93df9958ac47a9190",
+          "mode": "644",
+          "upstream_git_blob": "0f1fa57bc1b495462e75c6ce11e798245a34987e"
+        },
+        {
+          "path": "references/muse-tools.md",
+          "sha256": "5a1da5c575fe18456ca71cd47ebfd8a38c745f8d82a67fe64d5b83080000eeb3",
+          "mode": "644",
+          "upstream_git_blob": "a87d6d83878518ba4f748be8dcd1ac9aad4b99e5"
+        },
+        {
+          "path": "references/pi-tools.md",
+          "sha256": "703dbc83d23ecab9c6f388460c38abc482e9dee2fe6772a8c7a255152ad3a4d5",
+          "mode": "644",
+          "upstream_git_blob": "0c1f21713a45255ece4144fd2fee353e4ed4f90e"
+        }
+      ]
+    },
+    {
+      "name": "verification-before-completion",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/verification-before-completion",
+      "installed_path": ".agents/skills/verification-before-completion",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+          "mode": "644",
+          "upstream_git_blob": "7d45333cc4a49c57a80df6c1fe2fa777a207afbc"
+        }
+      ]
+    },
+    {
+      "name": "writing-plans",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/writing-plans",
+      "installed_path": ".agents/skills/writing-plans",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a",
+          "mode": "644",
+          "upstream_git_blob": "4cf0275d88d67aa4ef09f4bbca9970ed6ff74a00"
+        }
+      ]
+    },
+    {
+      "name": "writing-skills",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "skills/writing-skills",
+      "installed_path": ".agents/skills/writing-skills",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "bbdfe742f853562e643a3d40d64476359d47881e39cef80a189283fa26d11ab9",
+          "mode": "644",
+          "upstream_git_blob": "182dfad177c9940d8ea388be322aadddd6c4db5f"
+        },
+        {
+          "path": "anthropic-best-practices.md",
+          "sha256": "217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a",
+          "mode": "644",
+          "upstream_git_blob": "15ea9eae223d9081b602618849791c07a7758f3d"
+        },
+        {
+          "path": "examples/CLAUDE_MD_TESTING.md",
+          "sha256": "0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+          "mode": "644",
+          "upstream_git_blob": "47881fc85bd6c01b32b84d52ed9a0c73c8d6a089"
+        },
+        {
+          "path": "graphviz-conventions.dot",
+          "sha256": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+          "mode": "644",
+          "upstream_git_blob": "3509e2f028cacaa8118cbc8c80025efb089ec28e"
+        },
+        {
+          "path": "persuasion-principles.md",
+          "sha256": "a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03",
+          "mode": "644",
+          "upstream_git_blob": "9756416a59600b70ecca4044e0919ee7d4a37b21"
+        },
+        {
+          "path": "render-graphs.js",
+          "sha256": "c7f412cc629461c4d10287e668731874c0497707023e3e3f74a5355eb2cee196",
+          "mode": "755",
+          "upstream_git_blob": "59e74b54e8538ff0a358d05c770479b3eb8484aa"
+        },
+        {
+          "path": "testing-skills-with-subagents.md",
+          "sha256": "c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade",
+          "mode": "644",
+          "upstream_git_blob": "a5acfeac86f34c7bc625d064e10c8a2f8180b696"
+        }
+      ]
+    },
+    {
+      "name": "api-and-interface-design",
+      "repository": "https://github.com/addyosmani/agent-skills",
+      "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+      "source_path": "skills/api-and-interface-design",
+      "installed_path": ".agents/skills/api-and-interface-design",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "e83d34f52ff12dd8a7c5134cd7e8140ea4541ec65e204f8a1e4cd366e30c4192",
+          "mode": "644",
+          "upstream_git_blob": "3e2e37f8f4fba2c66f9f1599eaf01a55ae3f3e33"
+        }
+      ]
+    },
+    {
+      "name": "documentation-and-adrs",
+      "repository": "https://github.com/addyosmani/agent-skills",
+      "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+      "source_path": "skills/documentation-and-adrs",
+      "installed_path": ".agents/skills/documentation-and-adrs",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "b60d503925bbaacee7fd63935db70b9ced5b2514ff5a56a672130e01b9690bc5",
+          "mode": "644",
+          "upstream_git_blob": "ecc28cef82b65be804329b242f6399bce46987fd"
+        }
+      ]
+    },
+    {
+      "name": "security-and-hardening",
+      "repository": "https://github.com/addyosmani/agent-skills",
+      "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+      "source_path": "skills/security-and-hardening",
+      "installed_path": ".agents/skills/security-and-hardening",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "2e3fc60eed5aba97fe416f3f3c9317fdb014a682925ec70a733c3ff99e4b9858",
+          "mode": "644",
+          "upstream_git_blob": "e80e1e9a4f5b2989308c376d4ea0d333fe2c26ef"
+        },
+        {
+          "path": "references/hardening-patterns.md",
+          "sha256": "2e1b93a502b4cdb0258404441f3aab029b0cce4003fbbcc61af9a2de18bab9ab",
+          "mode": "644",
+          "upstream_git_blob": "e5fba73c9fc029444d3c099d0a51538e90ed97c2"
+        }
+      ]
+    },
+    {
+      "name": "webapp-testing",
+      "repository": "https://github.com/anthropics/skills",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "source_path": "skills/webapp-testing",
+      "installed_path": ".agents/skills/webapp-testing",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+          "mode": "644",
+          "upstream_git_blob": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+          "mode": "644",
+          "upstream_git_blob": "4726215301db64a0cc4d41fc3219c61f37a30f4a"
+        },
+        {
+          "path": "examples/console_logging.py",
+          "sha256": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",
+          "mode": "644",
+          "upstream_git_blob": "9329b5e232ed53d944bfe95e750070117d31b9ab"
+        },
+        {
+          "path": "examples/element_discovery.py",
+          "sha256": "d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0",
+          "mode": "644",
+          "upstream_git_blob": "917ba72f52421a1b324f93ae8e38af72010a87b9"
+        },
+        {
+          "path": "examples/static_html_automation.py",
+          "sha256": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064",
+          "mode": "644",
+          "upstream_git_blob": "90bbedcc08cdb345c74fb938ebad02c0baf56603"
+        },
+        {
+          "path": "scripts/with_server.py",
+          "sha256": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd",
+          "mode": "755",
+          "upstream_git_blob": "431f2eba16b268b7f3e2ae4daae9db41c0289b6d"
+        }
+      ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "56ea9cf174ed86786187daa9de0e6247cb0747e4",
+      "source_path": ".claude/skills/ui-ux-pro-max",
+      "installed_path": ".agents/skills/ui-ux-pro-max",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "c245e619501102b4490015ca5ff607e37b897444d5ef80d7f796420be8ce6fc3",
+          "mode": "644",
+          "upstream_git_blob": "41f8e2fd7f8c568228d0b55186ebe3f7b4007377",
+          "upstream_sha256": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9",
+          "adaptations": [
+            "Replace Claude plugin root with this project skill directory in command examples."
+          ]
+        },
+        {
+          "path": "data/app-interface.csv",
+          "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08",
+          "mode": "644",
+          "upstream_git_blob": "95e328c807a23be02c9c32c736d0fa19109c6076"
+        },
+        {
+          "path": "data/catalog-summary.json",
+          "sha256": "6638da97231c07fb5cef3cd9d3ce483ca7b2f9748980f8c27490eb03968d8894",
+          "mode": "644",
+          "upstream_git_blob": "f911c3ae48fac5863a5a5e210866ec5cabece164"
+        },
+        {
+          "path": "data/charts.csv",
+          "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a",
+          "mode": "644",
+          "upstream_git_blob": "c6f4f875fd5b34379f24dbb541539492366a1058"
+        },
+        {
+          "path": "data/colors.csv",
+          "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c",
+          "mode": "644",
+          "upstream_git_blob": "5d2bf7389105f8a824b504b57cc93c00dc1d7e0a"
+        },
+        {
+          "path": "data/data-provenance.json",
+          "sha256": "e82fb33ed49375a300e93d9c11ccd1c1493c999e84ee7ee295e527634786e2e0",
+          "mode": "644",
+          "upstream_git_blob": "e41d2e553bdc7e5a8e6d16f5daab565faf372188"
+        },
+        {
+          "path": "data/google-font-licenses.json",
+          "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a",
+          "mode": "644",
+          "upstream_git_blob": "3ac2c34e80665bc902e265c52ab6c27b1654524c"
+        },
+        {
+          "path": "data/google-fonts.csv",
+          "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03",
+          "mode": "644",
+          "upstream_git_blob": "d7f87e3e0159b1caba083b9954793d9852256aa0"
+        },
+        {
+          "path": "data/icons.csv",
+          "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc",
+          "mode": "644",
+          "upstream_git_blob": "cfc3f1eccd7e5aee15d8d70f86d8fa17ba737958"
+        },
+        {
+          "path": "data/landing.csv",
+          "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0",
+          "mode": "644",
+          "upstream_git_blob": "34858160aa2789c49dca274d48bb116d51dd3f0a"
+        },
+        {
+          "path": "data/motion.csv",
+          "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb",
+          "mode": "644",
+          "upstream_git_blob": "8e0ca9ceb0e4cd4832aee60ac74713e1e1830de8"
+        },
+        {
+          "path": "data/phosphor-icons-upstream.json",
+          "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236",
+          "mode": "644",
+          "upstream_git_blob": "ec1d76b8117ccbfdce5df214bf0d993e41a75318"
+        },
+        {
+          "path": "data/products.csv",
+          "sha256": "42473f75e8dde5987bdf89ce55d8c168091b80a356cae691dd60247d80720b70",
+          "mode": "644",
+          "upstream_git_blob": "9f40f1d1f9743c4a81603076dfbfd115bbb55246"
+        },
+        {
+          "path": "data/react-performance.csv",
+          "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734",
+          "mode": "644",
+          "upstream_git_blob": "425a8e76c6b3bae40e8c633ffbf7ad6222c9f73a"
+        },
+        {
+          "path": "data/stacks/angular.csv",
+          "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553",
+          "mode": "644",
+          "upstream_git_blob": "5a1878dbee2b3c55c6468cbb18699b84d1a8c4d2"
+        },
+        {
+          "path": "data/stacks/astro.csv",
+          "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6",
+          "mode": "644",
+          "upstream_git_blob": "1fd2492420b20a0b311295ab883597fadb8245a6"
+        },
+        {
+          "path": "data/stacks/avalonia.csv",
+          "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258",
+          "mode": "644",
+          "upstream_git_blob": "c67f4117105865587eda9020c57d8c209f3a929a"
+        },
+        {
+          "path": "data/stacks/flutter.csv",
+          "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0",
+          "mode": "644",
+          "upstream_git_blob": "731805c4076bd9f2755ca4bd7def5be6f6df7e9c"
+        },
+        {
+          "path": "data/stacks/html-tailwind.csv",
+          "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee",
+          "mode": "644",
+          "upstream_git_blob": "9089eb0fc821ff0c8d135f8ee503be345e8fcb84"
+        },
+        {
+          "path": "data/stacks/javafx.csv",
+          "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869",
+          "mode": "644",
+          "upstream_git_blob": "744bd80f437f12bfb5bb9c84630a58022604675a"
+        },
+        {
+          "path": "data/stacks/jetpack-compose.csv",
+          "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a",
+          "mode": "644",
+          "upstream_git_blob": "8daa0b8f9a2ca3f0f1711664d9d677cd1c38dd9e"
+        },
+        {
+          "path": "data/stacks/laravel.csv",
+          "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9",
+          "mode": "644",
+          "upstream_git_blob": "ed11b0fba457e02857f996d1542fb0b8e1271756"
+        },
+        {
+          "path": "data/stacks/nextjs.csv",
+          "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4",
+          "mode": "644",
+          "upstream_git_blob": "acdaf097dff26ba0d3b22ab4544bf6169c87afd4"
+        },
+        {
+          "path": "data/stacks/nuxt-ui.csv",
+          "sha256": "fce682a338cfcdbf35d318d20e5befbe7b5d81b05abc37f87677a6d9cde84dc6",
+          "mode": "644",
+          "upstream_git_blob": "e2aaeca45faa8b987bf94010162b14d458811dde"
+        },
+        {
+          "path": "data/stacks/nuxtjs.csv",
+          "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176",
+          "mode": "644",
+          "upstream_git_blob": "ceab9cf3358d2788af0bd7dc14cb3fab769740d0"
+        },
+        {
+          "path": "data/stacks/react-native.csv",
+          "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5",
+          "mode": "644",
+          "upstream_git_blob": "a5aea45dc1d0341b11ee42076a86db842d4d2a19"
+        },
+        {
+          "path": "data/stacks/react.csv",
+          "sha256": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1",
+          "mode": "644",
+          "upstream_git_blob": "fe8f001e695a978733449e04e99d7135af0f1bf3"
+        },
+        {
+          "path": "data/stacks/shadcn.csv",
+          "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51",
+          "mode": "644",
+          "upstream_git_blob": "0e8bedf3084e7a40d6310bcd3011c437efcb1700"
+        },
+        {
+          "path": "data/stacks/svelte.csv",
+          "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db",
+          "mode": "644",
+          "upstream_git_blob": "51684fe70448e15333cd16207db7da8aea0508e6"
+        },
+        {
+          "path": "data/stacks/swiftui.csv",
+          "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623",
+          "mode": "644",
+          "upstream_git_blob": "ea9b95e8922e663b2adf27a7346e2c2f44c7a215"
+        },
+        {
+          "path": "data/stacks/threejs.csv",
+          "sha256": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b",
+          "mode": "644",
+          "upstream_git_blob": "f62286320038beabbdc5e11e07ca2818d8e959a4"
+        },
+        {
+          "path": "data/stacks/uno.csv",
+          "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48",
+          "mode": "644",
+          "upstream_git_blob": "9cab32326b4ad3a3cf43451a3c24553a41126cc1"
+        },
+        {
+          "path": "data/stacks/uwp.csv",
+          "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c",
+          "mode": "644",
+          "upstream_git_blob": "04a84ea092a7657fef11e5daa97982be52dc6f59"
+        },
+        {
+          "path": "data/stacks/vue.csv",
+          "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95",
+          "mode": "644",
+          "upstream_git_blob": "83997c515775170f22b638635aae0a67a46dfc87"
+        },
+        {
+          "path": "data/stacks/winui.csv",
+          "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85",
+          "mode": "644",
+          "upstream_git_blob": "107ecead11728a83ec0ea10d815a9d1f43a35792"
+        },
+        {
+          "path": "data/stacks/wpf.csv",
+          "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7",
+          "mode": "644",
+          "upstream_git_blob": "4e88d6750833a74f85ba487cf2b8f4ff6ebd2f4a"
+        },
+        {
+          "path": "data/styles.csv",
+          "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7",
+          "mode": "644",
+          "upstream_git_blob": "d1eb2c216e453005ffa8232ffb94491c183afe3c"
+        },
+        {
+          "path": "data/typography.csv",
+          "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8",
+          "mode": "644",
+          "upstream_git_blob": "70d107d107de30150863c965767320ec33ef29ad"
+        },
+        {
+          "path": "data/ui-reasoning.csv",
+          "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a",
+          "mode": "644",
+          "upstream_git_blob": "8931d4c809f8e22ddac00ce612ce0c35f34a59b6"
+        },
+        {
+          "path": "data/ux-guidelines.csv",
+          "sha256": "ff81ec613f70ba9fc3fcce52dbe4ae35d44b2079dbe6dc066d2d6e38c28facd5",
+          "mode": "644",
+          "upstream_git_blob": "4e7d52b296537a03513b18b2c3f2b946cc802051"
+        },
+        {
+          "path": "references/pro-rules.md",
+          "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23",
+          "mode": "644",
+          "upstream_git_blob": "b2ce233287e37ec9ca13476c4014b922e9d5a0e9"
+        },
+        {
+          "path": "references/quick-reference.md",
+          "sha256": "0609bc7c89dacb40472465d8fc14257b56b2c43439660fc8d6fa3b8c022e1876",
+          "mode": "644",
+          "upstream_git_blob": "7acc7e7540ca6981d878a90aae4455c1638e2385"
+        },
+        {
+          "path": "scripts/core.py",
+          "sha256": "c3be4b23e7150e6b45095213158cfa3c8ad96502f01dde3f6ffff9de64a4f481",
+          "mode": "644",
+          "upstream_git_blob": "670fe33070cfe706401da4ff276831257dbf1e25"
+        },
+        {
+          "path": "scripts/design_system.py",
+          "sha256": "e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103",
+          "mode": "644",
+          "upstream_git_blob": "d5fe1575f00d839f919603bd09b44fe7e9def4fb"
+        },
+        {
+          "path": "scripts/reasoning_contract.py",
+          "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913",
+          "mode": "644",
+          "upstream_git_blob": "63652a666b130c249ea1e2954316f1ac8a5a73d5"
+        },
+        {
+          "path": "scripts/search.py",
+          "sha256": "d54e648fe0ec2932cac66684220cc17be4bd4b4eba1d23d3195d509d398db374",
+          "mode": "644",
+          "upstream_git_blob": "5038aa875a0d39f24dea803a4c73b38f8f56915f"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-api.json",
+          "sha256": "22d8dc81a7d6827b7e8b64b53e7d184210fb9759e8e294e0d5133c81cc460176",
+          "mode": "644",
+          "upstream_git_blob": "eacf1bb4559875808247df711376e8cc47c4f7c4"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-catalog.json",
+          "sha256": "c608ad5c4084ebc50a4bbbfb69ea2456c01fd5519c457e18410fffd250ae948f",
+          "mode": "644",
+          "upstream_git_blob": "4eb89d4d3312b670ef70d44563bf2ffd5cf814bb"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-existing.csv",
+          "sha256": "4e0761b839dc6b2187a370e82eddc0aed8a7ff10c09e28dd814bb3656dac595b",
+          "mode": "644",
+          "upstream_git_blob": "83279e0f218e9725b8a14486a558fa10ff134949"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-metadata.json",
+          "sha256": "30bffc29ae348416a2de2f9c6c418e768e4578f136b0f4bac5d2f70124f2e9ba",
+          "mode": "644",
+          "upstream_git_blob": "43edcbec14c4a5e68d373eda8466c235f2ee7e9b"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/google-overrides.json",
+          "sha256": "6243a48a4619986768c4628e2d0c98ff195beba71ba9be5df8f0c52fc6d90c0b",
+          "mode": "644",
+          "upstream_git_blob": "162fd1830b08dc1a7b8b891f92f16dbb8b7015f2"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/icons-curated.csv",
+          "sha256": "68362c9a700c13b96f000784a0198c1c7e117a7088a01c85744e44233038fe9d",
+          "mode": "644",
+          "upstream_git_blob": "3171bfc7a0a6b3b36745b4f7f0c7743f0afad953"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-core.json",
+          "sha256": "ae4d0bb076240824e1b643c2270d1f8cc0952a69502ec1e622b7dedd85b930bb",
+          "mode": "644",
+          "upstream_git_blob": "be0edd337f2c731af41b8a745d37089172c5dc60"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-package.json",
+          "sha256": "500588c757d6de03e3d7e69b27a8b8b1f88ccf6bb0333e4c1e9b0d6a4f112475",
+          "mode": "644",
+          "upstream_git_blob": "ad9e6ef4b835e65a6c0bd0ad9d11f0517fd718c1"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+          "sha256": "d79f2ee0afdbc2f87776733e145df3538a16a25d7c2fba0056bb48295dad0ded",
+          "mode": "644",
+          "upstream_git_blob": "4a0b4587ce9876acac1904831ea774bbf8c69edf"
+        },
+        {
+          "path": "scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+          "sha256": "1c57a1d76bcc0cdd3632d4c18b9c0e79576b4591df39831c9607e5d0eb4f2cec",
+          "mode": "644",
+          "upstream_git_blob": "a0db183da61e63f3a8f9e3fbfba7405144f41c1e"
+        },
+        {
+          "path": "scripts/tests/fixtures/relevance-baseline.json",
+          "sha256": "0df200fc54c1cb97a52d6775e7f501509163cea8f8b73fd7268429bc1f835afe",
+          "mode": "644",
+          "upstream_git_blob": "0894a44cc154a01d3b2d624a66c30e7ac3e1a3d5"
+        },
+        {
+          "path": "scripts/tests/fixtures/relevance-cases.json",
+          "sha256": "e77d36eebbf6ddc2860946a02cdb659351da6c09f2688f1ed30939a418099646",
+          "mode": "644",
+          "upstream_git_blob": "a1fbb87835bda252ba8ae7f15e7090cee580cb42"
+        },
+        {
+          "path": "scripts/tests/fixtures/relevance-thresholds.json",
+          "sha256": "1fbe8623fe3e49c8d828139bca9df69043746e488e8bf09d93dfb9cbc31f5cef",
+          "mode": "644",
+          "upstream_git_blob": "1f90e9891fa96bcf9f27db54bcc4bc1eb41328a7"
+        },
+        {
+          "path": "scripts/tests/test_catalog_refresh.py",
+          "sha256": "3e2ca5d12702318f641ae62d0c14f22a3bcc84d84e79b863c0e947d475604adb",
+          "mode": "644",
+          "upstream_git_blob": "8379cc3a224bb9f3dca2a3ebd561cd92b7e05ae4"
+        },
+        {
+          "path": "scripts/tests/test_catalog_summary_line_endings.py",
+          "sha256": "fa6ff09f0ec2c99013588c77397f5082dddebe8f467e94c5f8378ec9595f4989",
+          "mode": "644",
+          "upstream_git_blob": "056c8e5e7d8ba69c87c31c8ad7bcd32ca3d7223c"
+        },
+        {
+          "path": "scripts/tests/test_core.py",
+          "sha256": "3527fe2f4b852f69f07c17ddc0d615d9a6e025c924e45a33985579a94a8d2118",
+          "mode": "644",
+          "upstream_git_blob": "b30c0ae54c25f38ec91b37a56cda04426b2510a9"
+        },
+        {
+          "path": "scripts/tests/test_core_data_quality.py",
+          "sha256": "3ffc6b4905c9ea26d7ac4527ab154d153584231aee71b2ae4bd017977fa09cc5",
+          "mode": "644",
+          "upstream_git_blob": "6d36c79b1f9f8c68c4b02f86a09c5e5f9ba410fe"
+        },
+        {
+          "path": "scripts/tests/test_data_contracts.py",
+          "sha256": "0360d6e10080c0bca214f2b0bbad582ba50702a542ce21013351aca54938df3a",
+          "mode": "644",
+          "upstream_git_blob": "312dc383b3f6548d7200e928c192673a907b5016"
+        },
+        {
+          "path": "scripts/tests/test_design_system_mode.py",
+          "sha256": "95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef",
+          "mode": "644",
+          "upstream_git_blob": "44c80c1caa159058a7a5858284ea269bcb561449"
+        },
+        {
+          "path": "scripts/tests/test_design_system_stack.py",
+          "sha256": "83d09ffe8cfbf7b265f362129f061dfe8e5e167ce5db43adaead197cabc9ca38",
+          "mode": "644",
+          "upstream_git_blob": "50f0080300b56f4891014d878edddb781b36d7de"
+        },
+        {
+          "path": "scripts/tests/test_native_desktop_stack_freshness.py",
+          "sha256": "3942845712b9a829323cd3568511483135f2a8c7cd79ccf61679da4b0f624dbb",
+          "mode": "644",
+          "upstream_git_blob": "79e07f4f5f9c88025506cb3d7bb5aad01dbbd339"
+        },
+        {
+          "path": "scripts/tests/test_relevance_evaluator.py",
+          "sha256": "2fe56a4d6fe5fff15ff592274b0eeaba925146cefea6c0fa29d8f1b77c9aca1f",
+          "mode": "644",
+          "upstream_git_blob": "ed158e2d4e39a342090b29435dee25bcf5c4444f"
+        },
+        {
+          "path": "scripts/tests/test_skill_script_paths.py",
+          "sha256": "7cec24b94be771bc60bc84f8993e614bb16d4047930e1dd3d3bed91628311d44",
+          "mode": "644",
+          "upstream_git_blob": "36514964d7ea6edcadc169e0d713c18b1cc0bb09"
+        },
+        {
+          "path": "scripts/tests/test_style_taxonomy.py",
+          "sha256": "cd14d0092e8a454d213aa104b53e4e70ba698491fa00fde9fdec5ca8a3d70011",
+          "mode": "644",
+          "upstream_git_blob": "09ec131ea6d609e21aaf81327a2e3ffe1ea59d4c"
+        },
+        {
+          "path": "scripts/tests/test_text_layout_resilience.py",
+          "sha256": "b51d32ee8a15505b87cb81957fb2d1b385e041e8beb4463c311d236bfd29ebd4",
+          "mode": "644",
+          "upstream_git_blob": "8db3b873f958b93906abb8f4e4d6ef75a344c76e"
+        },
+        {
+          "path": "scripts/tests/test_web_stack_freshness.py",
+          "sha256": "74897571398585f27e2c35d09d81b0a531c8c774f4a2967e5e1b1d1b05a483d9",
+          "mode": "644",
+          "upstream_git_blob": "a54b0eaaa564fc4e0390537b268eaca46d36d5bd"
+        },
+        {
+          "path": "scripts/validate_data.py",
+          "sha256": "a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8",
+          "mode": "644",
+          "upstream_git_blob": "8b6c7941f6ad3e51cb9d412b11185133e7763001"
+        }
+      ]
+    }
+  ],
+  "support_files": [
+    {
+      "path": ".agents/licenses/superpowers.LICENSE",
+      "repository": "https://github.com/obra/superpowers",
+      "commit": "b739a8af570e10a95898f2bdf6cec97467fa6c12",
+      "source_path": "LICENSE",
+      "upstream_git_blob": "abf0390320aa14406af7a520b9b0739fdda9bf08",
+      "sha256": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400"
+    },
+    {
+      "path": ".agents/licenses/addy-agent-skills.LICENSE",
+      "repository": "https://github.com/addyosmani/agent-skills",
+      "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+      "source_path": "LICENSE",
+      "upstream_git_blob": "d67778ada6b9cda6227e9130da182c13e73c8b2e",
+      "sha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+    },
+    {
+      "path": ".agents/licenses/ui-ux-pro-max.LICENSE",
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "56ea9cf174ed86786187daa9de0e6247cb0747e4",
+      "source_path": "LICENSE",
+      "upstream_git_blob": "1e71cbf26660f31903807d099fe902c098fc7e4c",
+      "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+    },
+    {
+      "path": ".agents/references/security-checklist.md",
+      "repository": "https://github.com/addyosmani/agent-skills",
+      "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+      "source_path": "references/security-checklist.md",
+      "upstream_git_blob": "fc5e29b92c183fa69e0952b61a99761dc48b4c0b",
+      "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755"
+    }
+  ]
+}

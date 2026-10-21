@@ -1,0 +1,11 @@
+{
+  "pages": 29,
+  "checked_text_units": 479,
+  "text_issues": [],
+  "missing_glyphs": [],
+  "replacement_char_present": false,
+  "pdf_bytes": 233137,
+  "sha256": "f3a695faec83ed922441c19b2691bb36c3b6bfa8fc71b8681cda283e9a2303d1",
+  "text_extraction_mode": "raw (preserves table cell drawing order)",
+  "visually_inspected_pages": 29
+}

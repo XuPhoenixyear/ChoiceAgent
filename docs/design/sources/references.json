@@ -1,0 +1,109 @@
+[
+  {
+    "id": "P1",
+    "title": "SAILRec_EMNLP2026_camera.pdf",
+    "scope": "用户附件；研究方法。接收状态及第一作者身份由用户提供。",
+    "url": "../../research/SAILRec_EMNLP2026_camera.pdf",
+    "availability": "本机研究附件；PDF 不随代码仓库分发，说明见 docs/research/README.md。",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "P2",
+    "title": "WWW2027_anonymous.pdf",
+    "scope": "用户附件；PACERec 方法草稿。拟投，尚未正式提交；共同一作由用户提供。",
+    "url": "../../research/WWW2027_anonymous.pdf",
+    "availability": "本机研究附件；PDF 不随代码仓库分发，说明见 docs/research/README.md。",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S1",
+    "title": "Amazon Reviews 2023",
+    "scope": "数据、字段、时间、价格与元信息含义。",
+    "url": "https://amazon-reviews-2023.github.io/",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S2",
+    "title": "SQLite FTS5 官方文档",
+    "scope": "BM25 排序方向及字段权重。",
+    "url": "https://www.sqlite.org/fts5.html",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S3",
+    "title": "FAISS：索引说明",
+    "scope": "精确 IndexFlatIP、余弦归一化和存储估算。",
+    "url": "https://github.com/facebookresearch/faiss/wiki/Faiss-indexes",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S4",
+    "title": "Qwen3-Embedding-0.6B 模型卡",
+    "scope": "维度、语言、使用约定与许可证。",
+    "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S5",
+    "title": "Qwen3-Reranker-0.6B 模型卡",
+    "scope": "候选重排模型与输入格式。",
+    "url": "https://huggingface.co/Qwen/Qwen3-Reranker-0.6B",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S6",
+    "title": "Qwen：Function Calling",
+    "scope": "工具调用、模板和兼容适配参考。",
+    "url": "https://qwen.readthedocs.io/en/latest/framework/function_call.html",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S7",
+    "title": "Qwen3-4B-Instruct-2507 模型卡",
+    "scope": "生成模型、非思考模式与部署参考。",
+    "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S8",
+    "title": "vLLM：Tool Calling",
+    "scope": "服务侧工具选择与解析器配置。",
+    "url": "https://docs.vllm.ai/en/stable/features/tool_calling/",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S9",
+    "title": "DeepSeek：模型与价格",
+    "scope": "模型别名、人民币计费；用于预算估算。",
+    "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S10",
+    "title": "DeepSeek：Tool Calls",
+    "scope": "非思考工具协议；执行仍由应用负责。",
+    "url": "https://api-docs.deepseek.com/guides/tool_calls/",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S11",
+    "title": "Evaluation Metrics for Item Recommendation under Sampling",
+    "scope": "抽样评估与全目录结果差异的研究依据。",
+    "url": "https://arxiv.org/abs/1912.02263",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S12",
+    "title": "Amazon Science：ESCI Data",
+    "scope": "独立查询—商品相关性基准；选做。",
+    "url": "https://github.com/amazon-science/esci-data",
+    "checked_at": "2026-10-20"
+  },
+  {
+    "id": "S13",
+    "title": "τ-bench 原论文",
+    "scope": "有工具交互任务的终态与稳定性评测思想。",
+    "url": "https://arxiv.org/abs/2406.12045",
+    "checked_at": "2026-10-20"
+  }
+]

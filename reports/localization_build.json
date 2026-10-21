@@ -1,0 +1,955 @@
+{
+  "created_at": "2026-10-20T17:37:30.063111+00:00",
+  "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+  "translation_version": "zh-CN-v1",
+  "source_catalog_sha256": "8fc7d0d8a13bcf187c742aed4fe3268a5eeb2404a5581e9924b9f296f522e008",
+  "source_hash_fields": [
+    "title",
+    "category",
+    "category_path",
+    "brand",
+    "features[:3]",
+    "attributes"
+  ],
+  "source_hash_serialization": "json.dumps(ensure_ascii=False,sort_keys=True,separators=(\",\",\":\"))",
+  "trial": false,
+  "item_count": 3000,
+  "newly_translated": 2968,
+  "batch_size": 48,
+  "max_input_tokens": 1024,
+  "max_output_tokens": 192,
+  "temperature": 0,
+  "enable_thinking": false,
+  "local_files_only": true,
+  "physical_gpu": 5,
+  "elapsed_seconds": 1591.725,
+  "padded_generated_tokens": 581072,
+  "kinds": {
+    "model": 3000
+  },
+  "chinese_title_count": 3000,
+  "feature_count": 6037,
+  "items_with_features": 2254,
+  "validation_issues": {
+    "non_chinese_title": 113,
+    "title_retry_failed": 80,
+    "recovered_truncated_json": 302,
+    "feature_added_number": 1427,
+    "title_retry_success": 108,
+    "invalid_json": 8,
+    "title_added_number": 67,
+    "non_chinese_feature": 48
+  },
+  "batches": [
+    {
+      "offset": 0,
+      "count": 48,
+      "elapsed_seconds": 33.284,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 48,
+      "count": 48,
+      "elapsed_seconds": 18.867,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 96,
+      "count": 48,
+      "elapsed_seconds": 28.548,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 144,
+      "count": 48,
+      "elapsed_seconds": 24.469,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 192,
+      "count": 48,
+      "elapsed_seconds": 24.815,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 240,
+      "count": 48,
+      "elapsed_seconds": 24.884,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 288,
+      "count": 48,
+      "elapsed_seconds": 32.9,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 336,
+      "count": 48,
+      "elapsed_seconds": 22.732,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 384,
+      "count": 48,
+      "elapsed_seconds": 23.764,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 432,
+      "count": 48,
+      "elapsed_seconds": 25.069,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 480,
+      "count": 48,
+      "elapsed_seconds": 22.01,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 528,
+      "count": 48,
+      "elapsed_seconds": 25.025,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 576,
+      "count": 48,
+      "elapsed_seconds": 24.55,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 624,
+      "count": 48,
+      "elapsed_seconds": 21.884,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 672,
+      "count": 48,
+      "elapsed_seconds": 30.44,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 720,
+      "count": 48,
+      "elapsed_seconds": 26.346,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 768,
+      "count": 48,
+      "elapsed_seconds": 23.803,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 816,
+      "count": 48,
+      "elapsed_seconds": 26.994,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 864,
+      "count": 48,
+      "elapsed_seconds": 24.301,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 912,
+      "count": 48,
+      "elapsed_seconds": 24.079,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 960,
+      "count": 48,
+      "elapsed_seconds": 21.873,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1008,
+      "count": 48,
+      "elapsed_seconds": 24.886,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1056,
+      "count": 48,
+      "elapsed_seconds": 18.877,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1104,
+      "count": 48,
+      "elapsed_seconds": 27.144,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1152,
+      "count": 48,
+      "elapsed_seconds": 27.307,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1200,
+      "count": 48,
+      "elapsed_seconds": 24.631,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1248,
+      "count": 48,
+      "elapsed_seconds": 23.426,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1296,
+      "count": 48,
+      "elapsed_seconds": 24.228,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1344,
+      "count": 48,
+      "elapsed_seconds": 21.871,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1392,
+      "count": 48,
+      "elapsed_seconds": 23.894,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1440,
+      "count": 48,
+      "elapsed_seconds": 20.343,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1488,
+      "count": 48,
+      "elapsed_seconds": 25.683,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1536,
+      "count": 48,
+      "elapsed_seconds": 31.612,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1584,
+      "count": 48,
+      "elapsed_seconds": 28.709,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1632,
+      "count": 48,
+      "elapsed_seconds": 23.217,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1680,
+      "count": 48,
+      "elapsed_seconds": 23.844,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1728,
+      "count": 48,
+      "elapsed_seconds": 23.757,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1776,
+      "count": 48,
+      "elapsed_seconds": 23.069,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1824,
+      "count": 48,
+      "elapsed_seconds": 28.879,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1872,
+      "count": 48,
+      "elapsed_seconds": 26.259,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 1920,
+      "count": 48,
+      "elapsed_seconds": 24.334,
+      "padded_generated_tokens": 8880
+    },
+    {
+      "offset": 1968,
+      "count": 48,
+      "elapsed_seconds": 28.109,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2016,
+      "count": 48,
+      "elapsed_seconds": 18.781,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2064,
+      "count": 48,
+      "elapsed_seconds": 24.903,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2112,
+      "count": 48,
+      "elapsed_seconds": 27.771,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2160,
+      "count": 48,
+      "elapsed_seconds": 28.406,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2208,
+      "count": 48,
+      "elapsed_seconds": 27.853,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2256,
+      "count": 48,
+      "elapsed_seconds": 22.843,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2304,
+      "count": 48,
+      "elapsed_seconds": 29.39,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2352,
+      "count": 48,
+      "elapsed_seconds": 29.317,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2400,
+      "count": 48,
+      "elapsed_seconds": 21.908,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2448,
+      "count": 48,
+      "elapsed_seconds": 29.364,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2496,
+      "count": 48,
+      "elapsed_seconds": 27.641,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2544,
+      "count": 48,
+      "elapsed_seconds": 32.97,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2592,
+      "count": 48,
+      "elapsed_seconds": 28.718,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2640,
+      "count": 48,
+      "elapsed_seconds": 21.205,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2688,
+      "count": 48,
+      "elapsed_seconds": 25.782,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2736,
+      "count": 48,
+      "elapsed_seconds": 28.572,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2784,
+      "count": 48,
+      "elapsed_seconds": 17.396,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2832,
+      "count": 48,
+      "elapsed_seconds": 30.267,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2880,
+      "count": 48,
+      "elapsed_seconds": 29.216,
+      "padded_generated_tokens": 9216
+    },
+    {
+      "offset": 2928,
+      "count": 40,
+      "elapsed_seconds": 28.695,
+      "padded_generated_tokens": 7680
+    }
+  ],
+  "translation_prompt_sha256": "87a6c20977b0bacadd7d060ce6e2514e2a72e6d8fd06197a52eee5d18ef50cbb",
+  "samples": [
+    {
+      "item_id": "B001S28Q4Q",
+      "original_title": "Alliance Rubber 07706 Non-Latex Brites File Bands, Colored Elastic Bands, 1.5 oz Pic Pac Dispenser (Assorted Bright Colors and Sizes)",
+      "translation": {
+        "item_id": "B001S28Q4Q",
+        "source_hash": "388095be5a207f1172b293d2bdd05300bb79cd982ea3d07b27da053fd559871b",
+        "title": "Alliance Rubber 07706 非乳胶文件橡皮筋，彩色弹性带，1.5盎司Pic Pac分装器（ 多种亮色和尺寸）",
+        "category": "办公用品",
+        "features": [
+          "可重复使用：这些彩色橡胶带可拉伸且可重复使用，适用于多种项目和工作。",
+          "易拉伸带：非乳胶橡胶带设计简单易拉伸，便于操作以固定文件和纸张。有助于减轻腕管综合征相关症状。",
+          "三种亮色：Pic Pac分装器内含多种亮色和尺寸的橡胶带，便于识别和归档。"
+        ],
+        "attributes": {
+          "Item Weight": "2 盎司",
+          "Product Dimensions": "4.5 x 3 x 1.31 英寸",
+          "Color": "Blue/Orange/Yellow/Lime/Purple/Pink",
+          "Material Type": "Other",
+          "Number of Items": "1",
+          "Size": "Assorted Sizes",
+          "Material": "Other",
+          "Unit Count": "6.0 Count"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B07RPQVH21",
+      "original_title": "10 Set Mini Office Stapler with 10# Staples, Small Hand Stapler Portable Desktop Stapler Student Stapler",
+      "translation": {
+        "item_id": "B07RPQVH21",
+        "source_hash": "e609b6916f1630de5b3758ae5b31ea6f93b5576697ec7b846db40db6909c90b4",
+        "title": "Chneeu 10套迷你办公订书机，10号订书钉，小手订书机便携式桌面订书机学生订书机",
+        "category": "办公用品",
+        "features": [
+          "采用优质金属与塑料制成，耐用性能优异",
+          "色彩鲜艳设计，适合儿童和成人使用",
+          "小巧便携，可轻松放入口袋、包或行李箱"
+        ],
+        "attributes": {
+          "Item Weight": "3 盎司",
+          "Color": "多色",
+          "Material Type": "Plastic, Metal",
+          "Size": "5x4x2 inchs",
+          "Material": "Plastic, Metal",
+          "Style": "Portable"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B07J58B87Q",
+      "original_title": "Creanoso Humorous Sayings Bookish Bookmarks for Men & Women (30-Pack) –– Stocking Stuffers Gift for Bibliophiles, Book Worms, Book Lovers – Party Supplies – Book Clubs Reading",
+      "translation": {
+        "item_id": "B07J58B87Q",
+        "source_hash": "eec056b26dfaffc0becef18e034f5177f0a35bb8040d90be14ac3a650d9354d2",
+        "title": "Creanoso 笑话书签套装（30件）——为书虫、书迷、书友精选礼物，派对用品，读书俱乐部阅读",
+        "category": "办公用品",
+        "features": [
+          "Creanoso 笑话书签（30件）——高端礼品卡片套装（6种设计×5件=总30件）",
+          "书迷阅读乐趣，幽默说辞书签——为书虫和书迷精选阅读礼券",
+          "优质圣诞礼物，为男性、女性、成人、书读爱好者、书虫精选"
+        ],
+        "attributes": {
+          "Item Weight": "2.82 盎司",
+          "Product Dimensions": "7 x 2.2 x 0.1 英寸",
+          "Color": "30-pack",
+          "Material Type": "纸",
+          "Material": "纸",
+          "Item Dimensions LxWxH": "7 x 2.2 x 0.1 英寸"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B098NQ685V",
+      "original_title": "PenPower WorldPen Scan Go | OCR Reading Pen with Text to Speech | Pen Scanner for Data Input | Pen Translator for Second Language Learners| Wireless Standalone | LCD Touchscreen | Wi-Fi Connection",
+      "translation": {
+        "item_id": "B098NQ685V",
+        "source_hash": "f4bca99a12fc1851dc09af02a1b710c85cc1d0fa0d39b2a9b8442f6aa1b69547",
+        "title": "PenPower 世界Pen Scan Go | OCR阅读笔 with 文本转语音 | 文本扫描器 for 数据输入 | 文本翻译器 for 二语学习者| 无线独立 | 触摸屏 | Wi-Fi连接",
+        "category": "电子产品",
+        "features": [
+          "文本转语音 - 扫描打印或数字文本，阅读笔将读给你听。可同时扫描多句以理解上下文。支持英式和美式发音。",
+          "语音转文本 - 自动将语音转为文本，帮助你在更少时间内做更多笔记。在会议和课堂中永不遗漏重要信息！",
+          "扫描翻译 - 适合二语学习者，如西班牙语、法语、中文或韩语！连接Wi-Fi时支持55种语言。便携式文本翻译器，方便字典查询。"
+        ],
+        "attributes": {
+          "Product Dimensions": "0.56\"D x 1.24\"W x 5.77\"H",
+          "Item Weight": "0.17 磅",
+          "Item Dimensions LxWxH": "5.77 x 1.24 x 0.56 英寸"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B00DBSNIC0",
+      "original_title": "Assorted Best Selling Birthday Cards, Set of 8 Greeting Cards",
+      "translation": {
+        "item_id": "B00DBSNIC0",
+        "source_hash": "30d1f206c4fbb3ac805304c0b2815a1cfb859750b4007ae10889cbcf30e245d3",
+        "title": "Apartment 2 Cards 混合款生日贺卡套装（8张）",
+        "category": "家居用品",
+        "features": [],
+        "attributes": {
+          "Product Dimensions": "5.5 x 4.25 x 0.13 英寸",
+          "Item Weight": "0.352 盎司",
+          "Item Dimensions LxWxH": "5.5 x 4.25 x 0.13 英寸"
+        },
+        "translation_kind": "model",
+        "model": "coding-assistant-source-review",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B0771YCWND",
+      "original_title": "Paperkraft Handmade Rose Bouquet 3D Pop Up Greeting Card",
+      "translation": {
+        "item_id": "B0771YCWND",
+        "source_hash": "db071e7e2936493f4006567e992675ce2e27e854e5bda1227e79c2ee79cc4321",
+        "title": "Paperkraft 纸卡手工玫瑰花3D立体贺卡",
+        "category": "办公用品",
+        "features": [
+          "这款3D立体贺卡封面采用激光切割玫瑰花造型",
+          "卡片做工精良，色彩鲜艳，工艺精湛",
+          "手工纸艺制作，使用高品质进口纸张和环保印刷，精细切割并手工组装"
+        ],
+        "attributes": {
+          "Item Weight": "3.2 盎司",
+          "Product Dimensions": "9 x 7 x 1 英寸",
+          "Color": "红色",
+          "Material Type": "纸",
+          "Number of Items": "1"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B00URTWH7S",
+      "original_title": "Tall Tin Charity Donation Coin Collection Box Tip Container Can Ticket & Suggestion Box(5 Pack)",
+      "translation": {
+        "item_id": "B00URTWH7S",
+        "source_hash": "9e4222cb0f8517dc1035ea74dcf80f5b8ee717df16d623ea54e3d8043eba3d59",
+        "title": "My Charity Boxes 慈善捐赠罐套装（5件）",
+        "category": "工具与家装",
+        "features": [
+          "5件高筒锡罐用于慈善收集",
+          "适合家庭慈善收集",
+          "可开可合，可重复使用盖"
+        ],
+        "attributes": {
+          "Item Weight": "1 磅",
+          "Product Dimensions": "3.5 x 2.5 x 9.8 英寸",
+          "Color": "Colors May vary",
+          "Material": "Tin"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    },
+    {
+      "item_id": "B091BH3XKK",
+      "original_title": "2022 Cats Sticker Wall Calendar by Bright Day, 12 x 12 Inch,",
+      "translation": {
+        "item_id": "B091BH3XKK",
+        "source_hash": "7297008fc8a1106277d08ee7af013a53148416463e9e07ab92d400a95bc33056",
+        "title": "Bright Day Calendars 2022 猫贴墙历 by Bright Day, 12 x 12 英寸",
+        "category": "办公用品",
+        "features": [
+          "保持有序：2022 猫历！以她们自信的态度和温柔的气质，猫是全球最受欢迎的宠物之一！无论你是猫的主人，还是只是喜欢猫的观者，你都会喜欢这个可爱的小历书",
+          "高质量：2022 小猫历 - 封面尺寸：12 x 12 英寸。打开后尺寸：12 x 24 英寸。不渗色！2022 美妙猫咪墙历包含13幅全彩图片！所有2022猫咪历照片均精心挑选"
+        ],
+        "attributes": {
+          "Item Weight": "9.2 盎司",
+          "Material Type": "纸",
+          "Size": "12 英寸 x 24 英寸, 12 英寸 x 12 英寸",
+          "Material": "纸"
+        },
+        "translation_kind": "model",
+        "model": "/datas/wuxi/Projects/datas/models/Qwen3-1.7B",
+        "translation_version": "zh-CN-v1"
+      }
+    }
+  ],
+  "limitations": [
+    "Machine translations are display aids, never source evidence.",
+    "Features are concise translations of at most the first 220 characters of each of the first three source facts.",
+    "Numeric additions are rejected, but factual fidelity still requires human review.",
+    "Rule fallbacks retain only the known brand and the actual source category."
+  ],
+  "peak_allocated_gpu_mib": 7346.5,
+  "peak_reserved_gpu_mib": 12200.0,
+  "finalized_at": "2026-10-20T17:55:24.152397+00:00",
+  "source_hash_verified_count": 3000,
+  "artifact_sha256": "0a105ce1560bef93ba67612d986e315b8a3a1e02170138e0059711da5dc3b29f",
+  "assistant_review_artifact": "data/processed/catalog.zh-CN.review.jsonl",
+  "assistant_review_artifact_sha256": "5207ec962f2264f42cfd5f6133973d0dd292b57ca8c9ae491a33fbd3a4a76286",
+  "finalizer_script_sha256": "5134d4d0c113b0023449e21183693ec3951e16aaa07e88d441ec2b57dab7b1d7",
+  "qwen_raw_generation_kinds": {
+    "model": 2920,
+    "rule": 80
+  },
+  "qwen_title_count": 2920,
+  "assistant_review_title_count": 80,
+  "assistant_review_note": "AI coding-assistant source-title review of failed Qwen titles; not human review and not Qwen generation. Runtime model remains the user's local Qwen3-1.7B.",
+  "source_feature_count_first_three": 7071,
+  "features_omitted_or_rejected_count": 1034,
+  "source_items_without_features": 563,
+  "items_without_translated_features": 746,
+  "final_numeric_addition_issues": [],
+  "attributes_policy": "Source fields only; controlled field-specific translations; model attributes ignored.",
+  "source_bound_term_corrections": [
+    "rhinestone -> 水钻 (unless diamond also appears)",
+    "toner cartridge -> 碳粉盒 (unless ink also appears)",
+    "gel pen -> 中性笔",
+    "2-way speakerphone -> 双向免提通话",
+    "Letter/Legal retain US paper-format names",
+    "assorted bright colors and sizes -> 多种亮色和尺寸",
+    "file bands -> 文件橡皮筋",
+    "Star Mica - Bulk Mineral -> Star Mica 散装矿物",
+    "remove invented common Chinese brand names unsupported by the original"
+  ],
+  "quality_scope": "All 3000 rows checked for source identity/hash, Chinese description and Arabic numeric additions; semantic translation fidelity and Chinese-number paraphrases are not proven.",
+  "validation_issue_notes": {
+    "feature_added_number": "This guard counter also includes a generated feature with no corresponding original feature; it is not a count of purely Arabic-number errors.",
+    "title_retry_success": "Only the newly translated 2968-item full run is counted; 32 items were reused from the valid trial."
+  },
+  "unresolved_source_ambiguities": [
+    {
+      "item_id": "B000KWH0PG",
+      "original_title": "Belle Prestige 4-6X",
+      "display_title": "Belle Prestige 4-6X（品类信息不足）",
+      "reason": "The hashed source fields do not support a more specific product type."
+    }
+  ],
+  "post_edit_corrections": [
+    {
+      "created_at": "2026-10-20T17:50:12.892044+00:00",
+      "actor": "coding-assistant-source-bound-post-edit",
+      "trigger": "Real browser acceptance exposed compartment/coaster mistranslations; the coding assistant checked original source facts and corrected the same coaster organizer’s flannel/product-type terms. This is not human review or new Qwen inference.",
+      "previous_artifact_sha256": "2116b2eb698c24e84e5d0b0ade6a5cc51e2107cb6e7f70fe90d10d3b27c1f95a",
+      "artifact_sha256": "22f717e7c1061413cb56c3d98baf4176bcd8957d8961ec5ef4f8418fffcd892b",
+      "rules": [
+        "Only explicitly numbered source compartments, with no tier/layer/level in the complete hashed facts: same Arabic count + 层 -> 格.",
+        "Source coaster with no seat/cushion: 座垫 -> 杯垫.",
+        "For the source-supported coaster desk organizer, without folder: 办公文件夹 -> 桌面收纳盒/用品 according to explicit storage box.",
+        "For that coaster desk organizer, source flannel without cotton: 棉质 -> 绒布.",
+        "Only source-supported vanity/anywhere leftovers are translated."
+      ],
+      "affected_item_ids": [
+        "B08Z82S1FY",
+        "B08GY35PN6",
+        "B08DSLTMD4"
+      ],
+      "affected_item_count": 3,
+      "changes": [
+        {
+          "item_id": "B08Z82S1FY",
+          "source_hash": "8a4fc86d7b35e4a561d1d920f62ed513d432e341a6cb8d3233c00723399bb2ab",
+          "changes": {
+            "title": {
+              "before": "Cretkhp 皮质办公文件夹带座垫，五隔储物盒，商务用品收纳箱，灰色条纹",
+              "after": "Cretkhp 皮质桌面收纳盒带杯垫，五隔储物盒，商务用品收纳箱，灰色条纹"
+            },
+            "features": {
+              "before": [
+                "皮质与棉质",
+                "带座垫的办公文件夹 - 可容纳遥控器、平板、笔记本等不同尺寸物品，也适合整理化妆品和小家居用品",
+                "高品质 - Cretkhp办公文件夹采用高品质PU皮革和加厚MDF制作，内部为棉质，纹理明显。耐用不易摔裂变形"
+              ],
+              "after": [
+                "皮质与绒布",
+                "带杯垫的桌面收纳盒 - 可容纳遥控器、平板、笔记本等不同尺寸物品，也适合整理化妆品和小家居用品",
+                "高品质 - Cretkhp桌面收纳盒采用高品质PU皮革和加厚MDF制作，内部为绒布，纹理明显。耐用不易摔裂变形"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B08GY35PN6",
+          "source_hash": "ccc8897556ac12fd75c27c52dbc012ab495ed27e3eb70fa1824f7ec085400258",
+          "changes": {
+            "title": {
+              "before": "XGATML FF LACOMA 圆形鼠标垫和座垫套装，月与日精致图案鼠标垫，防滑橡胶基座鼠标垫，可爱设计桌饰",
+              "after": "XGATML FF LACOMA 圆形鼠标垫和杯垫套装，月与日精致图案鼠标垫，防滑橡胶基座鼠标垫，可爱设计桌饰"
+            }
+          }
+        },
+        {
+          "item_id": "B08DSLTMD4",
+          "source_hash": "afc1715d0352c434b6e4c1ba844baddd53cff79f4f3595ad10e3e2c31e870338",
+          "changes": {
+            "features": {
+              "before": [
+                "多功能：白色储物箱搭配可调实木隔板，可作遥控器支架、化妆架、电子产品/配件收纳盒、浴室收纳盒、钢笔/铅笔支架，办公用品盒",
+                "整齐收纳：这款5层可调储物盒/收纳盒是任何家居或办公场所的实用现代配件。白色外框，简洁线条，环保、可调、坚固的结构",
+                "完美尺寸：约7英寸宽x6英寸长x4英寸高，适合任何咖啡桌、 vanity桌、桌面或浴室台面，放置 anywhere 不占整个表面"
+              ],
+              "after": [
+                "多功能：白色储物箱搭配可调实木隔板，可作遥控器支架、化妆架、电子产品/配件收纳盒、浴室收纳盒、钢笔/铅笔支架，办公用品盒",
+                "整齐收纳：这款5格可调储物盒/收纳盒是任何家居或办公场所的实用现代配件。白色外框，简洁线条，环保、可调、坚固的结构",
+                "完美尺寸：约7英寸宽x6英寸长x4英寸高，适合任何咖啡桌、 梳妆台、桌面或浴室台面，可放在任意位置 不占整个表面"
+              ]
+            }
+          }
+        }
+      ],
+      "source_catalog_unchanged": true,
+      "qwen_cache_unchanged": true,
+      "additional_gpu_inference": false
+    },
+    {
+      "created_at": "2026-10-20T17:56:01.228328+00:00",
+      "actor": "coding-assistant-source-bound-post-edit",
+      "trigger": "The build-report sample for B07RPQVH21 mistranslated stapler/staples as a hole punch/punch pins. The coding assistant checked the original hashed source; no new model inference or human review was performed.",
+      "previous_artifact_sha256": "22f717e7c1061413cb56c3d98baf4176bcd8957d8961ec5ef4f8418fffcd892b",
+      "artifact_sha256": "0a105ce1560bef93ba67612d986e315b8a3a1e02170138e0059711da5dc3b29f",
+      "rule": "Source explicitly contains stapler/staples, with no punch/hole-punch/punches or staple/nail/tack gun/tacker/nailer evidence anywhere in the complete hashed fields. Only the shared taxonomy ancestor Staplers & Punches is ignored; concrete leaf/product punch evidence remains protected. Then 打孔器 -> 订书机 and 打孔针 -> 订书钉.",
+      "affected_item_ids": [
+        "B07RPQVH21",
+        "B09R1SGD1Y",
+        "B00YO17KZY",
+        "B09X6WM9QW",
+        "B00N7U1S2Y",
+        "B092JCVWL7",
+        "B08GKLV7RM",
+        "B07W6444RH",
+        "B0BBVN324L",
+        "B07RY32Y2C",
+        "B081G8RQRW"
+      ],
+      "affected_item_count": 11,
+      "changes": [
+        {
+          "item_id": "B07RPQVH21",
+          "source_hash": "e609b6916f1630de5b3758ae5b31ea6f93b5576697ec7b846db40db6909c90b4",
+          "changes": {
+            "title": {
+              "before": "Chneeu 10套迷你办公打孔器，10号打孔针，小手打孔器便携式桌面打孔器学生打孔器",
+              "after": "Chneeu 10套迷你办公订书机，10号订书钉，小手订书机便携式桌面订书机学生订书机"
+            }
+          }
+        },
+        {
+          "item_id": "B09R1SGD1Y",
+          "source_hash": "048258fd99b8503692000f32e05dbbfea6d3a2e8d17a7d746d86cf651777f32f",
+          "changes": {
+            "features": {
+              "before": [
+                "多功能使用- 可用于办公或学校整理名片、文件夹、笔、铅笔、打孔器、贴纸等文具，也可作为家居抽屉用于夹剪刀、裁纸刀等"
+              ],
+              "after": [
+                "多功能使用- 可用于办公或学校整理名片、文件夹、笔、铅笔、订书机、贴纸等文具，也可作为家居抽屉用于夹剪刀、裁纸刀等"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B00YO17KZY",
+          "source_hash": "a945391d1fb25e503f0fb5f19e9abd6821c544a810fed88f828d5401ea66547a",
+          "changes": {
+            "title": {
+              "before": "Boston 1970年代美国重型波士顿30号打孔器",
+              "after": "Boston 1970年代美国重型波士顿30号订书机"
+            }
+          }
+        },
+        {
+          "item_id": "B09X6WM9QW",
+          "source_hash": "0b1f45bd39adcfa0b7d3a09498e6250d62ec9e4c013608af296c6c9e6dd16a6a",
+          "changes": {
+            "features": {
+              "before": [
+                "【桌面玩具】这款恐龙模型是宝宝恐龙桌面装饰，可爱又萌，是您桌面的出色装饰品。",
+                "【可爱的笔筒】可作笔筒使用，是一款不错的桌面装饰。打开嘴巴可以放笔或笔。",
+                "【多功能玩具】恐龙体内装有铅笔、橡皮、尺子、铅笔削和迷你打孔器，最基础的文具都收集在此，非常有趣！"
+              ],
+              "after": [
+                "【桌面玩具】这款恐龙模型是宝宝恐龙桌面装饰，可爱又萌，是您桌面的出色装饰品。",
+                "【可爱的笔筒】可作笔筒使用，是一款不错的桌面装饰。打开嘴巴可以放笔或笔。",
+                "【多功能玩具】恐龙体内装有铅笔、橡皮、尺子、铅笔削和迷你订书机，最基础的文具都收集在此，非常有趣！"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B00N7U1S2Y",
+          "source_hash": "6f5cd207619e61a2f5bd6c63f4a3da478d961633bb8f0da076fa227fb023ab29",
+          "changes": {
+            "title": {
+              "before": "Charles Leonard 小型打孔器套装，10种透明颜色（粉色、紫色、蓝绿），每种10枚（82000-CU）",
+              "after": "Charles Leonard 小型订书机套装，10种透明颜色（粉色、紫色、蓝绿），每种10枚（82000-CU）"
+            },
+            "features": {
+              "before": [
+                "30 个小型打孔器套装，置于展示盒中。便携，适用于学校、办公室或旅行。",
+                "透明小型打孔器：粉色、紫色、蓝绿各10枚",
+                "内置打孔器去除器"
+              ],
+              "after": [
+                "30 个小型订书机套装，置于展示盒中。便携，适用于学校、办公室或旅行。",
+                "透明小型订书机：粉色、紫色、蓝绿各10枚",
+                "内置订书机去除器"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B092JCVWL7",
+          "source_hash": "fca3b421fdc84788eb44ab133107412f2c7c8d56d0b4527fba27997badcdea0e",
+          "changes": {
+            "features": {
+              "before": [
+                "功能站立设计 - 高质量帆布带滑动 zipper 和强磁铁，轻松将铅笔盒转为站立式铅笔架，帮助在绘画或书写时抓取正确的笔/马克笔",
+                "智能站立架 - 立体铅笔架可作为手机支架使用，当一侧打开并折叠时，便于观看和浏览",
+                "宽敞收纳 - 宽敞的主口袋可容纳各种笔、铅笔、马克笔、胶水管、打孔器等学校或办公用品；网状口袋帮助整理小物品，如胶带、橡皮、便签"
+              ],
+              "after": [
+                "功能站立设计 - 高质量帆布带滑动 zipper 和强磁铁，轻松将铅笔盒转为站立式铅笔架，帮助在绘画或书写时抓取正确的笔/马克笔",
+                "智能站立架 - 立体铅笔架可作为手机支架使用，当一侧打开并折叠时，便于观看和浏览",
+                "宽敞收纳 - 宽敞的主口袋可容纳各种笔、铅笔、马克笔、胶水管、订书机等学校或办公用品；网状口袋帮助整理小物品，如胶带、橡皮、便签"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B08GKLV7RM",
+          "source_hash": "0ad17b2d7e39e10bff98b1ace59ed057e36992fec64dd69ea7c04a278f82a8c1",
+          "changes": {
+            "title": {
+              "before": "Buqoo 大理石纹办公桌面整理套装4件装打孔器带夹子贴纸器笔夹笔芯盒办公室学校用品女性女孩",
+              "after": "Buqoo 大理石纹办公桌面整理套装4件装订书机带夹子贴纸器笔夹笔芯盒办公室学校用品女性女孩"
+            },
+            "features": {
+              "before": [
+                "【包含物品】1×打孔器；1×贴纸器；1×便签夹；1×笔夹，1×950支钢笔芯",
+                "【优质材料】采用高品质ABS塑料和金色镀层不锈钢制成，耐用、锋利，长久使用不褪色",
+                "【防滑垫】底部配有4个橡胶垫，提供强抓力，可精准放置，移动或更换时不易滑动；无刮痕或噪音"
+              ],
+              "after": [
+                "【包含物品】1×订书机；1×贴纸器；1×便签夹；1×笔夹，1×950支钢笔芯",
+                "【优质材料】采用高品质ABS塑料和金色镀层不锈钢制成，耐用、锋利，长久使用不褪色",
+                "【防滑垫】底部配有4个橡胶垫，提供强抓力，可精准放置，移动或更换时不易滑动；无刮痕或噪音"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B07W6444RH",
+          "source_hash": "f967aa0688038bf6bfc9ae15657fcf3e0d78e23bfc29b9e5773cd086c600f602",
+          "changes": {
+            "title": {
+              "before": "Buqoo 透明办公桌配件套装 黄金办公室用品套装 附打孔器、胶带架、便签架 适用于办公室、家居、学校等 (金)",
+              "after": "Buqoo 透明办公桌配件套装 黄金办公室用品套装 附订书机、胶带架、便签架 适用于办公室、家居、学校等 (金)"
+            },
+            "features": {
+              "before": [
+                "现代设计：透明金色/玫瑰金颜色，简约但轻奢，能点亮单调的办公室生活，为日常增添趣味。",
+                "优质材料：采用高品质亚克力和金属制成，外观清晰，不易刮花，可长期使用。",
+                "三件套：包含胶带架、便签架和打孔器，三件套销售，方便且经济，无需寻找配套文具。"
+              ],
+              "after": [
+                "现代设计：透明金色/玫瑰金颜色，简约但轻奢，能点亮单调的办公室生活，为日常增添趣味。",
+                "优质材料：采用高品质亚克力和金属制成，外观清晰，不易刮花，可长期使用。",
+                "三件套：包含胶带架、便签架和订书机，三件套销售，方便且经济，无需寻找配套文具。"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B0BBVN324L",
+          "source_hash": "6c6b2efb65d3b37cc5799458086929b6de9206077c55c3f9134082793c8147d3",
+          "changes": {
+            "title": {
+              "before": "Decohomeforu 商用桌面打孔器，20张容量，适合24/6和26/6打孔，防滑，减少用力，便携耐用金属桌面打孔器，家庭办公室用品，教室或桌面（绿色）",
+              "after": "Decohomeforu 商用桌面订书机，20张容量，适合24/6和26/6打孔，防滑，减少用力，便携耐用金属桌面订书机，家庭办公室用品，教室或桌面（绿色）"
+            }
+          }
+        },
+        {
+          "item_id": "B07RY32Y2C",
+          "source_hash": "a7a54c6613adc81ee8ccc8d4fa0c388f4b646adb600ae7ee4d5eda04797082b3",
+          "changes": {
+            "features": {
+              "before": [
+                "塑料收纳架帮助保持桌面配件（如打孔器、胶水架和笔架）整齐收纳",
+                "采用耐用硬质塑料制作，具有长久耐用的强度；可选黑色或白色（每种单独销售）",
+                "模块化设计；可叠放与Amazon Basics塑料收纳架字母 Tray、配件 Tray、半配件 Tray和小 Tray（额外物品单独销售）"
+              ],
+              "after": [
+                "塑料收纳架帮助保持桌面配件（如订书机、胶水架和笔架）整齐收纳",
+                "采用耐用硬质塑料制作，具有长久耐用的强度；可选黑色或白色（每种单独销售）",
+                "模块化设计；可叠放与Amazon Basics塑料收纳架字母 Tray、配件 Tray、半配件 Tray和小 Tray（额外物品单独销售）"
+              ]
+            }
+          }
+        },
+        {
+          "item_id": "B081G8RQRW",
+          "source_hash": "c38868d9f48df03ea714c6ccad3d9f6e10514237efc871b5c6c98e1e1a06bc71",
+          "changes": {
+            "title": {
+              "before": "Craftinova 小型打孔器，3件套，含1000颗钉子，内置舞台移除器和钉子存储，容量20，劳动节省50%（黑色）",
+              "after": "Craftinova 小型订书机，3件套，含1000颗钉子，内置舞台移除器和钉子存储，容量20，劳动节省50%（黑色）"
+            },
+            "features": {
+              "before": [
+                "完美套装 - 包含小型打孔器，含1000颗标准钉子，末端配有钉子移除器，打孔器基座可作为额外钉子的存储空间。",
+                "易于操作 - 可单手使用，劳动量比普通打孔器少50%，可节省更多宝贵的工作时间。",
+                "便携 - 这款可爱的小型打孔器适合商务旅行、家庭、办公室和学校使用，可放入背包和手提包。"
+              ],
+              "after": [
+                "完美套装 - 包含小型订书机，含1000颗标准钉子，末端配有钉子移除器，订书机基座可作为额外钉子的存储空间。",
+                "易于操作 - 可单手使用，劳动量比普通订书机少50%，可节省更多宝贵的工作时间。",
+                "便携 - 这款可爱的小型订书机适合商务旅行、家庭、办公室和学校使用，可放入背包和手提包。"
+              ]
+            }
+          }
+        }
+      ],
+      "source_catalog_unchanged": true,
+      "qwen_cache_unchanged": true,
+      "additional_gpu_inference": false
+    }
+  ]
+}
